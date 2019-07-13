@@ -1,0 +1,63 @@
+div.billboard {
+  padding: 1.5% 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.billboard div.billboardImage {
+  background-size: contain;
+  background-repeat: round;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  border: 2px solid white;
+}
+
+div.billboard div.image-col, div.billboard div.text-container {
+  padding: 0;
+  overflow: hidden;
+}
+
+div.billboard div.image-col {
+  padding: 0 0 0 0;
+  text-align: center;
+}
+
+div.billboard div.text-container {
+  position: absolute;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  min-height: 25%;
+  padding: 10px 0 0 20px;
+  text-align: right;
+}
+
+div.billboard p.title {
+  font-size: 4vh;
+  color: white;
+  text-shadow: -2px 1px 3px black;
+  letter-spacing: 1.5px;
+  margin: 0;
+}
+
+div.billboard p.subtitle {
+  font-size: 3vh;
+  color: white;
+  text-shadow: -2px 1px 3px black;
+  letter-spacing: 1px;
+}
+
+div.billboard div.row.top-row {
+    color: red;
+}
+
+div.billboard p.flavor-text{
+  font-size: 2.75vh;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 3.15vh;
+  color: white;
+  text-shadow: -1px .5px 2.5px black;
+}

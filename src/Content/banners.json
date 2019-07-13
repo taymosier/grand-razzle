@@ -1,0 +1,68 @@
+{
+  "home": {
+    "title": "Welcome",
+    "subtitle": "To Paradise",
+    "image": "grand-luxxe-banner.jpg",
+    "view": "home"
+  },
+  "dining": {
+    "title": "Welcome",
+    "subtitle": "To Dining",
+    "image": "dining-banner.jpg",
+    "view": "dining"
+  },
+  "getting-here": {
+    "title": "Welcome",
+    "subtitle": "To Where are we",
+    "image": "getting-here-banner.jpg",
+    "view": "getting-here"
+  },
+  "entertainment": {
+    "title": "Welcome",
+    "subtitle": "To Paradise",
+    "image": "entertainment-banner.jpg",
+    "view": "ebtertainment"
+  },
+  "golf": {
+    "title": "Welcome",
+    "subtitle": "To Golf",
+    "image": "golf-banner.jpg",
+    "view": "golf"
+  },
+  "new-offerings": {
+    "title": "Welcome",
+    "subtitle": "To What is New",
+    "image": "whats-new-banner.jpg",
+    "view": "new-offerings"
+  },
+  "rooms": {
+    "title": "Welcome",
+    "subtitle": "To A Place to Stay",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "spa": {
+    "title": "Welcome",
+    "subtitle": "To Relaxation",
+    "image": "spa-banner.jpg",
+    "view": "spa"
+  },
+  "what-to-do": {
+    "title": "Welcome",
+    "subtitle": "To Something to Do",
+    "image": "what-to-do-banner.jpg",
+    "view": "what-to-do"
+  },
+  "activities": {
+    "title": "Welcome",
+    "subtitle": "To Activities",
+    "image": "activities-banner.jpg",
+    "view": "activities"
+  },
+  "pools": {
+    "title": "Welcome",
+    "subtitle": "To The Pool",
+    "image": "pools-banner.jpg",
+    "view": "pools"
+  }
+}

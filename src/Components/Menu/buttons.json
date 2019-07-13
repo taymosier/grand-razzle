@@ -1,0 +1,38 @@
+[
+  {
+    "label": "Home",
+    "href": "/"
+  },
+  {
+    "label": "Rooms",
+    "href": "/rooms"
+  },
+  {
+    "label": "Getting Here",
+    "href": "/getting-here"
+  },
+  {
+    "label": "Dining",
+    "href": "/dining"
+  },
+  {
+    "label": "What To Do",
+    "href": "/what-to-do"
+  },
+  {
+    "label": "Golf",
+    "href": "/golf"
+  },
+  {
+    "label": "Spa",
+    "href": "/spa"
+  },
+  {
+    "label": "Entertainment",
+    "href": "/entertainment"
+  },
+  {
+    "label": "New Offerings",
+    "href": "/new-offerings"
+  }
+]

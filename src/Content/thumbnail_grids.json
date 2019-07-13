@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "image": "pools/circular-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Tower 1 Circular Pool","es":"Piscina circular de la Torre 1 de Grande Luxxe"},
+        "flavor": {
+          "en":"Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grande Luxxe Tower 1.",
+          "es": "Rodeada de una hermosa plataforma de lounge, esta bella piscina está ubicada junto a la Torre 1 de Grande Luxxe."
+        }
+      }
+    },
+    {
+      "image": "pools/infinity-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Tower 1 Infinity Pool","es":"Piscina infinita de la Torre 1 de Grande Luxxe"},
+        "flavor": {
+          "en":"Boasting an infinity edge and Jacuzzis nestled into one side, this expansive pool, located directly adjacent to Tower 1 Pool 1 and by Blue Fish, has an activities stand and a lounge deck.",
+          "es": "Con un borde infinito y jacuzzis en su costado, esta amplia piscina adyacente a la piscina 1 de la Torre 1 (cerca de Blue Fish), tiene un stand de actividades y una plataforma de lounge."
+        }
+      }
+    },
+    {
+      "image": "pools/adults-only-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Adults-Only Pool","es":"Piscina solo para adultos de Grande Luxxe"},
+        "flavor": {
+          "en":"Located just off from the Mayan Palace Pool, this oval-shaped, adults-only pool overlooks the ocean.",
+          "es": "Apartada de la piscina de Mayan Palace, esta piscina ovalada es solo para adultos y tiene vista al mar."
+        }
+      }
+    },
+    {
+      "image": "pools/punta-pool-east.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Punta Pool","es":"Piscina este de Grande Luxxe Punta"},
+        "flavor": {
+          "en":"This distinctive pool boasts a famous spiral shape and expansive lounging area while offering sweeping views of the Ameca River and Bay of Banderas. Featuring a horseshoe-shaped cluster of Jacuzzis, a swim-up bar, and food service by Si Snack.",
+          "es": "Esta piscina distintiva cuenta con la famosa forma de espiral y una amplia zona de lounge mientras ofrece magníficas vistas del Río Ameca y la Bahía de Banderas. También tiene jacuzzis con forma de herradura, un bar acuático y el servicio de comida de Si Snack."
+        }
+      }
+    },
+    {
+      "image": "pools/punta-pool-west.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Punta Pool West","es":"Piscina oeste de Grande Luxxe Punta"},
+        "flavor": {
+          "en":"This petite pool is located between a lovely lagoon and Punta Pool East, and boasts a large, beautiful lounge area. Featuring a swim-up bar and activities stand nearby.",
+          "es": "Esta pequeña piscina está ubicada entre la hermosa laguna y la piscina este de Punta y cuenta con una amplia y bella zona de lounge. Posee un bar acuático y un stand de actividades cercano."
+        }
+      }
+    },
+    {
+      "image": "pools/spa-tower-pools.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Spa Tower Pools","es":"Piscinas de la Torre de Spa de Grande Luxxe"},
+        "flavor": {
+          "en":"This pool cluster includes several secluded coves and a surrounding lounge, where you can enjoy a beverage or bite from the adjacent restaurant, Fresh Co. Featuring an activities stand and swim-up bar.",
+          "es": "Este grupo de piscinas incluye caletas apartadas y un lounge que las rodea, en donde se puede disfrutar de una bebida o tentempié del restaurante adyacente, Fresh Co. Cuenta con un stand de actividades y un bar acuático."
+        }
+      }
+    },
+    {
+      "image": "pools/sky-garden-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Residence Sky Garden Pool","es":"Piscina del Sky Lounge de la Torre 5 de Grande Luxxe"},
+        "flavor": {
+          "en":"Located on top of the Grande Luxxe Residence building, this rectangular pool is surrounded by lounge beds. Guests can enjoy food and beverages from the Fresh Co Sky Garden restaurant.",
+          "es": "Solo para los huéspedes que se hospedan en Grande Luxxe Residence 4 Bedroom."
+        }
+      }
+    },
+    {
+      "image": "pools/sky-lounge-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Tower 5 Sky Lounge Pool","es":"Piscina de Kid’s Club de Grande Luxxe"},
+        "flavor": {
+          "en":"This brand-new rooftop pool is perched at the top of Grande Luxxe Tower 5. Located next to Quinto Charcoal Cuisine, this gorgeous pool features an infinity edge, so that its azure waters blend into the vibrant blue of the sky.",
+          "es": "Admire los paisajes de su paraíso mientras disfruta de lo más fino que las vacaciones de lujo tienen que ofrecer en esta nueva piscina situada en la parte superior de la Torre 5 de Grande Luxxe. Ubicada junto a Quinto Charcoal Cuisine, esta hermosa piscina cuenta con un borde infinito, así que sus azules aguas se mezclan con el cielo."
+        }
+      }
+    },
+    {
+      "image": "pools/kids-club-pool.jpg",
+      "text": {
+        "title": {"en":"Grande Luxxe Kid’s Club Pool","es":""},
+        "flavor": {
+          "en":"Grande Luxxe guests can drop their children off at the Grande Luxxe-exclusive Kid’s Club, located just off from the Spa Tower Pool, by Grande Luxxe Tower 3 and 4. Here, they can enjoy some fun in the sun under the supervision of our wonderful Kid’s Club staff.",
+          "es": "Los huéspedes de Grande Luxxe pueden dejar a sus niños en el Kid’s Club exclusivo de Grande Luxxe, ubicado justo fuera de la piscina de la Torre de Spa, por la Torre 3 y 4. Aquí, ellos se divertirán bajo la supervisión de nuestro maravilloso equipo de Kid’s Club."
+        }
+      }
+    }
+  ]
+}

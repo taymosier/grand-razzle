@@ -1,0 +1,39 @@
+div.menu {
+  min-height: 100vh;
+  float: left;
+}
+
+div.menu ul.menu-button-list {
+  padding: 0;
+
+}
+
+div.menu ul.menu-button-list  li.menu-item {
+  color: yellow;
+  min-height: 5vh;
+  font-size: 1.75vw;
+  min-width: 100%;
+}
+
+div.menu ul.menu-button-list  li.menu-item a.menu-button {
+  background: #61A7BE;
+  border-bottom: 1px solid black;
+  box-shadow: 0.75px 1px 3.5px 0.2px black;
+  color: black;
+  display: flex;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1.05px;
+  margin: 12.5px 5px 0 3px;
+  min-width: 100%;
+  padding: 7px 0 .25em 20px;
+  position: relative;
+  transition: .2s linear;
+}
+
+div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
+  color: white;
+  font-size: 32px;
+  text-decoration: none;
+}

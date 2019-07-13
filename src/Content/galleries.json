@@ -1,0 +1,553 @@
+{
+  "home": [
+    {"src": "home-gallery-1.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-2.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-3.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-4.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-5.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-6.jpg",
+      "altText": "home image",
+      "folder": "home"
+    },
+    {"src": "home-gallery-7.jpg",
+      "altText": "home image",
+      "folder": "home"
+    }
+  ],
+
+  "dining": [
+    {"src": "dining-1.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-2.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-3.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-4.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-5.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-6.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-7.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-8.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-9.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-10.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-11.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-12.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-13.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    },
+    {"src": "dining-14.jpg",
+      "altText": "dining image",
+      "folder": "dining"
+    }
+  ],
+  "two-bedroom-suite": [
+    {"src": "two-bedroom-gallery-1.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-2.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-3.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-4.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-5.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-6.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-7.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    },
+    {"src": "two-bedroom-gallery-8.jpg",
+      "altText": "two-bedroom-suite-image",
+      "folder": "rooms/two-bedroom"
+    }
+  ],
+  "three-bedroom-presidential-villa" : [
+    {"src": "presidential-villa-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-Villa"
+    },
+    {"src": "presidential-villa-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-7.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    }
+  ],
+  "two-bedroom-presidential-villa" : [
+    {"src": "presidential-villa-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-Villa"
+    },
+    {"src": "presidential-villa-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    },
+    {"src": "presidential-villa-7.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/presidential-villa"
+    }
+  ],
+  "two-bedroom-spa-suite": [
+    {"src": "spa-suite-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    }
+  ],
+  "three-bedroom-spa-suite": [
+    {"src": "spa-suite-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    },
+    {"src": "spa-suite-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/spa-suite"
+    }
+  ],
+  "three-bedroom-residence-loft": [
+    {"src": "residence-loft-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-7.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-8.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-9.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-10.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    }
+  ],
+  "two-bedroom-residence-loft": [
+    {"src": "residence-loft-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-7.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-8.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-9.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    },
+    {"src": "residence-loft-10.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/residence-loft"
+    }
+  ],
+  "four-bedroom-residence": [
+    {"src": "four-bedroom-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-3.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-4.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-5.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-1.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-6.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-7.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-8.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-9.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-10.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-11.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-12.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-13.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-14.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    },
+    {"src": "four-bedroom-15.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/four-bedroom"
+    }
+  ],
+  "pools": [
+    {"src": "pools-1.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "pools"
+    },
+    {"src": "pools-2.jpg",
+      "altText": "two bedroom suitesimage",
+      "folder": "pools"
+    },
+    {"src": "pools-3.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-4.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-5.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-1.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-6.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-7.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-8.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-9.jpg",
+      "altText": "pool_image",
+      "folder": "pools"
+    },
+    {"src": "pools-10.jpg",
+      "altText": "pool_image",
+      "folder": "rooms/pools"
+    }
+  ],
+  "golf": [
+    { "src": "golf-gallery-1.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    },
+    {"src": "golf-gallery-2.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    },
+    {"src": "golf-gallery-3.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    },
+    {"src": "golf-gallery-4.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    },
+    {"src": "golf-gallery-5.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    },
+    {"src": "golf-gallery-6.jpg",
+      "altText": "golf image",
+      "folder": "golf"
+    }
+  ],
+  "the-nayar-course": [
+    {"src": "the-nayar-course-gallery-1.jpg",
+      "altText": "nayar image",
+      "folder": "golf/the-nayar-course"
+    },
+    {"src": "the-nayar-course-gallery-2.jpg",
+      "altText": "nayar image",
+      "folder": "golf/the-nayar-course"
+    },
+    {"src": "the-nayar-course-gallery-3.jpg",
+      "altText": "nayar image",
+      "folder": "golf/the-nayar-course"
+    },
+    {"src": "the-nayar-course-gallery-4.jpg",
+      "altText": "nayar image",
+      "folder": "golf/the-nayar-course"
+    }
+  ],
+  "the-norman-signature-course": [
+    {"src": "the-norman-signature-course-gallery-1.jpg",
+      "altText": "norman signature course image",
+      "folder": "golf/the-norman-signature-course"
+    },
+    {"src": "the-norman-signature-course-gallery-2.jpg",
+      "altText": "norman signature course image",
+      "folder": "golf/the-norman-signature-course"
+    },
+    {"src": "the-norman-signature-course-gallery-3.jpg",
+      "altText": "norman signature course image",
+      "folder": "golf/the-norman-signature-course"
+    },
+    {"src": "the-norman-signature-course-gallery-4.jpg",
+      "altText": "norman signature course image",
+      "folder": "golf/the-norman-signature-course"
+    }
+  ],
+  "spa": [
+    { "src": "spa-gallery-1.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-2.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-3.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-4.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-5.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-6.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-7.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-8.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-9.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-10.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    },
+    {"src": "spa-gallery-11.jpg",
+      "altText": "spa image",
+      "folder": "spa"
+    }
+  ]
+}

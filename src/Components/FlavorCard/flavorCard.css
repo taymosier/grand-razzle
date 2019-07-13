@@ -1,0 +1,19 @@
+div.flavor-card {
+  border: none;
+  min-height: 40vh;
+}
+
+div.flavor-card p.flavor-text {
+  background: #8ECADE;
+  border-top: 15px #8ECADE;
+  border-bottom: 15px #8ECADE;
+  border-left: none;
+  border-right: none;
+  border-style: double;
+  color: white;
+  font-size: 2.5vh;
+  padding: 5vh 5vw;
+  text-align: center;
+  text-shadow: -1px 0.5px 2.5px black;
+  min-height: 40vh;
+}
