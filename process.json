@@ -1,0 +1,10 @@
+{
+	"apps": [
+		{
+			"name": "grand",
+			"cwd": "./",
+			"script": "build/server.js",
+			"watch": true
+		}
+	]
+}
