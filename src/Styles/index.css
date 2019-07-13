@@ -3,5 +3,13 @@
 }
 
 body {
-  background: #bce5f2 !important; 
+  background: #bce5f2 !important;
+}
+
+div.toolbox {
+  position: absolute;
+  left: 80vw;
+  min-width: 20vw;
+  min-height: 10vh;
+  background: yellow;
 }

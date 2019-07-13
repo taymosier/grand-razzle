@@ -4,6 +4,22 @@ div.billboard {
   margin-right: 0;
 }
 
+div.billboard div.contents {
+  min-height: 100%;
+  min-width: fit-content;
+  display: contents;
+}
+
+div.billboard div.filter {
+  background: linear-gradient(135deg, slategray 20%, black 90%);
+  display: flex;
+  margin: -1.5% 0;
+  min-height: 38vh;
+  min-width: 96.5%;
+  opacity: .35;
+  position: absolute;
+}
+
 div.billboard div.billboardImage {
   background-size: contain;
   background-repeat: round;

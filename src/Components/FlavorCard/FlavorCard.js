@@ -14,6 +14,7 @@ export class FlavorCard extends Component {
   render(){
     return(
       <div className={"flavor-card"}>
+        <div className="card-filter" />
         <p className={"flavor-text"}>{this.state.flavor}</p>
       </div>
     )

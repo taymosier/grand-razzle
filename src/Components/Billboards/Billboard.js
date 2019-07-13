@@ -25,6 +25,7 @@ export class Billboard extends Component {
   render(){
     return(
       <Row className="billboard">
+          <div className="filter" />
           <Col className="text-container"
             xl={{ size: 6, offset: 3 }}
             lg={{ size: 6, offset: 3 }}

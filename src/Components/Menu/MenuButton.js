@@ -20,6 +20,7 @@ export class MenuButton extends Component {
   render(){
     return(
       <li style={this.state.style} className="menu-item" key={this.state.label}>
+          <div className={"button-filter"}/>
           <a href={`${this.state.href}`} className={`button ${this.state.label}-menu-button menu-button`}>{this.state.label}</a>
       </li>
     )

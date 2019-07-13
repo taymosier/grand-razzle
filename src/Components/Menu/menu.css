@@ -1,6 +1,7 @@
 div.menu {
-  min-height: 100vh;
   float: left;
+  min-height: 100vh;
+  padding-right: 5px;
 }
 
 div.menu ul.menu-button-list {
@@ -9,14 +10,33 @@ div.menu ul.menu-button-list {
 }
 
 div.menu ul.menu-button-list  li.menu-item {
-  color: yellow;
-  min-height: 5vh;
+  background: #61A7BE;
+  min-height: 7.5vh;
+  max-height: 7.5vh;
   font-size: 1.75vw;
   min-width: 100%;
 }
 
+div.menu ul.menu-button-list  li.menu-item div.button-filter {
+  background: linear-gradient(135deg, lightsteelblue 20%, silver 90%);
+  min-width: 93%;
+  min-height: 7.5vh;
+  max-height: 7.5vh;
+  opacity: .3;
+  position: absolute;
+  z-index: 1000;
+}
+
+div.menu ul.menu-button-list  li.menu-item:hover div.button-filter {
+  opacity: .5;
+}
+
+div.menu ul.menu-button-list  li.menu-item:hover a.menu-button {
+  letter-spacing: 2.15px;
+}
+
 div.menu ul.menu-button-list  li.menu-item a.menu-button {
-  background: #61A7BE;
+  background: transparent;
   border-bottom: 1px solid black;
   box-shadow: 0.75px 1px 3.5px 0.2px black;
   color: black;
@@ -25,11 +45,14 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button {
   font-size: 28px;
   font-weight: 400;
   letter-spacing: 1.05px;
-  margin: 12.5px 5px 0 3px;
+  margin: 12.5px 0px 0 0px;
+  max-height: 7.5vh;
+  min-height: 7.5vh;
   min-width: 100%;
   padding: 7px 0 .25em 20px;
   position: relative;
   transition: .2s linear;
+  z-index: 1250;
 }
 
 div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
