@@ -17,7 +17,6 @@ server
         <App />
       </StaticRouter>
     );
-
     if (context.url) {
       res.redirect(context.url);
     } else {

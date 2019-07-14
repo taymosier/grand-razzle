@@ -2,7 +2,6 @@ import React from 'react';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 import { ContentTemplate } from './ContentTemplate';
-import { Sitemap } from './Sitemap';
 
 
 
@@ -35,7 +34,6 @@ const App = () => (
     <Route exact path="/spa/brio-spa" render={()=>{return generateTemplate("brio-spa", "spa")}} />
     <Route exact path="/entertainment" render={()=>{return generateTemplate("entertainment","entertainment")}} />
     <Route exact path="/new-offerings" render={()=>{return generateTemplate("new-offerings", "new-offerings")}} />
-    <Route exact path="/sitemap.xml" component={Sitemap} />
   </Switch>
 );
 
