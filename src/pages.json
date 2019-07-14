@@ -1,0 +1,117 @@
+[
+  {
+    "view": "home",
+    "banner": "home",
+    "path": "/",
+    "key": ""
+
+  },
+  {
+    "view": "rooms",
+    "banner": "rooms",
+    "path": "/rooms",
+    "key": "rooms"
+  },
+  {
+    "view": "two-bedroom-suite",
+    "banner": "rooms",
+    "path": "/rooms/two-bedroom-suite",
+    "key": "two-bedroom-suite"
+  },
+  {
+    "view": "three-bedroom-presidential-villa",
+    "banner": "rooms",
+    "path": "/rooms/three-bedroom-presidential-villa",
+    "key": "three-bedroom-presidential-villa"
+  },
+  {
+    "view": "two-bedroom-spa-suite",
+    "banner": "rooms",
+    "path": "/rooms/two-bedroom-spa-suite",
+    "key": "two-bedroom-spa-suite"
+  },
+  {
+    "view": "three-bedroom-spa-suite",
+    "banner": "rooms",
+    "path": "three-bedroom-spa-suite",
+    "key": "three-bedroom-spa-suite"
+  },
+  {
+    "view": "two-bedroom-residence-loft",
+    "banner": "rooms",
+    "path": "/rooms/two-bedroom-residence-loft",
+    "key": "two-bedroom-residence-loft"
+  },
+  {
+    "view": "four-bedroom-residence",
+    "banner": "rooms",
+    "path": "rooms/four-bedroom-residence",
+    "key": "four-bedroom-residence"
+  },
+  {
+    "view": "getting-here",
+    "banner": "getting-here",
+    "path": "/getting-here",
+    "key": "getting-here"
+  },
+  {
+    "view": "dining",
+    "banner": "dining",
+    "path": "/dining",
+    "key": "dining"
+  },
+  {
+    "view": "what-to-do",
+    "banner": "what-to-do",
+    "path": "/what-to-do",
+    "key": "what-to-do"
+  },
+  {
+    "view": "pools",
+    "banner": "pools",
+    "path": "/what-to-do/pools",
+    "key": "pools"
+  },
+  {
+    "view": "activities",
+    "banner": "activities",
+    "path": "/what-to-do/activities",
+    "key": "activities"
+  },
+  {
+    "view": "golf",
+    "banner": "golf",
+    "path": "/golf",
+    "key": "golf"
+  },
+  {
+    "view": "spa",
+    "banner": "spa",
+    "path": "/spa",
+    "key": "spa"
+  },
+  {
+    "view": "spatium",
+    "banner": "spa",
+    "path": "/spa/spatium",
+    "key": "spatium"
+  },
+  {
+    "view": "brio-spa",
+    "banner": "spa",
+    "path": "/spa/brio-spa",
+    "key": "brio-spa"
+  },
+  {
+    "view": "entertainment",
+    "banner": "",
+    "path": "/entertainment",
+    "key": "entertainment"
+  },
+  {
+    "view": "new-offerings",
+    "banner": "",
+    "path": "/new-offerings",
+    "key": "new-offerings"
+  }
+]
