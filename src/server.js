@@ -3,10 +3,20 @@ import React from 'react';
 import { StaticRouter } from 'react-router-dom';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
+import path from 'path';
+var xml = require('xml');
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
 const server = express();
+
+server.get('/sitemap.xml', (req, res) => {
+  res.contentType('application/xml');
+  res.sendFile(path.join(__dirname, '../sitemap.xml'));
+})
+
+
+
 server
   .disable('x-powered-by')
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
