@@ -33,7 +33,7 @@
   {
     "view": "three-bedroom-spa-suite",
     "banner": "rooms",
-    "path": "three-bedroom-spa-suite",
+    "path": "/rooms/three-bedroom-spa-suite",
     "key": "three-bedroom-spa-suite"
   },
   {
@@ -45,7 +45,7 @@
   {
     "view": "four-bedroom-residence",
     "banner": "rooms",
-    "path": "rooms/four-bedroom-residence",
+    "path": "/rooms/four-bedroom-residence",
     "key": "four-bedroom-residence"
   },
   {

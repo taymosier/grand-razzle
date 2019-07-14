@@ -2,15 +2,11 @@ import React from 'react';
 import Route from 'react-router-dom/Route';
 import Switch from 'react-router-dom/Switch';
 import { ContentTemplate } from './ContentTemplate';
-var pages = require("./pages.json");
-
-
+var pages = require("./Content/pages.json");
 import './Styles/App.css';
 
 function generateRouteComponent(page){
-  return (
-    <Route exact path={`${page.path}`} key={`${page.key}`} render={() => {return generateTemplate(`${page.view}`, `${page.banner}`)}} />
-  )
+  return <Route exact path={`${page.path}`} key={`${page.key}`} render={() => {return generateTemplate(`${page.view}`, `${page.banner}`)}} />
 }
 
 function generateTemplate(view, banner){
