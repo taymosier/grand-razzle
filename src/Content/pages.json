@@ -104,7 +104,7 @@
   },
   {
     "view": "entertainment",
-    "banner": "",
+    "banner": "entertainment",
     "path": "/entertainment",
     "key": "entertainment"
   },
