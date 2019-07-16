@@ -39,6 +39,9 @@ div.billboard div.image-col, div.billboard div.text-container {
 div.billboard div.image-col {
   padding: 0 0 0 0;
   text-align: center;
+  position: absolute;
+  min-height: 35vh;
+  display: flex;
 }
 
 div.billboard div.text-container {
