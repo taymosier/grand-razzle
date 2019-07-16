@@ -4,22 +4,27 @@ export class CarouselImage extends Component {
   constructor(props){
     super(props);
     this.state = {
-      image: null
+      image: null,
+
+      nextImage: this.props.nextImage
     }
   }
 
   componentDidMount(){
     this.setState({
-      image: this.props.image
+      image: this.props.image,
+      style: {
+        "backgroundImage": `url(${require("../../../public/images/galleries/" + this.props.image.folder + "/" + this.props.image.src)})`
+      }
     })
   }
 
   render(){
     return(
-      this.state.images !== null
-      ? this.state.images.map(image) => {
-          return <div>This is a carousel image</div>
-        }
+      this.state.image !== null
+      ? <div onClick={this.props.nextImage} style={this.state.style}>
+          {this.state.image.src}
+        </div>
       : null
     )
   }

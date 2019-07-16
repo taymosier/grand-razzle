@@ -6,6 +6,7 @@ import { Menu } from './Components/Menu/Menu';
 import { PageTitle } from './Components/PageTitle';
 import { FlavorCard } from './Components/FlavorCard/FlavorCard';
 import { Toolbox } from './Components/Toolbox/Toolbox';
+import { ImageCarousel } from './Components/Carousel/ImageCarousel';
 
 import galleries from './Content/galleries.json';
 import thumbnailGrids from './Content/thumbnail_grids.json'
@@ -21,7 +22,7 @@ export class ContentTemplate extends Component {
     super(props)
     this.state = {
       billboards: null,
-      carousel: null,
+      gallery: null,
       thumbnails: null,
       flavor: null,
       view: null
@@ -44,6 +45,10 @@ export class ContentTemplate extends Component {
 
   checkForGallery(view){
     if(galleries[`${view}`] !== undefined && galleries[`${view}`] !== null){
+      console.log(`Returning gallery : ${galleries[`${view}`]}`)
+      console.log(`Gallery src: ${galleries[`${view}`][0].src}`)
+      console.log(`Gallery altText: ${galleries[`${view}`][0].altText}`)
+      console.log(`Gallery folder: ${galleries[`${view}`][0].folder}`)
       return galleries[`${view}`]
     }
     return null
@@ -95,8 +100,8 @@ export class ContentTemplate extends Component {
                   })
                 : null
               }
-              {this.state.carousel !== null
-                ? <ImageCarousel  images={this.state.carousel}/>
+              {this.state.gallery !== null
+                ? <ImageCarousel  images={this.state.gallery}/>
                 : null
               }
               {this.state.billboards !== null

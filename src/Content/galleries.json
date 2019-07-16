@@ -1,30 +1,37 @@
 {
   "home": [
-    {"src": "home-gallery-1.jpg",
+    {
+      "src": "home-gallery-1.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-2.jpg",
+    {
+      "src": "home-gallery-2.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-3.jpg",
+    {
+      "src": "home-gallery-3.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-4.jpg",
+    {
+      "src": "home-gallery-4.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-5.jpg",
+    {
+      "src": "home-gallery-5.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-6.jpg",
+    {
+      "src": "home-gallery-6.jpg",
       "altText": "home image",
       "folder": "home"
     },
-    {"src": "home-gallery-7.jpg",
+    {
+      "src": "home-gallery-7.jpg",
       "altText": "home image",
       "folder": "home"
     }
