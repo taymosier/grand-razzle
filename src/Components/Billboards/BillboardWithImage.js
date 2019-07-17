@@ -32,35 +32,38 @@ export class BillboardWithImage extends Component {
   render(){
     return(
       <Row className="billboard with-image">
-          <Col
-            xl={{ size: 4, offset: 1 }}
-            lg={{ size: 4, offset: 1 }}
-            md={{ size: 4, offset: 1}}
-            sm={{ size: 4, offset: 1 }}
-            xs={{ size: 4, offset: 1 }}
-            className="image-col"
-          >
-            <div className="billboardImage" style={this.state.style}/>
-          </Col>
-          <Col className="text-container"
-            xl={{ size: 6, offset: 5 }}
-            lg={{ size: 6, offset: 5 }}
-            md={{ size: 6, offset: 5 }}
-            sm={{ size: 6, offset: 5 }}
-            xs={{ size: 6, offset: 5 }}
-          >
-            <p className="title">
-              {this.state.title}
-            </p>
-            <p className="subtitle">
-              {this.state.subtitle}
-            </p>
-            <div className="flavor-text-container">
-              <p className="flavor-text">
-                {this.state.text}
+          <div className="contents">
+            <div className="filter" />
+            <Col
+              xl={{ size: 4, offset: 1 }}
+              lg={{ size: 4, offset: 1 }}
+              md={{ size: 4, offset: 1}}
+              sm={{ size: 4, offset: 1 }}
+              xs={{ size: 4, offset: 1 }}
+              className="image-col"
+            >
+              <div className="billboardImage" style={this.state.style}/>
+            </Col>
+            <Col className="text-container"
+              xl={{ size: 6, offset: 5 }}
+              lg={{ size: 6, offset: 5 }}
+              md={{ size: 6, offset: 5 }}
+              sm={{ size: 6, offset: 5 }}
+              xs={{ size: 6, offset: 5 }}
+            >
+              <p className="title">
+                {this.state.title}
               </p>
-            </div>
-          </Col>
+              <p className="subtitle">
+                {this.state.subtitle}
+              </p>
+              <div className="flavor-text-container">
+                <p className="flavor-text">
+                  {this.state.text}
+                </p>
+              </div>
+            </Col>
+          </div>
       </Row>
     )
   }
