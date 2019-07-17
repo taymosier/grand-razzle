@@ -5,7 +5,7 @@ div.menu {
 }
 
 div.menu ul.menu-button-list {
-  padding: 0;
+  padding: 10vh 0 0 0;
 
 }
 
@@ -18,13 +18,19 @@ div.menu ul.menu-button-list  li.menu-item {
 }
 
 div.menu ul.menu-button-list  li.menu-item div.button-filter {
-  background: linear-gradient(135deg, lightsteelblue 20%, silver 90%);
+  background: #35768C;
   min-width: 93%;
   min-height: 7.5vh;
   max-height: 7.5vh;
   opacity: .3;
   position: absolute;
+  transition: .3s linear;
   z-index: 1000;
+}
+
+div.menu ul.menu-button-list  li.menu-item:hover div.button-filter {
+  background: linear-gradient(60deg, #e5E9f9 5%, #35768C 100% );
+
 }
 
 div.menu ul.menu-button-list  li.menu-item:hover div.button-filter {
@@ -39,19 +45,21 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button {
   background: transparent;
   border-bottom: 1px solid black;
   box-shadow: 0.75px 1px 3.5px 0.2px black;
-  color: black;
-  display: flex;
+  color: white;
+  display: block;
   font-family: "Segoe UI", sans-serif;
   font-size: 28px;
   font-weight: 400;
-  letter-spacing: 1.05px;
+  letter-spacing: 1.1px;
   margin: 12.5px 0px 0 0px;
   max-height: 7.5vh;
   min-height: 7.5vh;
   min-width: 100%;
-  padding: 7px 0 .25em 20px;
+  padding: 15px 30px .25em 20px;
+  text-align: right;
   position: relative;
   transition: .2s linear;
+  text-shadow: 1px 2px 3px black;
   z-index: 1250;
 }
 
