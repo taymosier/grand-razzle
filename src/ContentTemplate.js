@@ -7,6 +7,8 @@ import { PageTitle } from './Components/PageTitle';
 import { FlavorCard } from './Components/FlavorCard/FlavorCard';
 import { Toolbox } from './Components/Toolbox/Toolbox';
 import { ImageCarousel } from './Components/Carousel/ImageCarousel';
+import { ThumbnailGrid } from './Components/ThumbnailGrid/ThumbnailGrid';
+
 
 import galleries from './Content/galleries.json';
 import thumbnailGrids from './Content/thumbnail_grids.json'
@@ -44,35 +46,27 @@ export class ContentTemplate extends Component {
   }
 
   checkForGallery(view){
-    if(galleries[`${view}`] !== undefined && galleries[`${view}`] !== null){
-      console.log(`Returning gallery : ${galleries[`${view}`]}`)
-      console.log(`Gallery src: ${galleries[`${view}`][0].src}`)
-      console.log(`Gallery altText: ${galleries[`${view}`][0].altText}`)
-      console.log(`Gallery folder: ${galleries[`${view}`][0].folder}`)
-      return galleries[`${view}`]
-    }
-    return null
+    return galleries[`${view}`] !== undefined && galleries[`${view}`] !== null
+      ? galleries[`${view}`]
+      : null
   }
 
   checkForBillboards(view){
-    if(billboards[`${view}`] !== undefined && billboards[`${view}`] !== null){
-      return billboards[`${view}`]
-    }
-    return null
+    return billboards[`${view}`] !== undefined && billboards[`${view}`] !== null
+      ? billboards[`${view}`]
+      : null
   }
 
   checkForThumbnailGrid(view){
-    if(thumbnailGrids[`${view}`] !== undefined && thumbnailGrids[`${view}`] !== null){
-      return thumbnailGrids[`${view}`]
-    }
-    return null
+    return thumbnailGrids[`${view}`] !== undefined && thumbnailGrids[`${view}`] !== null
+      ? thumbnailGrids[`${view}`]
+      : null
   }
 
   checkForFlavorText(view){
-    if(flavorTexts[`${view}`] !== undefined){
-      return flavorTexts[`${view}`]
-    }
-    return null
+    return flavorTexts[`${view}`] !== undefined
+      ? flavorTexts[`${view}`]
+      : null
   }
 
   render(){
@@ -112,7 +106,7 @@ export class ContentTemplate extends Component {
                 : null
               }
               {this.state.thumbnails !== null
-                ? <ThumbnailGrid thumbnails={this.state.thumbnails}/>
+                ? <ThumbnailGrid view={this.state.view} thumbnails={this.state.thumbnails}/>
                 : null
               }
             </Col>

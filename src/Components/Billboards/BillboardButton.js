@@ -4,14 +4,14 @@ export class BillboardButton extends Component {
   constructor(props){
     super(props);
     this.state = {
-      link: this.props.link,
-      label: this.props.label
+      href: this.props.link.href,
+      label: this.props.link.label
     }
   }
 
   render(){
     return (
-      <a href={this.state.link} className="button">{this.state.label}</a>
+      <a href={this.state.href} className="button">{this.state.label}</a>
     )
   }
 }

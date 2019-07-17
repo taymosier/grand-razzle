@@ -4,16 +4,23 @@ export class Thumbnail extends Component {
   constructor(props){
     super(props);
     this.state = {
-      image: this.props.thumbnail.image,
-      text: this.props.thumbnail.text
+      text: this.props.thumbnail.text,
+      style: this.setThumbnail(this.props.thumbnail.image)
     }
+  }
 
-    render(){
-      return(
-        <div>
-          <p>{this.state.text}</p>
-        </div>
-      )
+  setThumbnail(src){
+    return {
+      "backgroundImage": `url(${require("../../../public/images/thumbnails/" + src)})`
     }
+  }
+
+  render(){
+    return(
+      <div className="thumbnail" style={this.state.style}>
+        <p className="title">{this.state.text.title.en}</p>
+        <p className="flavor-text">{this.state.text.flavor.en}</p>
+      </div>
+    )
   }
 }

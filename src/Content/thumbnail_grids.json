@@ -3,7 +3,10 @@
     {
       "image": "pools/circular-pool.jpg",
       "text": {
-        "title": {"en":"Grande Luxxe Tower 1 Circular Pool","es":"Piscina circular de la Torre 1 de Grande Luxxe"},
+        "title": {
+          "en":"Grande Luxxe Tower 1 Circular Pool",
+          "es":"Piscina circular de la Torre 1 de Grande Luxxe"
+        },
         "flavor": {
           "en":"Surrounded by a beautiful lounge deck, this gorgeous round pool is located right next to Grande Luxxe Tower 1.",
           "es": "Rodeada de una hermosa plataforma de lounge, esta bella piscina está ubicada junto a la Torre 1 de Grande Luxxe."

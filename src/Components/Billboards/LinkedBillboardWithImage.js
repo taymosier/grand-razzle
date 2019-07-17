@@ -50,7 +50,10 @@ export class LinkedBillboardWithImage extends Component {
               <Title title={this.state.title} />
               <Subtitle subtitle={this.state.subtitle} />
               <FlavorText text={this.state.text} />
-              <BillboardButton link={`${this.state.href}`} />
+              { this.state.href !== undefined && this.state.href !== ""
+                ? <BillboardButton link={this.state.href} />
+                : null
+              }
             </Col>
           </div>
       </Row>
