@@ -1,0 +1,6 @@
+div.image {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}

@@ -4,6 +4,7 @@ div.title {
   letter-spacing: .1em;
   padding: 25px 0 10px 0;
   border-bottom: .85px solid darkgrey;
+  margin: 0 0 25px 0;
   min-width: 100%;
   text-align: center;
   text-shadow: 2px 0px 2.5px lightslategrey;

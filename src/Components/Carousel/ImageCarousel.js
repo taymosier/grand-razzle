@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { CarouselImage } from './CarouselImage';
+import './gallery.css';
 
 export class ImageCarousel extends Component {
   constructor(props){

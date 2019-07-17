@@ -22,9 +22,7 @@ export class CarouselImage extends Component {
   render(){
     return(
       this.state.image !== null
-      ? <div onClick={this.props.nextImage} style={this.state.style}>
-          {this.state.image.src}
-        </div>
+      ? <div className={"image"} onClick={this.props.nextImage} style={this.state.style} />
       : null
     )
   }
