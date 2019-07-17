@@ -10,7 +10,16 @@ export class BillboardWithImage extends Component {
       subtitle: this.props.billboard.subtitle.en,
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
-      style:this.setThumbnail(this.props.billboard.thumbnail)
+      active: 0,
+      style: null
+    }
+  }
+
+  componentDidMount(){
+    if(this.props.billboard.thumbnail !== undefined ){
+      typeof this.props.billboard.thumbnail === "string"
+        ? this.setState({style: this.setThumbnail(this.props.billboard.thumbnail)})
+        : this.setState({style: this.setThumbnail(this.props.billboard.thumbnail[parseInt(this.state.active)].src)})
     }
   }
 

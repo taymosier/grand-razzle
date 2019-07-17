@@ -19,6 +19,12 @@
     "key": "two-bedroom-suite"
   },
   {
+    "view": "two-bedroom-presidential-villa",
+    "banner": "rooms",
+    "path": "/rooms/two-bedroom-presidential-villa",
+    "key": "two-bedroom-presidential-villa"
+  },
+  {
     "view": "three-bedroom-presidential-villa",
     "banner": "rooms",
     "path": "/rooms/three-bedroom-presidential-villa",
@@ -41,6 +47,12 @@
     "banner": "rooms",
     "path": "/rooms/two-bedroom-residence-loft",
     "key": "two-bedroom-residence-loft"
+  },
+  {
+    "view": "three-bedroom-residence-loft",
+    "banner": "rooms",
+    "path": "/rooms/three-bedroom-residence-loft",
+    "key": "three-bedroom-residence-loft"
   },
   {
     "view": "four-bedroom-residence",
@@ -85,6 +97,18 @@
     "key": "golf"
   },
   {
+    "view": "the-nayar-course",
+    "banner": "golf",
+    "path": "/golf/the-nayar-course",
+    "key": "the-nayar-course"
+  },
+  {
+    "view": "the-norman-signature-course",
+    "banner": "golf",
+    "path": "/golf/the-norman-signature-course",
+    "key": "the-norman-signature-course"
+  },
+  {
     "view": "spa",
     "banner": "spa",
     "path": "/spa",
@@ -110,7 +134,7 @@
   },
   {
     "view": "new-offerings",
-    "banner": "",
+    "banner": "new-offerings",
     "path": "/new-offerings",
     "key": "new-offerings"
   }

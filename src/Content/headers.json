@@ -23,6 +23,14 @@
     "en": "A Superb Golfing Architecture Landscape ",
     "es": "**Needs Translation**"
   },
+  "the-nayar-course": {
+    "en": "A Superb Golfing Architecture Landscape ",
+    "es": "**Needs Translation**"
+  },
+  "the-norman-signature-course": {
+    "en": "A Superb Golfing Architecture Landscape ",
+    "es": "**Needs Translation**"
+  },
   "spa": {
     "en":"Relaxation and Tranquility ",
     "es":"**Needs Translation**"
@@ -42,5 +50,46 @@
   "pools": {
     "en":"Ease into the Luscious Water",
     "es":"Sumérjase"
+  },
+  "two-bedroom-suite":{
+    "en": "Two Bedroom Suites",
+    "es": ""
+  },
+  "two-bedroom-presidential-villa":{
+    "en": "Two Bedroom Presidential Villa",
+    "es": ""
+  },
+  "three-bedroom-presidential-villa":{
+    "en": "Three Bedroom Presidential Villa",
+    "es": ""
+  },
+  "two-bedroom-spa-suite":{
+    "en": "Two Bedroom Spa Suite",
+    "es": ""
+  },
+  "three-bedroom-spa-suite":{
+    "en": "Three Bedroom Spa Suite",
+    "es": ""
+  },
+  "two-bedroom-residence-loft":{
+    "en": "Two Bedroom Residence Loft",
+    "es": ""
+  },
+  "three-bedroom-residence-loft":{
+    "en": "Three Bedroom Residence Loft",
+    "es": ""
+  },
+  "four-bedroom-residence":{
+    "en": "Four Bedroom Residence",
+    "es": ""
+  },
+  "brio-spa":{
+    "en": "Treatments",
+    "es": ""
+  },
+  "spatium":{
+    "en": "Treatments",
+    "es": ""
   }
+
 }
