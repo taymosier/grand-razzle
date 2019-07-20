@@ -29,20 +29,80 @@
     "image": "golf-banner.jpg",
     "view": "golf"
   },
+  "the-nayar-course": {
+    "title": "Courses At Nuevo Vallarta",
+    "subtitle": "The Nayar Course At Vidanta Nuevo Vallarta",
+    "image": "golf-banner.jpg",
+    "view": "golf"
+  },
+  "the-norman-signature-course": {
+    "title": "Courses At Nuevo Vallarta",
+    "subtitle": "The Norman Signature Course",
+    "image": "golf-banner.jpg",
+    "view": "golf"
+  },
   "new-offerings": {
     "title": "Welcome",
-    "subtitle": "To What is New",
+    "subtitle": "What's New",
     "image": "whats-new-banner.jpg",
     "view": "new-offerings"
   },
   "rooms": {
-    "title": "Welcome",
-    "subtitle": "To A Place to Stay",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "two-bedroom-suite": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "two-bedroom-presidential-villa": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "three-bedroom-presidential-villa": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "two-bedroom-spa-suite": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "three-bedroom-spa-suite": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "two-bedroom-residence-loft": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "three-bedroom-residence-loft": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
+    "image": "rooms-banner.jpg",
+    "view": "rooms"
+  },
+  "four-bedroom-residence": {
+    "title": "Nuevo Vallarta",
+    "subtitle": "Rooms & Suites",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "spa": {
-    "title": "Welcome",
+    "title": "Nuevo Vallarta",
     "subtitle": "To Relaxation",
     "image": "spa-banner.jpg",
     "view": "spa"

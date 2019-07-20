@@ -3,6 +3,8 @@ import './billboard.css';
 import { Billboard } from './Billboard';
 import { BillboardWithImage } from './BillboardWithImage';
 import { LinkedBillboardWithImage } from './LinkedBillboardWithImage';
+import { BillboardWithMap } from './BillboardWithMap';
+
 
 
 export class BillboardGenerator extends Component {
@@ -11,7 +13,8 @@ export class BillboardGenerator extends Component {
     this.state = {
       billboard: this.props.billboard,
       hasThumbnail: this.hasThumbnail(this.props.billboard),
-      hasLink: this.hasLink(this.props.billboard)
+      hasLink: this.hasLink(this.props.billboard),
+      isMap: this.isMap(this.props.billboard)
     }
   }
 
@@ -31,7 +34,17 @@ export class BillboardGenerator extends Component {
     return false;
   }
 
+  isMap(billboard){
+    if(billboard.type === "map"){
+      return true;
+    }
+    return false;
+  }
+
   render(){
+    if(this.state.isMap){
+      return <BillboardWithMap />
+    }
     if(this.state.hasLink && this.state.hasThumbnail){
       return <LinkedBillboardWithImage billboard={this.state.billboard} />
     }

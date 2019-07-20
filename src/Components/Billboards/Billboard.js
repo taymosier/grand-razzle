@@ -27,11 +27,11 @@ export class Billboard extends Component {
       <Row className="billboard">
           <div className="filter" />
           <Col className="text-container"
-            xl={{ size: 6, offset: 3 }}
-            lg={{ size: 6, offset: 3 }}
-            md={{ size: 6, offset: 3 }}
-            sm={{ size: 6, offset: 3 }}
-            xs={{ size: 6, offset: 3 }}
+            xl={{ size: 10, offset: 1 }}
+            lg={{ size: 10, offset: 1 }}
+            md={{ size: 10, offset: 1 }}
+            sm={{ size: 10, offset: 1 }}
+            xs={{ size: 10, offset: 1 }}
           >
             <p className="title">
               {this.state.title}

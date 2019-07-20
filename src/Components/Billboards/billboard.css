@@ -1,116 +1,326 @@
-div.billboard {
-  background: #8ECADE;
-  border: 10px solid ghostwhite;
-  border-radius: 1.5%;
-  box-shadow: 3px 3px 7.5px -1px darkslategrey;
-  color: black;
-  height: 42.5vh;
-  margin: 25px 0;
-  max-width: 100%;
-  max-height: fit-content;
-  min-height: fit-content;
-  min-width: 100%;
-  padding: 1.5% 0 0 0;
-  position: relative;
-  text-align: center;
+
+
+@media (max-width: 420px) {
+
 }
 
-div.billboard div.contents {
-  min-height: 100%;
-  min-width: fit-content;
-  display: contents;
+@media (min-width: 420px) and (max-width: 575px) {
+
 }
 
-div.billboard div.filter {
-  background: linear-gradient(135deg, slategray 20%, black 90%);
-  margin: -1.5% 0;
-  min-height: 100%;
-  position: absolute;
-  min-width: 100%;
-  opacity: .35;
+@media (min-width: 576px) and (max-width: 767px) {
+
 }
 
-div.billboard div.billboardImage {
-  background-size: cover;
-  background-repeat: no-repeat;
-  max-width: 100%;
-  min-width: 100%;
-  min-height: 100%;
-  max-height: 100%;
-  margin: 0 auto;
-  border: 2px solid white;
-  background-position: right;
+@media (min-width: 768px) and (max-width: 991px) {
+
 }
 
-div.billboard div.image-col, div.billboard div.text-container {
-  padding: 0;
-  overflow: hidden;
+@media (min-width: 992px) and (max-width: 1199px) {
+  div.billboard {
+    background: #8ECADE;
+    border: 10px solid ghostwhite;
+    border-radius: 1.5%;
+    box-shadow: 3px 3px 7.5px -1px darkslategrey;
+    color: black;
+    margin: 4vh 1vw;
+    max-width: 100%;
+    max-height: fit-content;
+    min-height: fit-content;
+    min-width: 100%;
+    padding: 1.5% 0 0 0;
+    position: relative;
+    text-align: center;
+  }
+
+  div.billboard div.contents {
+    min-height: 100%;
+    min-width: fit-content;
+    display: contents;
+  }
+
+  div.billboard div.filter {
+    background: linear-gradient(135deg, slategray 20%, black 90%);
+    margin: -1.5% 0;
+    min-height: 100%;
+    position: absolute;
+    min-width: 100%;
+    opacity: .35;
+  }
+
+  div.billboard div.billboardImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-position: right;
+  }
+
+  div.billboard div.image-col, div.billboard div.text-container {
+    padding: 0;
+    overflow: hidden;
+  }
+
+  div.billboard div.image-col {
+    min-height: 35vh;
+    padding: 0 0 0 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  div.billboard div.image-col div.image-container img.image {
+    max-width: 100%;
+  }
+
+  div.billboard div.text-container {
+    border-top: 2px solid white;
+    border-bottom: none;
+    min-height: 25%;
+    padding: 10px 0 0 20px;
+    text-align: center;
+    z-index: 100;
+  }
+
+  div.billboard p.title {
+    font-size: 4vh;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1.5px;
+    margin: 0;
+  }
+
+  div.billboard p.subtitle {
+    font-size: 3vh;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1px;
+  }
+
+  div.billboard div.row.top-row {
+      color: red;
+  }
+
+  div.billboard p.flavor-text{
+    font-size: 3.75vh;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 5.15vh;
+    color: white;
+    text-shadow: -1px 0.5px 2.5px black;
+  }
+
+  div.billboard a.button {
+    border: 2px outset white;
+    box-shadow: 1px 2px 3px 0px black;
+    color: white;
+    display: block;
+    font-size: 2.1vw;
+    font-weight: 300;
+    margin: 30px 0 20px 0%;
+    max-width: fit-content;
+    min-width: 100%;
+    padding: 5px 25px;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    transition: .25s ease-in;
+  }
+
+  div.billboard a.button:hover {
+    border: 2px inset white;
+    box-shadow: 1px 2px 8px 0px silver;
+    letter-spacing: 1.25px;
+    text-decoration: none;
+  }
 }
 
-div.billboard div.image-col {
-  min-height: 35vh;
-  padding: 0 0 0 0;
-  text-align: center;
-  z-index: 100;
-}
+@media (min-width: 1200px) {
+  div.billboard {
+    background: #8ECADE;
+    border: 10px solid ghostwhite;
+    border-radius: 1.5%;
+    box-shadow: 3px 3px 7.5px -1px darkslategrey;
+    color: black;
+    margin: 4vh 1vw;
+    max-width: 100%;
+    max-height: fit-content;
+    min-height: fit-content;
+    min-width: 100%;
+    padding: 1.5% 0 0 0;
+    position: relative;
+    text-align: center;
+  }
 
-div.billboard div.text-container {
-  border-top: 2px solid white;
-  border-bottom: none;
-  min-height: 25%;
-  padding: 10px 0 0 20px;
-  text-align: right;
-  z-index: 100;
-  margin: 0;
-}
+  div.billboard div.contents {
+    min-height: 100%;
+    min-width: fit-content;
+    display: contents;
+  }
 
-div.billboard p.title {
-  font-size: 4vh;
-  color: white;
-  text-shadow: -2px 1px 3px black;
-  letter-spacing: 1.5px;
-  margin: 0;
-}
+  div.billboard div.filter {
+    background: linear-gradient(135deg, slategray 20%, black 90%);
+    margin: -1.5% 0;
+    min-height: 100%;
+    position: absolute;
+    min-width: 100%;
+    opacity: .35;
+  }
 
-div.billboard p.subtitle {
-  font-size: 3vh;
-  color: white;
-  text-shadow: -2px 1px 3px black;
-  letter-spacing: 1px;
-}
+  div.billboard div.billboardImage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    border: 2px solid white;
+    background-position: right;
+  }
 
-div.billboard div.row.top-row {
-    color: red;
-}
+  div.billboard div.image-col, div.billboard div.text-container {
+    padding: 0;
+    overflow: hidden;
+  }
 
-div.billboard p.flavor-text{
-  font-size: 3.75vh;
-  font-weight: 300;
-  letter-spacing: 1px;
-  line-height: 5.15vh;
-  color: white;
-  text-shadow: -1px 0.5px 2.5px black;
-}
+  div.billboard div.image-col {
+    min-height: 35vh;
+    padding: 0 0 0 0;
+    text-align: center;
+    z-index: 100;
+  }
 
-div.billboard a.button {
-  border: 2px outset white;
-  box-shadow: 1px 2px 3px 0px black;
-  color: white;
-  display: block;
-  font-size: 2.1vw;
-  font-weight: 300;
-  letter-spacing: 1px;
-  margin: 30px 0 20px 60%;
-  max-width: fit-content;
-  padding: 5px 25px;
-  text-align: right;
-  text-shadow: 1px 2px black;
-  transition: .25s ease-in;
-}
+  div.billboard div.image-col div.image-container img.image {
+    max-width: 100%;
+    height: auto;
+    margin: 5vh 5%;
+    width: 90%;
+  }
 
-div.billboard a.button:hover {
-  border: 2px inset white;
-  box-shadow: 1px 2px 8px 0px silver;
-  letter-spacing: 1.25px;
-  text-decoration: none;
+  div.billboard.map div.left-col div.map-container-row > div {
+    min-width: 100%;
+    float: left;
+  }
+
+  div.billboard.map div.left-col  div.wrapper div.googleMap {
+    min-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 0 0 2vh 0;
+    float: left;
+    z-index: 1250;
+    border: 15px ridge white;
+  }
+
+  div.billboard.map div.right-col {
+
+  }
+
+  div.billboard.map div.right-col h5 {
+    font-size: 2.5vw;
+    margin: 2vh 0 0 0;
+  }
+
+  div.billboard.map div.right-col p {
+    min-height: fit-content;
+    padding: 2.5vh 1.05vw;
+    font-size: 1.25vw;
+  }
+
+  div.billboard div.text-container {
+    border-top: 2px solid white;
+    border-bottom: none;
+    min-height: 25%;
+    padding: 10px 0 0 20px;
+    text-align: right;
+    z-index: 100;
+  }
+
+  div.billboard p.title {
+    font-size: 4vh;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1.5px;
+    margin: 0;
+  }
+
+  div.billboard p.subtitle {
+    font-size: 3vh;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1px;
+  }
+
+  div.billboard div.row.top-row {
+      color: red;
+  }
+
+  div.billboard p.flavor-text{
+    font-size: 3.75vh;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 5.15vh;
+    color: white;
+    text-shadow: -1px 0.5px 2.5px black;
+  }
+
+  div.billboard a.button {
+    border: 2px outset white;
+    box-shadow: 1px 2px 3px 0px black;
+    color: white;
+    display: block;
+    font-size: 2.1vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 30px 0 20px auto;
+    max-width: fit-content;
+    padding: 5px 25px;
+    text-align: right;
+    text-shadow: 1px 2px black;
+    transition: .25s ease-in;
+    position: sticky;
+    top: 80%;
+  }
+
+  div.billboard a.button:hover {
+    border: 2px inset white;
+    box-shadow: 1px 2px 8px 0px silver;
+    letter-spacing: 1.25px;
+    text-decoration: none;
+  }
+
+  /* BillboardTextOverlay */
+
+  div.billboard.image-background {
+
+  }
+
+  div.billboard.image-background div.image{
+
+  }
+
+  div.billboard.image-background div.text-container {
+
+  }
+
+  div.billboard.image-background div.text-container p {
+
+  }
+
+  div.billboard.image-background div.text-container p.title {
+
+  }
+
+  div.billboard.image-background div.text-container p.subtitle {
+
+  }
+
+  div.billboard.image-background div.text-container p.text {
+
+  }
+
+  /* ****************** */
 }

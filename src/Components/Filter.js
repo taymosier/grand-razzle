@@ -12,7 +12,7 @@ export class Filter extends Component {
         "width": "100vw",
         "position": "absolute",
         "zIndex": "-10000",
-        "opacity": ".25",
+        "opacity": `${this.props.style.opacity}`,
         "position": "absolute"
       }
     }

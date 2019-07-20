@@ -11,22 +11,20 @@ export class BillboardWithImage extends Component {
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
       active: 0,
-      style: null
+      imageSrc: null
     }
   }
 
   componentDidMount(){
     if(this.props.billboard.thumbnail !== undefined ){
       typeof this.props.billboard.thumbnail === "string"
-        ? this.setState({style: this.setThumbnail(this.props.billboard.thumbnail)})
-        : this.setState({style: this.setThumbnail(this.props.billboard.thumbnail[parseInt(this.state.active)].src)})
+        ? this.setState({imageSrc: this.setThumbnail(this.props.billboard.thumbnail)})
+        : this.setState({imageSrc: this.setThumbnail(this.props.billboard.thumbnail[parseInt(this.state.active)].src)})
     }
   }
 
   setThumbnail(thumbnail){
-    return {
-      "backgroundImage": `url(${require("../../../public/images/billboards/" + thumbnail)})`
-    }
+    return require(`../../../public/images/billboards/${thumbnail}`)
   }
 
   render(){
@@ -35,21 +33,23 @@ export class BillboardWithImage extends Component {
           <div className="contents">
             <div className="filter" />
             <Col
-              xl={{ size: 4, offset: 1 }}
-              lg={{ size: 4, offset: 1 }}
-              md={{ size: 4, offset: 1}}
-              sm={{ size: 4, offset: 1 }}
-              xs={{ size: 4, offset: 1 }}
+              xl={{ size: 5, offset: 0 }}
+              lg={{ size: 5, offset: 0 }}
+              md={{ size: 5, offset: 0}}
+              sm={{ size: 5, offset: 0 }}
+              xs={{ size: 5, offset: 0 }}
               className="image-col"
             >
-              <div className="billboardImage" style={this.state.style}/>
+              <div className="image-container">
+                <img src={this.state.imageSrc} className="image"/>
+              </div>
             </Col>
             <Col className="text-container"
-              xl={{ size: 6, offset: 5 }}
-              lg={{ size: 6, offset: 5 }}
-              md={{ size: 6, offset: 5 }}
-              sm={{ size: 6, offset: 5 }}
-              xs={{ size: 6, offset: 5 }}
+              xl={{ size: 6, offset: 0 }}
+              lg={{ size: 6, offset: 0 }}
+              md={{ size: 6, offset: 0 }}
+              sm={{ size: 6, offset: 0 }}
+              xs={{ size: 6, offset: 0 }}
             >
               <p className="title">
                 {this.state.title}

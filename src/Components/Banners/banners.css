@@ -8,43 +8,59 @@ div.banner {
 
 div.banner h1 {
   color: white;
-  margin: 5vh 0 0 0;
   z-index: 5500;
   font-size: 6vw;
   font-weight: 400;
   letter-spacing: .625vw;
   text-shadow: 3px 2px 5px black;
-  border-bottom: 1px solid white;
+  border-bottom: 0;
   max-height: 6.25vw;
-  min-width: -webkit-fit-content;
-  min-width: -moz-fit-content;
+  line-height: 7.5vw;
+  padding: 0;
   min-width: fit-content;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
   max-width: fit-content;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
-  margin: 0 auto 10px auto;
-  line-height: 1.25;
-
+  margin: 0px auto 21px auto;
 }
 
 div.banner h2 {
-  color: white;
-  margin: 1.25vh 0 0 0;
-  z-index: 5000;
+  margin: 1.25vh auto 0 auto;
   letter-spacing: 2.5px;
-  font-size: 50px;
+  border-top: 3px solid white;
   font-weight: 100;
   color: white;
-  padding: 0px 0;
+  padding: 0px 5vw;
   vertical-align: middle;
   text-align: center;
   font-size: 3.4vw;
   text-shadow: 3px 2px 5px black;
+  max-width: fit-content;
 }
 
 div.banner .banner-text{
   z-index: 5000;
+}
+
+@media (max-width: 420px) {
+
+}
+
+@media (min-width: 420px) and (max-width: 575px) {
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+
 }

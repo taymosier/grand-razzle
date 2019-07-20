@@ -40,7 +40,7 @@ export class Banner extends Component {
             xs={{ size: 12, offset: 0 }}
             style={this.state.style}
         >
-        <Filter />
+        <Filter style={{"opacity":".05"}}/>
         <div className="banner-text">
           <h1>{this.state.title}</h1>
           <h2>{this.state.subtitle}</h2>
