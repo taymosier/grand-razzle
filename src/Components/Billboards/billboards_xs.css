@@ -1,0 +1,9 @@
+@media (max-width: 575px) {
+  div.billboard div.text-container {
+
+  }
+
+  div.billboard div.image-container {
+    max-width: 100%;
+  }
+}

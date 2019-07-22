@@ -23,7 +23,15 @@ div.title {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  div.title {
+    color: white;
+    border-bottom: .85px solid darkgrey;
+    min-width: 100%;
+    text-align: center;
+    font-size: 3.25vw;
+    text-shadow: 2.25px 2px 3.5px black;
+    padding: 2.5vh;
+  }
 }
 
 @media (min-width: 1200px) {

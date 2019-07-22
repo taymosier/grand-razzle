@@ -26,20 +26,20 @@ export class BillboardWithMap extends Component {
           <Col
             className="left-col"
             xl={{ size: 8, offset: 0 }}
-            lg={{ size: 8, offset: 0 }}
-            md={{ size: 8, offset: 0 }}
-            sm={{ size: 8, offset: 0 }}
-            xs={{ size: 8, offset: 0 }}
+            lg={{ size: 12, offset: 0 }}
+            md={{ size: 10, offset: 1 }}
+            sm={{ size: 10, offset: 1 }}
+            xs={{ size: 10, offset: 1 }}
           >
           <MapsContainer className="mapContainer" mapConfig={this.state.mapConfig}/>
           </Col>
           <Col
             className="right-col"
             xl={{ size: 4, offset: 0 }}
-            lg={{ size: 4, offset: 0 }}
-            md={{ size: 4, offset: 0 }}
-            sm={{ size: 4, offset: 0 }}
-            xs={{ size: 4, offset: 0 }}
+            lg={{ size: 12, offset: 0 }}
+            md={{ size: 10, offset: 1 }}
+            sm={{ size: 10, offset: 1 }}
+            xs={{ size: 10, offset: 1 }}
           >
             <h5>Vidanta Nuevo Vallarta</h5>
             <p>Boulevard Riviera Nayarit #254 Bahia de Banderas, Nayarit CP 63735</p>

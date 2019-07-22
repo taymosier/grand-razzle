@@ -34,10 +34,10 @@ export class BillboardWithImage extends Component {
             <div className="filter" />
             <Col
               xl={{ size: 5, offset: 0 }}
-              lg={{ size: 5, offset: 0 }}
-              md={{ size: 5, offset: 0}}
-              sm={{ size: 5, offset: 0 }}
-              xs={{ size: 5, offset: 0 }}
+              lg={{ size: 12, offset: 0 }}
+              md={{ size: 10, offset: 1}}
+              sm={{ size: 10, offset: 1 }}
+              xs={{ size: 10, offset: 1 }}
               className="image-col"
             >
               <div className="image-container">
@@ -46,10 +46,10 @@ export class BillboardWithImage extends Component {
             </Col>
             <Col className="text-container"
               xl={{ size: 6, offset: 0 }}
-              lg={{ size: 6, offset: 0 }}
-              md={{ size: 6, offset: 0 }}
-              sm={{ size: 6, offset: 0 }}
-              xs={{ size: 6, offset: 0 }}
+              lg={{ size: 12, offset: 0 }}
+              md={{ size: 10, offset: 1 }}
+              sm={{ size: 10, offset: 1 }}
+              xs={{ size: 10, offset: 1 }}
             >
               <p className="title">
                 {this.state.title}

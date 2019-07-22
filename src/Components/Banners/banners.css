@@ -58,7 +58,35 @@ div.banner .banner-text{
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  div.banner h1 {
+    color: white;
+    z-index: 5500;
+    font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: .625vw;
+    text-shadow: 3px 2px 5px black;
+    border-bottom: 0;
+    max-height: 6.25vw;
+    line-height: 7.5vw;
+    padding: 0;
+    min-width: fit-content;
+    max-width: fit-content;
+    width: fit-content;
+    margin: auto;
+    min-height: fit-content;
+  }
+  div.banner h2 {
+    margin: 2.25vh auto 0 auto;
+    letter-spacing: 2.5px;
+    border-top: 3px solid white;
+    font-weight: 100;
+    color: white;
+    padding: 0px 4vw;
+    text-align: center;
+    font-size: 5.25vw;
+    text-shadow: 3px 2px 5px black;
+    max-width: 50vw;
+  }
 }
 
 @media (min-width: 1200px) {

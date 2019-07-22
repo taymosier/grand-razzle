@@ -1,0 +1,15 @@
+@media (min-width: 576px) and (max-width: 767px) {
+  div.billboard div.image-container {
+    max-width: 100%;
+  }
+
+  div.billboard div.image-container img {
+    max-width: 100%;
+  }
+
+  div.billboard div.text-container {
+    color: white;
+    position: absolute;
+    z-index: 102;
+  }
+}

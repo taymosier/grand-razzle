@@ -24,11 +24,11 @@ export class Billboard extends Component {
 
   render(){
     return(
-      <Row className="billboard">
+      <Row className="billboard no-image">
           <div className="filter" />
           <Col className="text-container"
             xl={{ size: 10, offset: 1 }}
-            lg={{ size: 10, offset: 1 }}
+            lg={{ size: 12, offset: 0 }}
             md={{ size: 10, offset: 1 }}
             sm={{ size: 10, offset: 1 }}
             xs={{ size: 10, offset: 1 }}

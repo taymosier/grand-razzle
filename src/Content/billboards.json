@@ -4,7 +4,7 @@
       "title": {"en":"","es":""},
       "key": "activity-billboard-1",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"It’s your vacation, do what you love! At Grand Luxxe Nuevo Vallarta, choose from a variety of activities, Spanish classes, arts and crafts, games, sports tournaments, poolside trivia or special events all lead by the amazing activities team called the Joy Squad.",
         "es": "Son sus vacaciones... ¿Por qué no las pasa haciendo exactamente lo que le gusta? En Vidanta Nuevo Vallarta encontrará una gran variedad de actividades, desde torneos de deporte a clases de arte, así como juegos de trivia junto a la piscina. Todas son organizadas por nuestro increíble equipo de actividades, el Joy Squad."
@@ -16,7 +16,7 @@
       "title": {"en":"","es":""},
       "key": "activity-billboard-2",
       "subtitle": {"en":"Joy Squad","es":"Joy Squad"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"The resort has a group of people on staff just to make you happy. The Joy Squad can always be recognized by their bright smiling faces and readiness to help you. Their mission is to bring you joy, fun, excitement and new experiences. There are several Activities Stands. Be sure to visit them and get a schedule of what’s being offered each day. ",
         "es": "**Needs Translation**"
@@ -28,7 +28,7 @@
       "title": {"en":"Pools & Poolside","es":""},
       "key": "activity-billboard-3",
       "subtitle": {"en":"","es":""},
-      "type": "bullets",
+      "type": "bullets-with-image",
       "text": {
         "en": ["Water Polo","Water Volleyball","Aqua Aerobics","Paddle Board","Stretching Class","Spanish Class","Salsa Lessons","Arts & Crafts","Guacamole Making Class"],
         "es": ""
@@ -40,9 +40,9 @@
       "title": {"en":"Beach","es":""},
       "key": "activity-billboard-4",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "bullets-with-image",
       "text": {
-        "en": ["Volleyball", "Horseshoe Tournament", "Bocce Ball", "Beach Exploration", "Treasure Hunts"],
+        "en": ["Volleyball", "Horseshoe Tournaments", "Bocce Ball", "Beach Exploration", "Treasure Hunts"],
         "es": ""
       },
       "thumbnail": "activities-billboard-4.jpg",
@@ -52,7 +52,7 @@
       "title": {"en":"Tours","es":""},
       "key": "activity-billboard-5",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "bullets-with-image",
       "text":  {
         "en": ["Heart of Vidanta Tour", "Vidanta Walks Wildlife Tour", "Iguana Tour", "Tequila Tour"],
         "es": ""
@@ -64,7 +64,7 @@
       "title": {"en":"Nighttime","es":""},
       "key": "activity-billboard-6",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "bullets-with-image",
       "text": {
         "en": ["Lake Show", "Bingo Night", "Trivia Night", "Black Jack Night", "Karaoke Night"],
         "es": ""
@@ -76,7 +76,7 @@
       "title": {"en":"","es":""},
       "key": "activity-billboard-7",
       "subtitle": {"en":"Kid's Club","es":"Kid's Club"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Kid’s Club is a great time for the kids!  The Kid’s Club is located by The Grand Mayan wave pool. There are many activities offered and of course water activities at the on-premise pool for children ages 5 to 12. The expert staff provides supervision during all activities. There are special week night theme activities like Pirate Night or Pajama Party for an additional charge. This is a time the adults can drop off the children and enjoy an evening at the resort knowing their children are having fun and well cared for. There is also a Grande Luxxe-exclusive Kid’s Club located by Grand Luxxe Tower 4.",
         "es": "**Needs Translation**"
@@ -91,7 +91,7 @@
         "en":"Want some unique adventures? On and off resort experiences are offered by outside companies. The beach offers stand-up paddle boarding, surfing and kayaking. For high adventure recreation and exploring the Riviera Nayarit area there is zip-lining in the jungle, horseback riding to the waterfall, speed boat riding, snorkeling or deep sea fishing. Visit the travel concierge in your resort hotel lobby to coordinate a plan. ",
         "es": "**Needs Translation**"
       },
-      "type": "",
+      "type": "default",
       "thumbnail": "activities-billboard-5.jpg",
       "link": ""
     }
@@ -106,7 +106,7 @@
         "en": "Grande Luxxe Rooms & Suites",
         "es": "Habitaciones & Suites en Grande Luxxe"
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or place to bring together the entire family Grande Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
         "es": "***NEEDS UPDATED TEXT*** Desde hermosas habitaciones hasta lujosos lofts y amplias suites, Grande Luxxe Nuevo Vallarta ofrece una gran variedad de alojamientos de alta calidad."
@@ -128,7 +128,7 @@
         "en": "Grande Luxxe Exclusive Pools",
         "es": "Piscinas exclusivas Grande Luxxe"
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "With gorgeous designs and indulgent features, these luxurious pools offer the ultimate pool-side experience.",
         "es": "Con magníficos diseños y características indulgentes, estas lujosas piscinas ofrecen la mejor experiencia junto a la piscina."
@@ -146,7 +146,7 @@
       "key": "dining-billboard-1",
       "type": "image",
       "subtitle": "",
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Guests may choose to dine however they like in over 40 restaurants. Choose from a fast casual bite to eat on the go, a poolside culinary pampering or a fine dining experience. The food offerings are from all over the world including a gourmet market. Expect your taste buds to be delighted with flavors you’ll remember forever. Once you arrive browse through the inroom restaurant book to make your dining plans for the week. Contact the concierge for which restaurants require reservations and make your reservation early to guarantee your preferred day and time. ",
         "es": "**Needs Translation**"
@@ -165,7 +165,7 @@
         "en":"Grande Luxxe Two Bedroom Suites",
         "es":"Suites de lujo de dos habitaciones Grande Luxxe"
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
         "es": "Esta exclusiva suite cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina de inmersión."
@@ -184,7 +184,7 @@
         "en":"Grande Luxxe Two Bedroom Presidential Villa",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This exclusive villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
         "es": "**Needs Translation**"
@@ -196,14 +196,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-3",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Three Bedroom Presidential Villa",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This expansive villa is the same as above except with two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
         "es": ""
@@ -215,14 +215,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-4",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Two Bedroom Spa Suite",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This amazing space offers two bedrooms, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, a private terrace with plunge pool and another private deck.",
         "es": ""
@@ -234,14 +234,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-5",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Three Bedroom Spa Suite",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This amazing space offers three bedrooms, three bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, spacious private terrace with plunge pool and another private deck.",
         "es": ""
@@ -253,14 +253,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-6",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Two Bedroom Residence Loft",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
         "es": ""
@@ -272,14 +272,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-7",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Three Bedroom Residence Loft",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This two-story exquisite “over the top” luxurious quarters offers three bedrooms with king size beds, four bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
         "es": ""
@@ -291,14 +291,14 @@
       }
     },
     {
-      "title": {"en":"Rooms & Suites","es":""},
+      "title": {"en":"","es":""},
       "key": "rooms-billboard-8",
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Four Bedroom Residence",
         "es":""
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
         "es": ""
@@ -319,7 +319,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["8 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "Two King-Size Beds |or| One King-size Bed & Two Double Beds", "Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom"],
         "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
@@ -337,7 +337,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "One King-size Bed & Two Double Beds", "Two Full Bathrooms with one Jacuzzi Tub & 1 Half Bathroom"],
         "es": "**Needs translation"
@@ -355,7 +355,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["10 adults |and| 2-4 kids depending on age and size", "Three Bedrooms", "Two King-size Beds & Two Double Beds", "3.5 Bathrooms with Three Jacuzzi Tubs"],
         "es": "**Needs Translation**"
@@ -373,7 +373,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["6 adults |and| 2 children under 12 years old", "Two Bedrooms", "Two King-size Beds", "Two Full Bathrooms with Two Jacuzzi Tubs |and| 1 Half Bathroom"],
         "es": "**Needs Translation**"
@@ -391,7 +391,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
         "es": "**Needs Translation**"
@@ -409,7 +409,7 @@
         "en":"",
         "es":""
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 children under 12 years old", "Two Bedrooms", "Two King-Size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
         "es": "**Needs Translation**"
@@ -433,12 +433,11 @@
     {
       "title": {"en":"","es":""},
       "key": "three-bedroom-residence-billboard-1",
-      "type": "image",
+      "type": "gallery",
       "subtitle": {
         "en":"",
         "es":""
       },
-      "type": "",
       "text": {
         "en": ["8 adults |and| 2-4 children under 12 years old", "Three Bedrooms", "Two Double Beds", "Four Full Bathrooms with Two Jacuzzi Tubs"],
         "es": "**Needs Translation**"
@@ -462,12 +461,11 @@
     {
       "title": {"en":"","es":""},
       "key": "four-bedroom-residence-billboard-1",
-      "type": "image",
+      "type": "gallery",
       "subtitle": {
         "en":"",
         "es":""
       },
-      "type": "",
       "text": {
         "en": ["12 adults", "Four Bedrooms", "Four Double Beds", "Four Full Bathrooms - 2 with Two Jacuzzi Tubs | 1 Half Bathroom"],
         "es": "**Needs Translation**"
@@ -492,7 +490,7 @@
         "es":"Vallarta"
       },
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "no-image",
       "text": {
         "en": ["Passports are required for everyone traveling to Mexico, including children.", "As you pass through Immigration, the officer gives back a portion of the immigration form. You must keep this in a safe place. It is recommended to keep it inside your passport. You must show this portion of the immigration form to depart Mexico.", "The resort is vigilant in creating safe, healthy environments for its members. Purified water from the tap and bottled water are in all the rooms and in all of the restaurants water in all of our restaurants."],
         "es": "**Needs Translation**"
@@ -502,24 +500,26 @@
     },
     {
       "title": {"en": "Transportation", "es":"Transportation"},
-      "type": "image",
       "key": "getting-here-billboard-2",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "linked-no-image",
       "text": {
-        "en": "Once you book your vacation, you can arrange transportation from the airport to the resort by following the information sent to you in your confirmation email or visiting the following site: shuttleservices.vidanta.com. At this site, you will be able to reserve your transportation using your reservation number. A confirmation slip will then be emailed to you directly from the transportation company once they’ve reviewed and accepted your request. When You Arrive Transportation to Vidanta Nuevo Vallarta is provided by Gapsa Vallarta. When you get through customs at the airport, exit the International Arrivals area. Look for a driver wearing black pants and a tan shirt, carrying a Gapsa Vallarta sign marked with your resort hotel logo.",
+        "en": "Once you book your vacation, you can arrange transportation from the airport to the resort by following the information sent to you in your confirmation email or by clicking the button below. At this site, you will be able to reserve your transportation using your reservation number. A confirmation slip will then be emailed to you directly from the transportation company once they’ve reviewed and accepted your request. When You Arrive Transportation to Vidanta Nuevo Vallarta is provided by Gapsa Vallarta. When you get through customs at the airport, exit the International Arrivals area. Look for a driver wearing black pants and a tan shirt, carrying a Gapsa Vallarta sign marked with your resort hotel logo.",
         "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
       },
       "thumbnail": "",
-      "link": ""
+      "link": {
+        "href": "https://shuttleservices.vidanta.com",
+        "label": "Shuttle Services"
+      }
     },
     {
       "title": {"en": "New entrance", "es":"New entrance"},
       "key": "getting-here-billboard-3",
       "subtitle": {"en":"","es":""},
-      "type": "",
+      "type": "default",
       "text": {
-        "en":"The new entrance allows guests to arrive at the resort much quicker. It is located right after the bridge that crosses the Ameca River. The previous entrance is closed to all traffic.",
+        "en":"The new entrance allows guests to arrive at the resort much more quickly. It is located right after the bridge that crosses the Ameca River. The previous entrance is closed to all traffic.",
         "es": "**Needs Translation**"
       },
       "thumbnail": "new-entrance-billboard.jpg",
@@ -534,7 +534,7 @@
         "en":"Pools",
         "es":"Piscinas"
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en":"The variety of pools, a Lazy River, an Aqua Park, water fountains and waterfalls are all inviting to those that love the water or enjoy spending time at the pool. You can choose a different luxurious location every day. ",
         "es": "**Needs Translation**"
@@ -552,7 +552,7 @@
         "en":"Activities",
         "es":"Actividades"
       },
-      "type": "",
+      "type": "linked",
       "text": {
         "en":"There are endless resort activities to enjoy your days for all ages from kids to adults.",
         "es": "**Needs Translation**"
@@ -570,7 +570,7 @@
         "en":"Shopping",
         "es":"Compras"
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en":"At the center of Vidanta Nuevo Vallarta’s shopping experience is La Plaza, a three-story facility filled with specialty boutiques, food counters, a bazaar, and so much more.",
         "es": "Una de las mejores experiencias de compra en Vidanta Nuevo Vallarta se encuentra en La Plaza, un edificio de tres pisos lleno de boutiques, comida, un bazar y mucho más."
@@ -584,7 +584,7 @@
       "title": {"en":"","es":""},
       "key": "golf-billboard-1",
       "subtitle": {"en": "The Nayar Course","es": "El Campo Nayar"},
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "This 18-hole, par 70 naturally and architecturally enhanced notable wonder welcomes beginners to advance. The seven lakes and 49 selectably designed bunkers create quite the opposition for the skillful golfer.",
         "es": "**Needs Translation**"
@@ -599,7 +599,7 @@
       "title": {"en":"","es":""},
       "key": "golf-billboard-2",
       "subtitle": {"en": "The Norman Signature Course","es": "El Campo Norman Signature"},
-      "type": "",
+      "type": "linked",
       "text": {
         "en": "The 18-hole Greg Norman Signature Course is newly completed with an alluring and gorgeous layout that can only be accessed by the Ameca Bridge; the longest golf cart bridge in the world. This course is nestled in the tall perennial Bahiagrasses and cleverly designed greens.",
         "es": "**Needs Translation**"
@@ -614,7 +614,7 @@
       "title": {"en":"","es":""},
       "key": "golf-billboard-3",
       "subtitle": {"en": "The Lakes Course","es": "El Campo The Lakes"} ,
-      "type": "",
+      "type": "default",
       "text": {
         "en": "This magnificent 10 hole, par-3 course is the most recent development of golf offerings at the resort. It shines with the most breathtaking views of some of the resort’s most admired landmarks while you play. It uniquely offers night playing with a lighted golf course until 11pm.",
         "es": "**Needs Translation**"
@@ -623,12 +623,55 @@
       "link": ""
     }
   ],
+
+  "the-nayar-course": [
+    {
+      "title": {"en":"Course Overview","es":""},
+      "key": "nayar-billboard-1",
+      "subtitle":  {"en":"18 Hole Course","es":""},
+      "type": "course-details",
+      "text":{
+        "en": ["18 Hole, Par 70", "Yards - 6,668", "Course Type - Championship", "Grass on Greens - Champions Bermuda", "Grass on Fairways - Bermuda 419", "Bunkers - 49", "Lakes - 7"],
+        "es": "**Needs Translation**"
+      },
+      "thumbnail": "",
+      "link": ""
+    },
+    {
+      "title": {"en":"Details & Amenities","es":""},
+      "key": "nayar-billboard-2",
+      "subtitle":  {"en":"18 Hole Course","es":""},
+      "type": "course-details",
+      "text":{
+        "en": ["The Vidanta Golf Academies", "Ameca Social House", "Pro Shop", "Shoes and club rental", "Lighted practice range (open until 10:30 PM)", "Short game area", "Putting green", "Caddie service", "Bag storage", "Valet parking"],
+        "es": "**Needs Translation**"
+      },
+      "thumbnail": "",
+      "link": ""
+    }
+  ],
+
+  "the-norman-signature-course": [
+    {
+      "title": {"en":"Course Overview","es":""},
+      "key": "norman-billboard-1",
+      "subtitle":  {"en":"18 Hole Course","es":""},
+      "type": "course-details",
+      "text":{
+        "en":"Open to every guest. The Brio Spa has a French approach with a European flare. When you step through the door you will immediately feel the magical release of stress and feel relaxation cascade over you.",
+        "es": "**Needs Translation**"
+      },
+      "thumbnail": "brio-spa-billboard.jpg",
+      "link":  ""
+    }
+  ],
+
   "spa": [
     {
       "title": {"en":"","es":""},
       "key": "spa-billboard-1",
       "subtitle":  {"en":"Brio Spa","es":""},
-      "type": "",
+      "type": "linked",
       "text":{
         "en":"Open to every guest. The Brio Spa has a French approach with a European flare. When you step through the door you will immediately feel the magical release of stress and feel relaxation cascade over you.",
         "es": "**Needs Translation**"
@@ -643,7 +686,7 @@
       "title": {"en":"","es":""},
       "key": "spa-billboard-2",
       "subtitle": {"en":"Spatium","es":"Spatium"},
-      "type": "",
+      "type": "linked",
       "text": {
         "en":"This upscale spa is only for Grand Luxxe guests. The offerings at the Spatium exceeds any spa experience you have had before. The palatial Spatium soars the spa experience beyond your expectations or dreams. The opulent and breathtaking luxurious indoor and outdoor surroundings soothes your mind, body and spirit with the most current spa treatments and methods of relaxation.",
         "es": "**Needs Translation**"
@@ -658,7 +701,7 @@
       "title": {"en":"","es":""},
       "key": "spa-billboard-3",
       "subtitle": {"en":"The Wellness Program","es":"El Programa Wellness"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Wellness is a choice that we can strive to achieve. Guests are offered a chance to embark on this health improving journey. The Wellness Program guides with steps to take to reach a greater harmony with the mind, body and spirit connection of living a more whole and joyful life. Contact your concierge for more information. ",
         "es": "**Needs Translation**"
@@ -675,7 +718,7 @@
         "en":"Spatium",
         "es":"Spatium"
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Location is nestled in the emerald jungle at Grand Luxxe Residence Tower. Spatium blends treatments of beauty with natural cultural healing inside extravagant furnishings to enable you to feel more pampered than ever before. The lavish surroundings inside and outside bring deep relaxation and joy like heaven on earth.",
         "es": "**Needs Translation**"
@@ -690,7 +733,7 @@
         "en":"Hydrotherapy Annex",
         "es":"Anexo de Hidroterapia"
       },
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Open only to Grand Luxxe guests. Spatium soars the spa experience above all others with its unique luscious water therapy offerings in the midst of palm trees, dancing water fountains and billowy cushioned chairs. ",
         "es": "**Needs Translation**"
@@ -708,7 +751,7 @@
         "en":"Brio Spa location is in The Grand Mayan. It draws from the classic French art of pampering with exquisite architectural designs. Invite the mind, body and spirit to enjoy the choices of therapeutic treatments that will leave you as light as air. After your treatment, relax in the outdoor area under a palapa, submerge in the Jacuzzi or invigorate in the cold plunge. ",
         "es": "**Needs Translation**"
       },
-      "type": "",
+      "type": "default",
       "thumbnail": "brio-spa-billboard-1.jpg",
       "link": ""
     },
@@ -716,7 +759,7 @@
       "title": {"en":"","es":""},
       "key": "brio-spa-billboard-2",
       "subtitle": {"en":"The Healing Powers of the Temazcal","es":"Los poderes sanadores del temazcal"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Allow the purification ritual of the Temazcal, an ancient sweat lodge from the cultural roots of the Mexican Shaman guided ritual to help your body and soul detox and be set free. See the staff at Brio Spa to schedule this unique Temazcal experience. ",
         "es": "**NEeds Translation**"
@@ -730,7 +773,7 @@
       "title": {"en":"","es":""},
       "key": "entertainment-billboard-1",
       "subtitle": {"en":"Santuario","es":"Santuario"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Watch in amazement at the expansive 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a different show each night that the entire family will love: musical and dance performances, acrobatics, unique artists’ demonstrations plus even more. Sit back, relax and watch the show as you allow your taste buds to be tantalized with special drinks from the award winning bartenders and specialty drink designers.",
         "es": "**Needs Translation**"
@@ -742,7 +785,7 @@
       "title": {"en":"","es":""},
       "key": "entertainment-billboard-2",
       "subtitle": {"en":"The Lake Show","es":"**Needs Translation"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Once the sun has set La Cantina and Gong begin their spectacular light show with glowing colors dancing to the music and glistening through the lake and fountains. No show is the same so you can be delightfully dazzled at the lake and light show every night.",
         "es": "**Needs Translation**"
@@ -754,7 +797,7 @@
       "title": {"en":"","es":""},
       "key": "entertainment-billboard-3",
       "subtitle": {"en":"Theme Nights","es":""},
-      "type": "",
+      "type": "default",
       "text":  {
         "en":"Step into an evening of Mexican culture. Stunning local dancers and singers will capture your full attention. The entire family will love Theme Nights and Family Movie Nights. The Grand Bliss beach invites you to enjoy an evening beach party of authentic Mexican food flavors and mariachi band. You will hear the music and smell the amazing aromas before you even step onto the sand. The Family Movie Nights are often near one of the pools, contact activities for location. ",
         "es": "**Needs Translation**"
@@ -766,7 +809,7 @@
       "title": {"en":"","es":""},
       "key": "entertainment-billboard-4",
       "subtitle": {"en":"Live Music","es":"Noches temáticas"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Be entertained by the local sought after talented musicians in multiple locations around the resort. There are a variety of genres offered. One will certainly tickle your fancy: Cuban, mariachi, Jazz, classic piano, saxophone or other common and unique instruments. Be sure to visit The Grand Lobby Bar, Santuario, Azur, La Cantina or Havana Moon for a sound and visual experience to remember. Havana Moon performers often encourage and lead the guests in dancing fun. Contact your concierge for the schedule of musician performers. ",
         "es": "**Needs Translation**"
@@ -778,7 +821,7 @@
       "title": {"en":"","es":""},
       "key": "entertainment-billboard-5",
       "subtitle": {"en":"The Perfect Holiday Extravaganza", "es":"No hay un mejor lugar para celebrar"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"You are certain to experience a Holiday that you will forever remember. Invite your family and friends to share the most joyous Holiday of their life. The resort shines with delight during special occasions with Holiday theme honored activities, special events and celebrations. Be sure to contact your concierge for the schedule of Holiday offerings.",
         "es": "**Needs Translation**"
@@ -792,7 +835,7 @@
       "title": {"en":"","es":""},
       "key": "new-offerings-billboard-1",
       "subtitle": {"en":"Almaverde","es":"Almaverde"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"Almaverde is a 40 acre farm that produces 65 types of vegetables and fruits that are used at all the resort restaurants. The resort proudly provides their guests with fresh farm to table produce. Contact your concierge to tour.",
         "es": "**Needs Translation**"
@@ -804,7 +847,7 @@
       "title": {"en":"","es":""},
       "key": "new-offerings-billboard-2",
       "subtitle": {"en":"Grande Luxxe Tower 5 & Quinto","es":"Torre 5 de Grande Luxxe y Quinto"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"This impressive new tower dazzles the eye with breathtaking views of the entire resort: the nearby Ameca River, the tranquil Banderas Bay and the Sierra Madre Mountains in the background. The rooftop Quinto Restaurant offers a morning brunch as well as food and drink poolside service with a smile. And of course the Joy Squad visits you by your lounge chair to clean your sunglasses and offer you a variety of flavors of Mexico popsicles.",
         "es": "**Needs Translation**"
@@ -816,7 +859,7 @@
       "title": {"en":"","es":""},
       "key": "new-offerings-billboard-1",
       "subtitle": {"en":"The Tequila Tour","es":"Tequila Tour"},
-      "type": "",
+      "type": "default",
       "text": {
         "en":"The professional mixologists teach you all about the history and types of tequila. This well known Mexican liquor has many levels of quality and variations in color. Your newly acquired knowledge will help you discern the best tequila for every occasion.",
         "es": "**Needs Translation**"
