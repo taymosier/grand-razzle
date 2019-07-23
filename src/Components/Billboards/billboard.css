@@ -115,24 +115,6 @@
     z-index: 101;
   }
 
-  div.billboard.map div.left-col  div.wrapper div.googleMap {
-    min-height: 40vh;
-    min-width: 100%;
-    max-width: 100%;
-    margin: 1vh 0 2vh 0;
-    float: left;
-    z-index: 1250;
-  }
-
-  div.billboard.map div.right-col h5 {
-    font-size: 2.5vw;
-  }
-
-  div.billboard.map div.right-col p {
-    font-size: 2vw;
-  }
-
-
   div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
     position: absolute;
     z-index: 102;

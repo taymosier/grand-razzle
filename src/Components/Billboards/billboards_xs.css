@@ -8,7 +8,7 @@
     display: block;
     font-size: 6.5vw;
     font-weight: 300;
-    margin: 10px auto 20px auto;
+    margin: 30px auto 0px auto;
     max-width: fit-content;
     min-width: 100%;
     padding: 5px 25px 0 25px;
@@ -69,6 +69,28 @@
 
   div.billboard div.text-container {
 
+  }
+
+  div.billboard.map div.left-col  div.wrapper div.googleMap {
+    min-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1vh 0;
+    float: left;
+    z-index: 1250;
+  }
+
+  div.billboard.map div.right-col {
+    z-index: 102;
+  }
+
+  div.billboard.map div.right-col h5 {
+    font-size: 4.5vw;
+  }
+
+  div.billboard.map div.right-col p {
+    font-size: 3vw;
+    color: white;
   }
 
 }

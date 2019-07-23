@@ -31,7 +31,7 @@ export class Billboard extends Component {
             lg={{ size: 12, offset: 0 }}
             md={{ size: 10, offset: 1 }}
             sm={{ size: 10, offset: 1 }}
-            xs={{ size: 10, offset: 1 }}
+            xs={{ size: 12, offset: 0 }}
           >
             <p className="title">
               {this.state.title}
