@@ -13,3 +13,11 @@ div.toolbox {
   min-height: 10vh;
   background: yellow;
 }
+
+
+@media  (max-width: 575px){
+  div.main-content {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
