@@ -11,7 +11,7 @@
     border-radius: 1.5%;
     box-shadow: 3px 3px 7.5px -1px darkslategrey;
     color: black;
-    margin: 4vh 1vw;
+    margin: 4vh 0vw;
     max-width: 100%;
     max-height: fit-content;
     min-height: fit-content;
@@ -21,7 +21,7 @@
     text-align: center;
   }
 
-  
+
 
   div.billboard div.billboardImage {
     background-size: cover;
