@@ -6,4 +6,22 @@
   div.billboard div.image-container {
     max-width: 100%;
   }
+
+  div.billboard div.image-col {
+    min-height: 50vh;
+  }
+
+  div.billboard div.image-col div.image-container {
+    margin: auto;
+    padding: 0vh 0;
+    min-height: 50vh;
+  }
+
+  div.billboard div.image-col div.image-container img.image {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 50vh;
+  }
+
+
 }
