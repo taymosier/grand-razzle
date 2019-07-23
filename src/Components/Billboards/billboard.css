@@ -21,31 +21,7 @@
     text-align: center;
   }
 
-  div.billboard a.button {
-    background: #35768C;
-    border: 2px outset white;
-    box-shadow: 1px 2px 3px 0px black;
-    color: white;
-    display: block;
-    font-size: 2.1vw;
-    font-weight: 300;
-    margin: 30px auto 20px auto;
-    max-width: fit-content;
-    min-width: 100%;
-    padding: 5px 25px;
-    position: sticky;
-    text-align: center;
-    text-shadow: 1px 2px black;
-    transition: .25s ease-in;
-    top: 85%;
-  }
-
-  div.billboard a.button:hover {
-    border: 2px inset white;
-    box-shadow: 1px 2px 8px 0px silver;
-    letter-spacing: 1.25px;
-    text-decoration: none;
-  }
+  
 
   div.billboard div.billboardImage {
     background-size: cover;
@@ -79,8 +55,6 @@
     position: sticky;
     top: 10%;
   }
-
-
 
   div.billboard div.image-col {
     min-height: 50vh;

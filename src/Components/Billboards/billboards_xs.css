@@ -1,4 +1,32 @@
 @media (max-width: 575px) {
+
+  div.billboard a.button {
+    background: #35768C;
+    border: 2px outset white;
+    box-shadow: 1px 2px 3px 0px black;
+    color: white;
+    display: block;
+    font-size: 5vw;
+    font-weight: 300;
+    margin: 10px auto 20px auto;
+    max-width: fit-content;
+    min-width: 100%;
+    padding: 20px 25px;
+    position: sticky;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    transition: .25s ease-in;
+    top: 85%;
+    min-height: 12.5vw;
+  }
+
+  div.billboard a.button:hover {
+    border: 2px inset white;
+    box-shadow: 1px 2px 8px 0px silver;
+    letter-spacing: 1.25px;
+    text-decoration: none;
+  }
+
   div.billboard div.filter {
     background: linear-gradient(0deg,black, darkslategray 20%, black 90%);
     margin: 0;
@@ -8,7 +36,7 @@
     opacity: .65;
     z-index: 101;
   }
-  
+
   div.billboard p.flavor-text{
     font-size: 4.25vw;
     font-weight: 300;
