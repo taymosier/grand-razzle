@@ -81,7 +81,7 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
   div.menu ul.menu-button-list {
     display: flex;
     min-width: 100%;
-    padding: 2vh 0;
+    padding: 1vh 0 0 0;
     justify-content: center;
   }
 
