@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Welcome",
-    "subtitle": "To Paradise",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Resort Hotels",
     "image": "grand-luxxe-banner.jpg",
     "view": "home"
   },
@@ -24,8 +24,8 @@
     "view": "entertainment"
   },
   "golf": {
-    "title": "Welcome",
-    "subtitle": "To Golf",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Golf",
     "image": "golf-banner.jpg",
     "view": "golf"
   },
@@ -108,20 +108,20 @@
     "view": "spa"
   },
   "what-to-do": {
-    "title": "Welcome",
-    "subtitle": "To Something to Do",
+    "title": "What To Do",
+    "subtitle": "Nuevo Vallarta",
     "image": "what-to-do-banner.jpg",
     "view": "what-to-do"
   },
   "activities": {
-    "title": "Welcome",
-    "subtitle": "To Activities",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Activities",
     "image": "activities-banner.jpg",
     "view": "activities"
   },
   "pools": {
-    "title": "Welcome",
-    "subtitle": "To The Pool",
+    "title": "Pools",
+    "subtitle": "Nuevo Vallarta",
     "image": "pools-banner.jpg",
     "view": "pools"
   }
