@@ -27,6 +27,12 @@
     text-decoration: none;
   }
 
+  div.billboard div.contents {
+    min-height: 100%;
+    min-width: fit-content;
+    display: inline-flex;
+  }
+
   div.billboard div.filter {
     background: linear-gradient(0deg,black, darkslategray 20%, black 90%);
     margin: 0;
@@ -64,11 +70,26 @@
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;
     min-width: 100%;
-    min-height: 50vh;
+    min-height: 55vh;
+  }
+
+  div.billboard p.subtitle {
+    font-size: 3vh;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1px;
+    margin: 0 0 .5vh 0;
   }
 
   div.billboard div.text-container {
 
+  }
+
+  div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
+    position: absolute;
+    z-index: 102;
+    top: 0;
+    padding: 1vh 1vw;
   }
 
   div.billboard.map div.left-col  div.wrapper div.googleMap {

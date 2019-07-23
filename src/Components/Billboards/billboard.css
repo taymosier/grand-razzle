@@ -34,11 +34,7 @@
     background-position: right;
   }
 
-  div.billboard div.contents {
-    min-height: 100%;
-    min-width: fit-content;
-    display: contents;
-  }
+
 
   div.billboard div.filter {
     background: linear-gradient(0deg,black, darkslategray 20%, black 90%);
@@ -73,17 +69,8 @@
     padding: 0vh 0;
   }
 
-  div.billboard div.image-col div.image-container img.image {
-    max-width: 100%;
-    min-width: 100%;
-  }
+  
 
-  div.billboard p.subtitle {
-    font-size: 3vh;
-    color: white;
-    text-shadow: -2px 1px 3px black;
-    letter-spacing: 1px;
-  }
 
   div.billboard div.text-container {
     border-top: none;
@@ -113,11 +100,6 @@
   div.billboard.map {
     min-width: 100%;
     z-index: 101;
-  }
-
-  div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
-    position: absolute;
-    z-index: 102;
   }
 
 }
