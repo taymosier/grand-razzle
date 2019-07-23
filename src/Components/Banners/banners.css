@@ -41,16 +41,84 @@ div.banner .banner-text{
   z-index: 5000;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 575px) {
+  div.banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+  }
 
-}
+  div.banner h1 {
+    border-bottom: 0;
+    color: white;
+    font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: .625vw;
+    line-height: 7.5vw;
+    margin: 7.5vh auto 21px auto;
+    max-height: 6.25vw;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0;
+    text-shadow: 3px 2px 5px black;
+    width: fit-content;
+    z-index: 5500;
+  }
 
-@media (min-width: 420px) and (max-width: 575px) {
-
+  div.banner h2 {
+    margin: 1.25vh auto 0 auto;
+    letter-spacing: 2.5px;
+    border-top: 3px solid white;
+    font-size: 6.5vw;
+    font-weight: 100;
+    color: white;
+    padding: 0px 5vw;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 3px 2px 5px black;
+    max-width: fit-content;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  div.banner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 25vh;
+  }
 
+  div.banner h1 {
+    border-bottom: 0;
+    color: white;
+    font-size: 10vw;
+    font-weight: 400;
+    letter-spacing: .625vw;
+    line-height: 7.5vw;
+    margin: 7.5vh auto 21px auto;
+    max-height: 6.25vw;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0;
+    text-shadow: 3px 2px 5px black;
+    width: fit-content;
+    z-index: 5500;
+  }
+
+  div.banner h2 {
+    margin: 1.25vh auto 0 auto;
+    letter-spacing: 2.5px;
+    border-top: 3px solid white;
+    font-size: 6.5vw;
+    font-weight: 100;
+    color: white;
+    padding: 0px 5vw;
+    vertical-align: middle;
+    text-align: center;
+    text-shadow: 3px 2px 5px black;
+    max-width: fit-content;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
