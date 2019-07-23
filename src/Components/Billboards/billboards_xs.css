@@ -70,7 +70,7 @@
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;
     min-width: 100%;
-    min-height: 55vh;
+    min-height: 60vh;
   }
 
   div.billboard p.subtitle {
