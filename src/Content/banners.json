@@ -6,20 +6,20 @@
     "view": "home"
   },
   "dining": {
-    "title": "Welcome",
-    "subtitle": "To Dining",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Dining",
     "image": "dining-banner.jpg",
     "view": "dining"
   },
   "getting-here": {
-    "title": "Welcome",
-    "subtitle": "To Where are we",
+    "title": "Nuevo Vallarta",
+    "subtitle": "Getting Here",
     "image": "getting-here-banner.jpg",
     "view": "getting-here"
   },
   "entertainment": {
-    "title": "Welcome",
-    "subtitle": "To Paradise",
+    "title": "Entertainment",
+    "subtitle": "Nuevo Vallarta",
     "image": "entertainment-banner.jpg",
     "view": "entertainment"
   },
@@ -42,8 +42,8 @@
     "view": "golf"
   },
   "new-offerings": {
-    "title": "Welcome",
-    "subtitle": "What's New",
+    "title": "What's New",
+    "subtitle": "",
     "image": "whats-new-banner.jpg",
     "view": "new-offerings"
   },
@@ -54,50 +54,50 @@
     "view": "rooms"
   },
   "two-bedroom-suite": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Two Bedroom Suites",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "two-bedroom-presidential-villa": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Two Bedroom Presidential Villa",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "three-bedroom-presidential-villa": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Three Bedroom Presidential Villa",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "two-bedroom-spa-suite": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Two Bedroom Spa Suite",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "three-bedroom-spa-suite": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Three Bedroom Spa Suite",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "two-bedroom-residence-loft": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Two Bedroom Residence Loft",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "three-bedroom-residence-loft": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Three Bedroom Residence Loft",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
   "four-bedroom-residence": {
-    "title": "Nuevo Vallarta",
-    "subtitle": "Rooms & Suites",
+    "title": "Rooms & Suites",
+    "subtitle": "Four Bedroom Residences",
     "image": "rooms-banner.jpg",
     "view": "rooms"
   },
