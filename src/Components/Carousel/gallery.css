@@ -18,7 +18,19 @@ div.image {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  div.carousel {
+    margin: 5vh 2vw;
+    min-height: 30vh;
+    text-align: center;
+  }
 
+  div.carousel img.carousel-image {
+    max-width: 100%;
+    height: auto;
+    min-height: 50vh;
+    max-height: 50vh;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

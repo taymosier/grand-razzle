@@ -1,10 +1,60 @@
 @media (min-width: 768px) and (max-width: 991px) {
+  div.billboard div.text-container {
+
+  }
+
+  div.billboard div.filter {
+
+  }
+
+  div.billboard a.button {
+    border: 2px outset white;
+    box-shadow: 1px 2px 3px 0px black;
+    color: white;
+    display: block;
+    font-size: 2.1vw;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 30px auto 20px auto;
+    max-width: fit-content;
+    padding: 5px 25px;
+    text-align: right;
+    text-shadow: 1px 2px black;
+    transition: .25s ease-in;
+    position: sticky;
+    top: 80%;
+  }
+
+  div.billboard a.button:hover {
+    border: 2px outset white;
+    box-shadow: 1px 2px 3px 0px black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 1em;
+  }
+
   div.billboard.with-image img {
     max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
   }
 
   div.billboard div.image-container {
     max-width: 100%;
   }
+
+  div.billboard.map div.left-col  div.wrapper div.googleMap {
+    min-height: 40vh;
+    min-width: 100%;
+    max-width: 100%;
+    margin: 1vh 0 2vh 0;
+    float: left;
+    z-index: 1250;
+  }
+
+
 
 }

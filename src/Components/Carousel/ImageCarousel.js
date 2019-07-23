@@ -44,7 +44,11 @@ export class ImageCarousel extends Component {
 
   render(){
     if(this.state.images !== null && this.state.images !== undefined){
-      return(this.state.images[this.state.active])
+      return(
+        <div className="carousel">
+          {this.state.images[this.state.active]}
+        </div>
+      )
     }
     return <div></div>;
   }

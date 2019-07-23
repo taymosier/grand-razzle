@@ -15,14 +15,15 @@ export class CarouselImage extends Component {
       image: this.props.image,
       style: {
         "backgroundImage": `url(${require("../../../public/images/galleries/" + this.props.image.folder + "/" + this.props.image.src)})`
-      }
+      },
+      src: require("../../../public/images/galleries/" + this.props.image.folder + "/" + this.props.image.src)
     })
   }
 
   render(){
     return(
       this.state.image !== null
-      ? <div className={"image"} onClick={this.props.nextImage} style={this.state.style} />
+      ? <img className={"carousel-image"} onClick={this.props.nextImage} src={this.state.src} />
       : null
     )
   }
