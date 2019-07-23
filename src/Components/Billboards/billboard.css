@@ -46,10 +46,6 @@
     z-index: 101;
   }
 
-  div.billboard div.flavor-text-container {
-    position: sticky;
-    top: 10%;
-  }
 
   div.billboard div.image-col {
     min-height: 50vh;
@@ -69,7 +65,7 @@
     padding: 0vh 0;
   }
 
-  
+
 
 
   div.billboard div.text-container {

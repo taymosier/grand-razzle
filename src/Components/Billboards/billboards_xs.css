@@ -52,6 +52,11 @@
     text-shadow: -1px 0.5px 2.5px black;
   }
 
+  div.billboard div.flavor-text-container {
+    position: sticky;
+    top: 10%;
+    padding: 0 .15vw;
+  }
 
   div.billboard div.image-container {
     max-width: 100%;

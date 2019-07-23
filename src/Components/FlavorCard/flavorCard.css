@@ -35,21 +35,23 @@ div.flavor-card p.flavor-text {
   min-height: fit-content;
 }
 
-@media (max-width: 420px) {
-
-}
-
-@media (min-width: 420px) and (max-width: 575px) {
+@media  (max-width: 575px) {
   div.flavor-card p.flavor-text {
     background: transparent;
     border: 0;
     box-shadow: none;
     color: white;
-    line-height: 5.5vw;
-    font-size: 5vw;
+    font-family: "Alegreya Sans";
+    font-size: 5.5vw;
+    line-height: 6vw;
+    min-height: fit-content;
+    padding: 1vh 0;
     text-align: center;
     text-shadow: 2px 1.5px 1.5px black;
-    min-height: fit-content;
+  }
+
+  div.flavor-card div.text-container {
+    padding: 0 1vw;
   }
 }
 

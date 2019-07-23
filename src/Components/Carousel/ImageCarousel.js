@@ -47,6 +47,7 @@ export class ImageCarousel extends Component {
       return(
         <div className="carousel">
           {this.state.images[this.state.active]}
+          <p className={"text"}>Click Image To Browse</p>
         </div>
       )
     }
