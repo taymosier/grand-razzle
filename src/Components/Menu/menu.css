@@ -83,6 +83,7 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
     min-width: 100%;
     padding: 0;
     justify-content: center;
+    margin: 0;
   }
 
   div.menu ul.menu-button-list li.menu-item {
