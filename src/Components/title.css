@@ -6,11 +6,15 @@ div.title {
   text-shadow: 2.25px 2px 3.5px black;
 }
 
-@media (max-width: 420px) {
-
-}
-
-@media (min-width: 420px) and (max-width: 575px) {
+@media (max-width: 575px) {
+  div.title {
+    border-bottom: .85px solid darkgrey;
+    color: white;
+    font-size: 4.5vw;
+    min-width: 100%;
+    text-align: center;
+    text-shadow: 2.25px 2px 3.5px black;
+  }
 
 }
 
