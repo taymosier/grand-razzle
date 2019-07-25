@@ -1,0 +1,22 @@
+div.contact-form {
+
+}
+
+div.modal-dialog.contact-form {
+  min-height: 60vh;
+  margin: 15vh auto;
+}
+
+div.modal-dialog.contact-form div.modal-content {
+  min-height: 60vh;
+}
+
+button.menu-toggle {
+  position: absolute;
+  left: 90%;
+  top: 1.25%;
+}
+
+button.menu-toggle img {
+  max-width: 50px;
+}

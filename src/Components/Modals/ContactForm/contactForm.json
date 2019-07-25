@@ -1,0 +1,162 @@
+{
+  "first-name" : {
+    "label": {
+      "for": "first-name",
+      "text": "First Name"
+    },
+    "input": {
+      "type": "text",
+      "name": "first-name",
+      "id": "firstName",
+      "placeholder": "First Name"
+    }
+  },
+
+  "last-name" : {
+    "label": {
+      "for": "last-name",
+      "text": "Last Name"
+    },
+    "input": {
+      "type": "text",
+      "name": "last-name",
+      "id": "lastName",
+      "placeholder": "Last Name"
+    }
+  },
+
+  "email" : {
+    "label": {
+      "for": "email",
+      "text": "Email"
+    },
+    "input": {
+      "type": "email",
+      "name": "email",
+      "id": "exampleEmail",
+      "placeholder": "PLACEHOLDER"
+    }
+  },
+
+  "phone" : {
+    "label": {
+      "for": "phone",
+      "text": "Phone"
+    },
+    "input": {
+      "type": "number",
+      "name": "phone",
+      "id": "phone",
+      "placeholder": "Phone Number"
+    }
+  },
+
+  "room-type" : {
+    "label": {
+      "for": "rooms",
+      "text": "Rooms"
+    },
+    "select": {
+      "options": [
+        "Select Available Room",
+        "Three Bedroom Presidential Villa"
+      ],
+      "multiple": false,
+      "name": "room-type",
+      "id": "roomType",
+      "placeholder": ""
+    }
+  },
+
+  "comments": {
+    "label": {
+      "for": "comments",
+      "text": "Comments"
+    },
+    "textarea": {
+      "id": "commentsTextBox",
+      "name": "comments",
+      "placeholder": ""
+    }
+  },
+
+  "arrival-date" : {
+    "label": {
+      "for": "arrival-date",
+      "text": "Desired Arrival Date"
+    },
+    "input": {
+      "type": "date",
+      "name": "arrival-date",
+      "id": "arrivalDateField",
+      "placeholder": "Arrival Date"
+    }
+  },
+
+  "departure-date" : {
+    "label": {
+      "for": "departure-date",
+      "text": "Desired Departure Date"
+    },
+    "input": {
+      "type": "date",
+      "name": "departure-date",
+      "id": "departureDateField",
+      "placeholder": "Departure Date"
+    }
+  },
+
+  "street-address" : {
+    "input": {
+      "type": "date",
+      "name": "street-address",
+      "id": "streetAddress",
+      "placeholder": "Street Address"
+    }
+  },
+
+  "unit-number": {
+    "input": {
+      "type": "text",
+      "name": "unit-number",
+      "id": "departureDateField",
+      "placeholder": "Suite - P.O. Box - Apt - Unit"
+    }
+  },
+
+  "city": {
+    "input": {
+      "type": "text",
+      "name": "city",
+      "id": "city",
+      "placeholder": "City"
+    }
+  },
+
+  "state": {
+    "input": {
+      "type": "text",
+      "name": "state",
+      "id": "state",
+      "placeholder": "State"
+    }
+  },
+
+  "country": {
+    "input": {
+      "type": "text",
+      "name": "country",
+      "id": "coutnry",
+      "placeholder": "Country"
+    }
+  },
+
+  "zipcode": {
+    "input": {
+      "type": "text",
+      "name": "zipcode",
+      "id": "zipcode",
+      "placeholder": "Zipcode"
+    }
+  }
+}

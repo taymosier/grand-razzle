@@ -76,6 +76,7 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
     float: left;
     min-height: fit-content;
     padding: 2px;
+    z-index: 0;
   }
 
   div.menu ul.menu-button-list {

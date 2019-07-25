@@ -22,7 +22,7 @@ div.flavor-card div.card-filter {
 }
 
 div.flavor-card div.text-container {
-  z-index: 150000;
+  z-index: 150;
 }
 
 div.flavor-card p.flavor-text {
