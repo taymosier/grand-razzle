@@ -14,10 +14,18 @@ export class Menu extends Component {
           "md": { "size": "0", "offset": "0" },
           "sm": { "size": "0", "offset": "0" },
           "xs": { "size": "12", "offset": "0" }
-        }
+        },
+        collapsed: true
     };
-
+    this.toggleNavbar = this.toggleNavbar.bind(this);
   }
+
+  toggleNavbar(){
+    this.setState({
+      collapsed: !this.state.collapsed
+    })
+  }
+
   render(){
     return(
       <Col
@@ -28,9 +36,14 @@ export class Menu extends Component {
         sm={this.state.size.sm}
         xs={this.state.size.xs}
       >
-        <ul className={"menu-button-list"}>
-          {buttons.map((button) => { return <MenuButton button={button} key={button.label}/> })}
-        </ul>
+        <Navbar color="faded" light>
+          <NavbarToggler onClick={this.toggleNavbar}/>
+            <Collapse isOpen={!this.state.collapsed} navbar>
+              <Nav className={"menu-button-list"}>
+                {buttons.map((button) => { return <MenuButton button={button} key={button.label}/> })}
+              </Nav>
+            </Collapse>
+        </Navbar>
       </Col>
     )
   }

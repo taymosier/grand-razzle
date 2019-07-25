@@ -5,7 +5,7 @@ div.menu {
 }
 
 div.menu ul.menu-button-list {
-  padding: 10vh 0 0 0;
+  padding: 0;
 
 }
 
@@ -15,11 +15,12 @@ div.menu ul.menu-button-list  li.menu-item {
   max-height: 60px;
   font-size: 1.75vw;
   min-width: 100%;
+  margin: 1.25vh 0 0 0;
 }
 
 div.menu ul.menu-button-list  li.menu-item div.button-filter {
   background: #35768C;
-  min-width: 93%;
+  min-width: 88%;
   min-height: 60px;
   max-height: 100%;
   opacity: .3;
@@ -27,6 +28,7 @@ div.menu ul.menu-button-list  li.menu-item div.button-filter {
   transition: .3s linear;
   z-index: 1000;
 }
+
 
 div.menu ul.menu-button-list  li.menu-item:hover div.button-filter {
   background: linear-gradient(60deg, #e5E9f9 5%, #35768C 100% );
@@ -51,7 +53,7 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button {
   font-size: 28px;
   font-weight: 400;
   letter-spacing: 1px;
-  margin: 12.5px 0 0;
+  margin: 0;
   max-height: 80px;
   min-height: fit-content;
   min-width: 100%;

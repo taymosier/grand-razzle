@@ -14,10 +14,14 @@ div.modal-dialog.contact-form div.modal-content {
 button.menu-toggle {
   position: fixed;
   left: 95%;
-  top: 1.25%;
+  top: 1%;
   z-index: 102;
 }
 
 button.menu-toggle img {
-  max-width: 50px;
+  max-width: 30px;
+}
+
+button.menu-toggle {
+  padding: 1px 5px;
 }
