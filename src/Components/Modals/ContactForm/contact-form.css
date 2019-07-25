@@ -12,9 +12,10 @@ div.modal-dialog.contact-form div.modal-content {
 }
 
 button.menu-toggle {
-  position: absolute;
-  left: 90%;
+  position: fixed;
+  left: 95%;
   top: 1.25%;
+  z-index: 102;
 }
 
 button.menu-toggle img {
