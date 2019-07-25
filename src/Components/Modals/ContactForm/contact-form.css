@@ -23,6 +23,6 @@ button.contact-toggle img {
 
 button.contact-toggle {
   background: transparent;
-  border-color: rgba(0, 0, 0, 0.1);
+  border: none;
   padding: .5rem 1rem;
 }
