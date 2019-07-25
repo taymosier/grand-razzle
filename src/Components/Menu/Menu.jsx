@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Col, Collapse, Nav, Navbar, NavbarToggler } from 'reactstrap';
+import { ContactModal } from '../Modals/ContactForm/ContactModal';
 import { MenuButton } from './MenuButton';
 import './menu.css';
 import buttons from './buttons.json'
@@ -44,6 +45,7 @@ export class Menu extends Component {
               </Nav>
             </Collapse>
         </Navbar>
+        <ContactModal />
       </Col>
     )
   }

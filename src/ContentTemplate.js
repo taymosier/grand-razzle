@@ -8,7 +8,6 @@ import { FlavorCard } from './Components/FlavorCard/FlavorCard';
 import { Toolbox } from './Components/Toolbox/Toolbox';
 import { ImageCarousel } from './Components/Carousel/ImageCarousel';
 import { ThumbnailGrid } from './Components/ThumbnailGrid/ThumbnailGrid';
-import { ContactModal } from './Components/Modals/ContactForm/ContactModal';
 
 
 import galleries from './Content/galleries.json';
@@ -74,7 +73,6 @@ export class ContentTemplate extends Component {
     if(this.state.view !== undefined){
       return(
         <Container className={`${this.state.view}-page`}>
-          <ContactModal />
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
             <Menu />
