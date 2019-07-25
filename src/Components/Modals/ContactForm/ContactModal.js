@@ -25,7 +25,7 @@ export class ContactModal extends Component {
     console.log(Object.keys(contactForm))
     return(
       <div>
-        <Button className={"menu-toggle"} color="primary" onClick={this.toggle}>
+        <Button className={"menu-toggle"} onClick={this.toggle}>
           <img src={require(`./contact.svg`)} />
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
