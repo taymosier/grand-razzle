@@ -5,7 +5,6 @@ import { Banner } from './Components/Banners/Banner';
 import { Menu } from './Components/Menu/Menu';
 import { PageTitle } from './Components/PageTitle';
 import { FlavorCard } from './Components/FlavorCard/FlavorCard';
-import { Toolbox } from './Components/Toolbox/Toolbox';
 import { ImageCarousel } from './Components/Carousel/ImageCarousel';
 import { ThumbnailGrid } from './Components/ThumbnailGrid/ThumbnailGrid';
 

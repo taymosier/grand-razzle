@@ -24,7 +24,7 @@ export class ContactModal extends Component {
   render(){
     console.log(Object.keys(contactForm))
     return(
-      <div>
+      <div className={"contact-toggle-container"}>
         <Button className={"contact-toggle"} onClick={this.toggle}>
           <img src={require(`./contact.svg`)} />
         </Button>

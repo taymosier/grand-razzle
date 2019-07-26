@@ -4,6 +4,14 @@ div.menu {
   padding-right: 5px;
 }
 
+div.menu nav.navbar button.navbar-toggler {
+  min-height: 50px;
+}
+
+div.menu button.contact-toggle {
+  min-height: 50px;
+}
+
 div.menu ul.menu-button-list {
   padding: 0;
 
@@ -70,6 +78,10 @@ div.menu ul.menu-button-list  li.menu-item a.menu-button:hover {
   font-size: 30px;
   padding: 5px 0 .25em 10px;
   text-decoration: none;
+}
+
+div.menu nav.navbar {
+  float: left;
 }
 
 @media (max-width: 575px) {

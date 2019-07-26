@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Collapse, Nav, Navbar, NavbarToggler } from 'reactstrap';
 import { ContactModal } from '../Modals/ContactForm/ContactModal';
+import { HelpModal } from '../Modals/HelpModal/HelpModal'
 import { MenuButton } from './MenuButton';
 import './menu.css';
 import buttons from './buttons.json'
@@ -46,6 +47,7 @@ export class Menu extends Component {
             </Collapse>
         </Navbar>
         <ContactModal />
+        <HelpModal />
       </Col>
     )
   }

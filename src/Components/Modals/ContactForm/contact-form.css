@@ -11,18 +11,24 @@ div.modal-dialog.contact-form div.modal-content {
   min-height: 60vh;
 }
 
+div.contact-toggle-container {
+  float: left;
+  max-width: fit-content;
+  padding: .5rem 1rem;
+  min-height: 50px;
+}
+
 button.contact-toggle {
   z-index: 102;
-  margin: .5rem .25rem;
   justify-content: space-between;
 }
 
 button.contact-toggle img {
-  max-width: 30px;
+  max-width: 32.5px;
 }
 
 button.contact-toggle {
   background: transparent;
-  border: none;
-  padding: .5rem 1rem;
+  border-color: rgba(0, 0, 0, 0.1);
+  padding: 0.425rem .75rem;
 }
