@@ -10,6 +10,10 @@ div.help-toggle-container button.help-toggle {
   min-height: 50px;
 }
 
+div.help-toggle-container button.help-toggle:hover {
+  background: grey;
+}
+
 div.help-toggle-container button.help-toggle img {
   background: transparent;
   max-width: 30px;

@@ -39,6 +39,8 @@ div.banner h2 {
 
 div.banner .banner-text{
   z-index: 5000;
+  min-height: 55vh;
+  padding: 10vh 0 0 0;
 }
 
 @media (max-width: 575px) {

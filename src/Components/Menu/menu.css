@@ -8,6 +8,10 @@ div.menu nav.navbar button.navbar-toggler {
   min-height: 50px;
 }
 
+div.menu nav.navbar button.navbar-toggler:hover {
+  background: grey;
+}
+
 div.menu button.contact-toggle {
   min-height: 50px;
 }
