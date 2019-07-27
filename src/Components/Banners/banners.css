@@ -88,7 +88,11 @@ div.banner .banner-text{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 25vh;
+    min-height: 20vh;
+  }
+
+  div.banner div.filter {
+    min-height: 35vh;
   }
 
   div.banner h1 {
@@ -121,11 +125,21 @@ div.banner .banner-text{
     text-shadow: 3px 2px 5px black;
     max-width: fit-content;
   }
+
+  div.banner .banner-text {
+    z-index: 5000;
+    min-height: 35vh;
+    padding: 5vh 0 0 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   div.banner {
     min-height: 25vh;
+  }
+
+  div.banner div.filter {
+    min-height: 55vh;
   }
 
   div.banner .banner-text {
@@ -198,8 +212,14 @@ div.banner .banner-text{
     text-shadow: 3px 2px 5px black;
     max-width: 50vw;
   }
+
+  div.banner div.filter {
+    min-height: 55vh;
+  }
 }
 
 @media (min-width: 1200px) {
-
+  div.banner div.filter {
+    min-height: 55vh;
+  }
 }

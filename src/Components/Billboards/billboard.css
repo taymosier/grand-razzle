@@ -110,7 +110,7 @@
     margin: 4vh 1vw;
     max-width: 100%;
     max-height: fit-content;
-    min-height: fit-content;
+    min-height: 65vh;
     min-width: 100%;
     padding: 0;
     position: relative;
@@ -183,10 +183,7 @@
   }
 
 
-  div.billboard div.image-col div.image-container {
-    margin: auto;
-    padding: 0vh 0;
-  }
+
 
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;

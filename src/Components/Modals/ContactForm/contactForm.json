@@ -108,7 +108,7 @@
 
   "street-address" : {
     "input": {
-      "type": "date",
+      "type": "text",
       "name": "street-address",
       "id": "streetAddress",
       "placeholder": "Street Address"

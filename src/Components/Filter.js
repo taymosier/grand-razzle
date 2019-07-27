@@ -6,7 +6,6 @@ export class Filter extends Component {
     this.state = {
       style: {
         "minWidth": "100vw",
-        "minHeight": "55vh",
         "maxWidth": "100vw",
         "background": "black",
         "width": "100vw",
@@ -20,7 +19,7 @@ export class Filter extends Component {
 
   render(){
     return(
-      <div style={this.state.style}/>
+      <div className="filter" style={this.state.style}/>
     )
   }
 }
