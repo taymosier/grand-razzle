@@ -52,7 +52,7 @@ div.modal-dialog.help div.modal-content div.help.modal-body {
 
 div.modal-dialog.help div.modal-content div.help.modal-body div.help {
   float: left;
-  max-width: 25%;
+  max-width: 100%;
   min-height: 65vh;
 }
 
@@ -66,24 +66,55 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help h3 {
 }
 
 div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
-  font-size: 1.25vw;
-  line-height: 1.5vw;
+  font-size: 2.75vw;
+  line-height: 3vw;
   padding: 10px 20px;
   text-align: center;
   margin: 5vh 0 0 0;
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 575px) {
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help {
+    float: left;
+    max-width: 100%;
+    min-height: 65vh;
+  }
 
-}
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help h3 {
+      text-align: center;
+      margin: 2.5vh 0 0 0;
+  }
 
-@media (min-width: 420px) and (max-width: 575px) {
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
+    font-size: 5.75vw;
+    line-height: 6.5vw;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5vh 0 0 0;
+  }
 
+  div.modal-dialog.help div.modal-content div.modal-header {
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
+  div.modal-dialog.help div.modal-footer {
+    padding: 0;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help {
+    float: left;
+    max-width: 100%;
+    min-height: 65vh;
+  }
 
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help h3 {
+      text-align: center;
+      margin: 2.5vh 0 0 0;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
