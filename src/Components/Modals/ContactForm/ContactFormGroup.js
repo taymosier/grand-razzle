@@ -7,20 +7,25 @@ export class ContactFormGroup extends Component {
     super(props);
     this.state = {
       group: this.props.group,
-      key: this.props.key
+      key: this.props.key,
+      category: this.props.group.category,
+      active: this.props.active
     }
   }
 
-  componentDidMount(){
-    this.setState({
-
-    })
+  componentDidUpdate(){
+    if(this.props.active !== undefined && this.state.active !== this.props.active){
+      this.setState({
+        active: this.props.active
+      })
+    }
   }
 
   render(){
-
+    let style;
+    this.state.category === this.state.active ? style = null : style = {"display": "none"}
     return(
-      <FormGroup>
+      <FormGroup style={style}>
         {Object.keys(this.state.group).map((fieldKey)=> {
           return <FieldGenerator key={fieldKey} fieldType={fieldKey} field={this.state.group[fieldKey]} />
         })}

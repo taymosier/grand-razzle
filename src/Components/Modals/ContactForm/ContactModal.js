@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { ContactForm } from './ContactForm';
+import { ContactNavigator } from './ContactNavigator';
 import "./contact-form.css";
 var contactForm = require('./contactForm.json');
 
@@ -10,9 +11,11 @@ export class ContactModal extends Component {
     super(props);
     this.state = {
       groups: contactForm,
-      modal: false
+      modal: false,
+      active: "Basic"
     }
     this.toggle = this.toggle.bind(this);
+    this.setActive = this.setActive.bind(this);
   }
 
   componentDidMount(){
@@ -27,6 +30,13 @@ export class ContactModal extends Component {
     })
   }
 
+  setActive(e){
+    e.preventDefault();
+    this.setState({
+      active: `${e.target.value}`
+    })
+  }
+
   render(){
     console.log(Object.keys(contactForm))
     return(
@@ -36,8 +46,10 @@ export class ContactModal extends Component {
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
           <ModalHeader toggle={this.toggle}>Contact Us</ModalHeader>
-          <ModalBody><ContactForm groups={this.state.groups}/></ModalBody>
-          <ModalFooter></ModalFooter>
+          <ModalBody><ContactForm groups={this.state.groups} active={this.state.active}/></ModalBody>
+          <ModalFooter>
+            <ContactNavigator setActive={this.setActive}/>
+          </ModalFooter>
         </Modal>
       </div>
     )

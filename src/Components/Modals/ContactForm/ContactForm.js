@@ -8,7 +8,8 @@ export class ContactForm extends Component {
     super(props);
     this.state ={
       modal: false,
-      groups: this.props.groups
+      groups: this.props.groups,
+      active: this.props.active
     }
   }
 
@@ -18,13 +19,21 @@ export class ContactForm extends Component {
     })
   }
 
+  componentDidUpdate(){
+    if(this.props.active !== undefined && this.state.active !== this.props.active){
+      this.setState({
+        active: this.props.active
+      })
+    }
+  }
+
 
   render(){
     console.log(`This state group length: ${this.state.groups["first-name"].label.text}`)
   return(
     <Form>
       {Object.keys(this.state.groups).map((groupKey) => {
-        return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} />
+        return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} active={this.state.active}/>
       })}
     </Form>
     )
