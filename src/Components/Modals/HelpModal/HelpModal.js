@@ -12,6 +12,12 @@ export class HelpModal extends Component {
     this.toggle = this.toggle.bind(this);
   }
 
+  componentDidMount(){
+    this.setState({
+      icon: "./info.png"
+    })
+  }
+
   toggle(){
     this.setState({
       modal: !this.state.modal
@@ -22,7 +28,7 @@ export class HelpModal extends Component {
     return(
       <div className={"help-toggle-container"}>
         <Button className={"help-toggle"} onClick={this.toggle}>
-          <img src={require(`./info.png`)} />
+          {this.state.icon !== undefined ? <img src={require(`${this.state.icon}`)} /> : null }
         </Button>
         <Modal className="help" isOpen={this.state.modal} toggle={this.toggle} >
           <ModalHeader toggle={this.toggle}>

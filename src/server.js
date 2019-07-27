@@ -36,7 +36,7 @@ server
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
-        <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,500,600,700|Montserrat:500|Oxygen|Muli|Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,500,600,700|Darker+Grotesque:300,400|Quicksand:300,400|Montserrat:500|Oxygen|Muli|Open+Sans" rel="stylesheet">
         <title>Grand Luxxe Rentals</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         ${

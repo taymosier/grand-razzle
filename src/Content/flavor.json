@@ -14,6 +14,54 @@
       "es":  "**Needs Translation**"
     }
   ],
+  "two-bedroom-suite": [
+    {
+      "en": "This elegant quarters is a two-bedroom, two-and-a-half bath suite of approximately 3,000 square feet, with two king-size beds or one king-size bed and two double beds, two and a half bathrooms with two Jacuzzi tubs, a relaxing terrace with a private plunge pool, master bedroom has a private terrace, gourmet kitchen, dining room, two living areas with sleeper sofas, and three 42\" LED TVs. Accommodates 8 adults.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "two-bedroom-presidential-villa": [
+    {
+      "en": "This elegant quarters has two bedrooms with one king size bed and two double beds, two and a half bath suite with two Jacuzzi tubs, a gourmet kitchen, a dining room, a living room with a sleeper sofa, a relaxing terrace with a private plunge pool and all of approximately 3,000 square feet.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "three-bedroom-presidential-villa": [
+    {
+      "en": "These quarters have the same features as above except there are three bedrooms with two king-size beds and two double beds, three and a half baths with a Jacuzzi tub in each, a private terrace with two plunge pools, two gourmet kitchens, two dining rooms, two living rooms with a sleeper sofa in each, five TVs and approximately 4,370 square feet.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "two-bedroom-spa-suite": [
+    {
+      "en": "This luxurious quarters offers two bedrooms with a king-size bed in each, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a lengthy private terrace with a plunge pool, an additional private deck, a gourmet kitchen, one living area with sleeper sofas, three TVs and approximately square feet.",
+      "es": "Needs Translation"
+    }
+  ],
+  "three-bedroom-spa-suite": [
+    {
+      "en": "This luxurious quarters offers two bedrooms with a king-size bed in each, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a lengthy private terrace with a plunge pool, an additional private deck, a gourmet kitchen, one living area with sleeper sofas, three TVs and approximately **** square feet.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "two-bedroom-residence-loft": [
+    {
+      "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "three-bedroom-residence-loft": [
+    {
+      "en": "This exquisite two-story space has the same features as above except there are three bedrooms. It includes on the first floor a bedroom with king-size bed, a bathroom with Jacuzzi tub, a bathroom with shower, a gourmet kitchen, kitchen island and bar, dining table, living room with TV area, and laundry room with washer and dryer. The luxurious terrace features a dining table, comfortable daybed, two cushioned armchairs and a plunge pool. The unit’s second floor has a bedroom with a king bed and Jacuzzi tub, a bedroom with two double beds, full bathroom with shower, a living room with TV area. This unit also includes 4 TVs and is 5,190 square feet.",
+      "es": "**Needs Translation**"
+    }
+  ],
+  "four-bedroom-residence": [
+    {
+      "en": "This “over the top” luxurious residence exquisite views and is accessed directly by your private elevator using your ID bracelet. It offers two bedrooms with king-size beds, two bedrooms with double beds and four full bathrooms with a Jacuzzi tub in each and one half bathroom. There is a gourmet kitchen, kitchen island and bar, wine bar, dining table for 10 people and living room with TV. It has two terraces, one with an outdoor dining area and plunge pool. This unit has 5 TVs and is 6,000 square feet.",
+      "es": "**Needs Translation**"
+    }
+  ],
   "what-to-do": [
     {
       "en":"Guests of all ages can choose to spend each day at Grand Luxxe Resort differently or the same. There are many opportunities to have new experiences from Mexican cultural experiences to basking in this sunny paradise near the ocean or pool. The resort offers a vast number of activities to explore as well as multiple gorgeous pools and water featured landscapes of beauty. Grand Luxxe has exquisite resort shopping with products from Mexico and other countries around the world.",
@@ -32,12 +80,38 @@
       "es": "**Needs Translation**"
     }
   ],
-  "spa": [
+
+  "the-nayar-course": [
     {
-      "en":"Treat yourself to a pampering like no other. You deserve to be renewed and restored. Embrace the unique wellness treatments that will bring you peace and serenity from head to toe. The choice of two exquisite spas are ready to rejuvenate your body, mind and spirit to a new ecstasy. You will have the best spa experience of your life. ",
+      "en":"Surrounded by lush jungle and the Sierra Madre Mountains on one side and the Pacific on the other, The Nayar Course is a joy for every player, from your low to high handicap. But with seven lakes, 49 strategically placed bunkers, and constant, strong crosswinds coming off of the ocean, this course always presents a challenge.",
       "es": "**Needs Translation"
     }
   ],
+  "the-norman-signature-course": [
+    {
+      "en":"The Norman Signature Course offers the finest in golf with unsurpassed course conditioning and wall-to-wall paspalum playing surfaces. The layout winds along the Ameca River, providing views of the Sierra Madres from every hole. Large landing areas off the tee give way to large undulating greens protected, in typical Norman fashion, by cavernous bunkers.",
+      "es": "**Needs Translation"
+    }
+  ],
+  "spa": [
+    {
+      "en": "Treat yourself to a pampering like no other. You deserve to be renewed and restored. Embrace the unique wellness treatments that will bring you peace and serenity from head to toe. The choice of two exquisite spas are ready to rejuvenate your body, mind and spirit to a new ecstasy. You will have the best spa experience of your life.",
+      "es": "**Needs Translation"
+    }
+  ],
+  "brio spa": [
+    {
+      "en": "Brio Spa provides you with a complete selection of treatments that taps into an array of authentic cultural methods from all over the world. Embrace the healing and restoration that Brio Spa will offer you.",
+      "es": "**Needs Translation"
+    }
+  ],
+  "spatium": [
+    {
+      "en": "There is a spectrum of luscious treatments in the categories of traditional, holistic and themes. Your journey can be the design of your choosing along with rituals and natural ingredients from Mexico. Let go, release and enjoy. You deserve it.",
+      "es": "**Needs Translation**"
+    }
+  ],
+
   "entertainment": [
     {
       "en":"As the evening approaches, that’s when the resort starts rocking with a variety of entertainment choices. Light shows that leave you speechless. Party celebrations with food, music, culture and fun. Professional entertainers: musicians, dancers, acrobatics, singers, clowning and unique artists’ offerings. It’s up to you which way you prefer to take on the night and have an amazing fun time.",

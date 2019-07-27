@@ -127,6 +127,45 @@ div.banner .banner-text{
   div.banner {
     min-height: 25vh;
   }
+
+  div.banner .banner-text {
+    z-index: 5000;
+    min-height: 55vh;
+    padding: 10vh 0 0 0;
+  }
+
+  div.banner h1 {
+    border-bottom: 0;
+    color: white;
+    font-size: 9.5vw;
+    font-weight: 400;
+    letter-spacing: .625vw;
+    line-height: 7.5vw;
+    margin: 0px auto 21px auto;
+    max-height: 6.25vw;
+    max-width: fit-content;
+    min-width: fit-content;
+    padding: 0;
+    text-shadow: 3px 2px 5px black;
+    width: fit-content;
+    z-index: 5500;
+  }
+
+  div.banner h2 {
+    border-top: 3px solid white;
+    color: white;
+    font-size: 7.5vh;
+    font-weight: 100;
+    letter-spacing: 2.5px;
+    margin: 1.25vh auto 0 auto;
+    max-width: fit-content;
+    padding: 0px 5vw;
+    text-align: center;
+    text-shadow: 3px 2px 5px black;
+    vertical-align: middle;
+  }
+
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

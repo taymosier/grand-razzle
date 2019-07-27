@@ -287,31 +287,9 @@
     text-align: center;
   }
 
-  div.billboard a.button {
-    background: #35768C;
-    border: 2px outset white;
-    box-shadow: 1px 2px 3px 0px black;
-    color: white;
-    display: block;
-    font-size: 2.1vw;
-    font-weight: 300;
-    margin: 30px auto 20px auto;
-    max-width: fit-content;
-    min-width: 100%;
-    padding: 5px 25px;
-    position: sticky;
-    text-align: center;
-    text-shadow: 1px 2px black;
-    transition: .25s ease-in;
-    top: 85%;
-  }
 
-  div.billboard a.button:hover {
-    border: 2px inset white;
-    box-shadow: 1px 2px 8px 0px silver;
-    letter-spacing: 1.25px;
-    text-decoration: none;
-  }
+
+
 
   div.billboard div.billboardImage {
     background-size: cover;
@@ -346,15 +324,6 @@
     top: 10%;
   }
 
-  div.billboard p.flavor-text{
-    font-size: 3.15vh;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 3.5vh;
-    color: white;
-    text-shadow: -1px 0.5px 2.5px black;
-  }
-
   div.billboard div.image-col {
     min-height: 35vh;
     padding: 0 0 0 0;
@@ -376,13 +345,6 @@
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;
     min-width: 100%;
-  }
-
-  div.billboard p.subtitle {
-    font-size: 3vh;
-    color: white;
-    text-shadow: -2px 1px 3px black;
-    letter-spacing: 1px;
   }
 
   div.billboard div.text-container {
@@ -613,6 +575,48 @@
 }
 
 @media (min-width: 1200px) {
+  div.the-nayar-course-page.container div.billboard.bullets div.flavor-text-container ul {
+    margin: 0;
+  }
+
+  div.the-nayar-course-page.container div.billboard.bullets div.flavor-text-container ul li {
+    background: transparent;
+    border: none;
+    color: white;
+    display: list-item;
+    float: left;
+    font-size: 1.5vw;
+    line-height: 1.75vw;
+    list-style-type: circle;
+    margin: 0 1%;
+    max-height: fit-content;
+    max-width: 30%;
+    min-height: fit-content;
+    min-width: 30%;
+    padding: 1.25% 0 0 1%;
+    text-align: left;
+    vertical-align: bottom;
+  }
+
+  div.the-nayar-course-page.container div.billboard div.text-container {
+    border-top: 2px solid white;
+    border-bottom: none;
+    margin: 2vh auto 0 auto;
+    min-height: 46vh;
+    padding: 2vh 0 0 20px;
+    text-align: right;
+    z-index: 100;
+  }
+
+  div.the-nayar-course-page.container div.billboard p.subtitle {
+    color: white;
+    font-size: 3vh;
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+    text-shadow: -2px 1px 3px black;
+  }
+
   div.billboard {
     background: #8ECADE;
     border: 10px solid ghostwhite;
@@ -743,14 +747,28 @@
   }
 
   div.billboard.map div.right-col h5 {
+    color: white;
     font-size: 2.5vw;
+    font-weight: 300;
+    font-family: "Open Sans";
     margin: 2vh 0 0 0;
+    z-index: 1;
   }
 
   div.billboard.map div.right-col p {
+    color: white;
+    font-size: 1.25vw;
     min-height: fit-content;
     padding: 2.5vh 1.05vw;
-    font-size: 1.25vw;
+    z-index: 1;
+  }
+
+  div.billboard.map {
+    z-index: -2;
+  }
+
+  div.billboard.map div.filter {
+    z-index: -1;
   }
 
   div.billboard.no-image {
@@ -787,6 +805,7 @@
     color: white;
     text-shadow: -2px 1px 3px black;
     letter-spacing: 1px;
+    text-align: center;
   }
 
   div.billboard div.row.top-row {

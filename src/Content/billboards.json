@@ -629,7 +629,7 @@
       "title": {"en":"Course Overview","es":""},
       "key": "nayar-billboard-1",
       "subtitle":  {"en":"18 Hole Course","es":""},
-      "type": "course-details",
+      "type": "bullets",
       "text":{
         "en": ["18 Hole, Par 70", "Yards - 6,668", "Course Type - Championship", "Grass on Greens - Champions Bermuda", "Grass on Fairways - Bermuda 419", "Bunkers - 49", "Lakes - 7"],
         "es": "**Needs Translation**"
@@ -641,7 +641,7 @@
       "title": {"en":"Details & Amenities","es":""},
       "key": "nayar-billboard-2",
       "subtitle":  {"en":"18 Hole Course","es":""},
-      "type": "course-details",
+      "type": "bullets",
       "text":{
         "en": ["The Vidanta Golf Academies", "Ameca Social House", "Pro Shop", "Shoes and club rental", "Lighted practice range (open until 10:30 PM)", "Short game area", "Putting green", "Caddie service", "Bag storage", "Valet parking"],
         "es": "**Needs Translation**"

@@ -30,8 +30,8 @@ export class LinkedBillboardWithImage extends Component {
           <Col
             xl={{ size: 5, offset: 0 }}
             lg={{ size: 12, offset: 0 }}
-            md={{ size: 10, offset: 1 }}
-            sm={{ size: 10, offset: 1 }}
+            md={{ size: 12, offset: 0 }}
+            sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
             className="image-col"
           >
@@ -42,8 +42,8 @@ export class LinkedBillboardWithImage extends Component {
           <Col className="text-container"
             xl={{ size: 6, offset: 0 }}
             lg={{ size: 12, offset: 0 }}
-            md={{ size: 10, offset: 1 }}
-            sm={{ size: 10, offset: 1 }}
+            md={{ size: 12, offset: 0 }}
+            sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
           >
             <Title title={this.state.title} />

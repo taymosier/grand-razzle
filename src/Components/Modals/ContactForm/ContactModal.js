@@ -15,6 +15,12 @@ export class ContactModal extends Component {
     this.toggle = this.toggle.bind(this);
   }
 
+  componentDidMount(){
+    this.setState({
+      icon: "./contact.svg"
+    })
+  }
+
   toggle(){
     this.setState({
       modal: !this.state.modal
@@ -26,7 +32,7 @@ export class ContactModal extends Component {
     return(
       <div className={"contact-toggle-container"}>
         <Button className={"contact-toggle"} onClick={this.toggle}>
-          <img src={require(`./contact.svg`)} />
+          {this.state.icon !== undefined ? <img src={require(`${this.state.icon}`)} /> : null}
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
           <ModalHeader toggle={this.toggle}>Contact Us</ModalHeader>

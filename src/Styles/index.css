@@ -2,6 +2,10 @@
   min-width: 100vw;
 }
 
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
 body {
   background: #bce5f2 !important;
 }
