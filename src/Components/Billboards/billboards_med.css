@@ -37,6 +37,16 @@
     font-size: 3.1vw;
   }
 
+  div.billboard div.filter {
+    background: linear-gradient(0deg,black, darkslategray 10%, black 95%);
+    margin: 0;
+    min-height: 100%;
+    min-width: 100%;
+    opacity: .6;
+    position: absolute;
+    z-index: 101;
+  }
+
   div.billboard.with-image img {
     max-width: 100%;
     height: auto;
@@ -59,6 +69,11 @@
     text-shadow: -2px 1px 3px black;
   }
 
+  div.billboard.map {
+    z-index: -2;
+  }
+
+
   div.billboard.map div.left-col  div.wrapper div.googleMap {
     min-height: 40vh;
     min-width: 100%;
@@ -69,15 +84,18 @@
   }
 
   div.billboard p.flavor-text{
-    font-size: 4.75vh;
+    font-size: 4.25vh;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 5.5vh;
+    line-height: 4.5vh;
     color: white;
     padding: 3.5vh 0.5vw 2.5vh 0.5vw;
     text-shadow: -1px 0.5px 2.5px black;
   }
 
+  div.billboard.map div.filter {
+    z-index: -1;
+  }
 
 
 }
