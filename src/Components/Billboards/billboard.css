@@ -161,29 +161,14 @@
     display: contents;
   }
 
-  div.billboard div.filter {
-    background: linear-gradient(0deg,black, darkslategray 20%, black 90%);
-    margin: 0;
-    min-height: 100%;
-    position: absolute;
-    min-width: 100%;
-    opacity: .35;
-    z-index: 101;
-  }
+
 
   div.billboard div.flavor-text-container {
     position: sticky;
     top: 10%;
   }
 
-  div.billboard p.flavor-text{
-    font-size: 3.15vh;
-    font-weight: 300;
-    letter-spacing: 1px;
-    line-height: 3.5vh;
-    color: white;
-    text-shadow: -1px 0.5px 2.5px black;
-  }
+
 
   div.billboard div.image-col {
     min-height: 35vh;

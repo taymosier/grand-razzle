@@ -5,10 +5,6 @@ div.image {
   min-height: 50vh;
 }
 
-@media (max-width: 420px) {
-
-}
-
 @media (max-width: 575px) {
   div.carousel {
     display: flex;
@@ -48,13 +44,27 @@ div.image {
     min-height: 40vh;
     max-height: 40vh;
     display: flex;
+    z-index: 1;
   }
 
   div.carousel img {
     max-width: 100%;
+    min-width: 100%;
     max-height: 40vh;
+    position: absolute;
     height: auto;
     margin: 0 auto;
+    z-index: -1;
+  }
+
+  div.carousel p.text {
+    align-self: flex-end;
+    color: white;
+    margin: 0 auto;
+    line-height: 100%;
+    padding: 0 0 1.5vh 0;
+    vertical-align: middle;
+    z-index: 2;
   }
 }
 
