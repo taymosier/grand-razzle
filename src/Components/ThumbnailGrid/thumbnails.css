@@ -2,10 +2,7 @@ div.thumbnail {
   float: left;
   background-repeat: round;
   background-size: contain;
-  margin: 2% 0 0 2%;
-  max-width: 30%;
-  min-height: 40vh;
-  padding: 0;
+
   text-align: center;
   z-index: -200;
 }
@@ -158,27 +155,41 @@ div.thumbnail:hover > div.filter {
 }
 
 @media (min-width: 1200px) {
-  div.thumbnail.col {
+  div.pools-page-container div.main-content {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+
+  div.thumbnail {
+    margin: 2% 0 0 2%;
+    max-width: 30%;
+    min-height: fit-content;
+    min-width: 30%;
+    padding: 0;
+  }
+
+  div.thumbnail img.thumbnail {
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+  }
+
+  div.thumbnail div.content {
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+  }
+
+  div.thumbnail div.content p.title {
 
   }
 
-  div.thumbnail.col img.thumbnail {
+  div.thumbnail div.content div.flavor-text {
 
   }
 
-  div.thumbnail.col div.content {
-
-  }
-
-  div.thumbnail.col div.content p.title {
-
-  }
-
-  div.thumbnail.col div.content div.flavor-text {
-
-  }
-
-  div.thumbnail.col div.filter {
+  div.thumbnail div.filter {
 
   }
 }
