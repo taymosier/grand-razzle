@@ -29,7 +29,7 @@ export class ContactNavigator extends Component {
                 "float": "left",
                 "background": `${this.state.active}` === `${categories[i]}` ? "#35768C" : "grey",
                 "maxWidth": "fit-content",
-                "margin": "0 auto",
+                "margin": "1vh auto .5vh auto",
                 "minWidth": "24%",
                 "borderRadius": "0",
                 "marginBottom": ".5vh"

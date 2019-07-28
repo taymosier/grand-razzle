@@ -75,6 +75,17 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 
 
 @media (max-width: 575px) {
+  div.help-toggle-container {
+    padding: .5rem;
+    display: flex;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+
+  div.help-toggle-container button.help-toggle:hover {
+    background: #3f93b0;
+  }
+  
   div.modal-dialog.help div.modal-content div.help.modal-body div.help {
     float: left;
     max-width: 100%;
@@ -105,6 +116,17 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  div.help-toggle-container {
+    padding: .5rem;
+    display: flex;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+
+  div.help-toggle-container button.help-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.modal-dialog.help div.modal-content div.help.modal-body div.help {
     float: left;
     max-width: 100%;
@@ -130,6 +152,17 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  div.help-toggle-container {
+    padding: .5rem;
+    display: flex;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+
+  div.help-toggle-container button.help-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
     font-size: 3.75vw;
   }
@@ -144,6 +177,17 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  div.help-toggle-container {
+    padding: .5rem;
+    display: flex;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+
+  div.help-toggle-container button.help-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
     font-size: 3.25vw;
   }

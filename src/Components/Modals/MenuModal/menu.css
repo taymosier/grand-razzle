@@ -104,6 +104,7 @@ div.menu nav.navbar {
 
   div.menu.modal-dialog div.modal-content {
     background: transparent;
+    border: none;
   }
 
   div.menu.modal-dialog div.modal-body{
@@ -121,6 +122,7 @@ div.menu nav.navbar {
   div.menu-toggle-container {
     max-width: fit-content;
     float: left;
+    padding: .5rem ;
   }
 
   div.menu-toggle-container button.menu-toggle {
@@ -128,8 +130,12 @@ div.menu nav.navbar {
     border: .5px solid rgb(0, 0, 0, .1);
   }
 
+  div.menu-toggle-container button.menu-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.menu-toggle-container button.menu-toggle img {
-    max-width: 40px;
+    max-width: 35px;
     float: left;
   }
 
@@ -173,6 +179,7 @@ div.menu nav.navbar {
 
   div.menu.modal-dialog div.modal-content {
     background: transparent;
+    border: none;
   }
 
   div.menu.modal-dialog div.modal-body{
@@ -190,6 +197,7 @@ div.menu nav.navbar {
   div.menu-toggle-container {
     max-width: fit-content;
     float: left;
+    padding: .5rem ;
   }
 
   div.menu-toggle-container button.menu-toggle {
@@ -197,8 +205,12 @@ div.menu nav.navbar {
     border: .5px solid rgb(0, 0, 0, .1);
   }
 
+  div.menu-toggle-container button.menu-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.menu-toggle-container button.menu-toggle img {
-    max-width: 50px;
+    max-width: 35px;
     float: left;
   }
 
@@ -231,6 +243,7 @@ div.menu nav.navbar {
 
   div.menu.modal-dialog div.modal-content {
     background: transparent;
+    border: none;
   }
 
   div.menu.modal-dialog div.modal-body{
@@ -248,6 +261,7 @@ div.menu nav.navbar {
   div.menu-toggle-container {
     max-width: fit-content;
     float: left;
+    padding: .5rem ;
   }
 
   div.menu-toggle-container button.menu-toggle {
@@ -255,8 +269,12 @@ div.menu nav.navbar {
     border: .5px solid rgb(0, 0, 0, .1);
   }
 
+  div.menu-toggle-container button.menu-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.menu-toggle-container button.menu-toggle img {
-    max-width: 50px;
+    max-width: 35px;
     float: left;
   }
 
@@ -289,6 +307,7 @@ div.menu nav.navbar {
 
   div.menu.modal-dialog div.modal-content {
     background: transparent;
+    border: none;
   }
 
   div.menu.modal-dialog div.modal-body{
@@ -306,6 +325,7 @@ div.menu nav.navbar {
   div.menu-toggle-container {
     max-width: fit-content;
     float: left;
+    padding: .5rem ;
   }
 
   div.menu-toggle-container button.menu-toggle {
@@ -313,8 +333,12 @@ div.menu nav.navbar {
     border: .5px solid rgb(0, 0, 0, .1);
   }
 
+  div.menu-toggle-container button.menu-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.menu-toggle-container button.menu-toggle img {
-    max-width: 50px;
+    max-width: 35px;
     float: left;
   }
 

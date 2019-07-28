@@ -49,24 +49,80 @@ div.contact-form div.modal-header h5.modal-title div {
 }
 
 @media (max-width: 575px) {
+  button.contact-toggle:hover {
+    background: #3f93b0;
+  }
+  
+  button.contact-toggle img {
+    max-width: 32.5px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+
+  div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
+    background: #3f93b0 !important;
+  }
+
   #contactFormSubmitButton {
     font-size: 3.25vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px)  {
+  button.contact-toggle:hover {
+    background: #3f93b0;
+  }
+
+  button.contact-toggle img {
+    max-width: 32.5px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+
+  div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
+    background: #3f93b0 !important;
+  }
+
   #contactFormSubmitButton {
     font-size: 3.25vw;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  button.contact-toggle:hover {
+    background: #3f93b0;
+  }
+
+  button.contact-toggle img {
+    max-width: 32.5px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+
+  div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
+    background: #3f93b0 !important;
+  }
+
   #contactFormSubmitButton {
     font-size: 3.25vw;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  button.contact-toggle:hover {
+    background: #3f93b0;
+  }
+
+  button.contact-toggle img {
+    max-width: 32.5px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+
+  div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
+    background: #3f93b0 !important;
+  }
+
   #contactFormSubmitButton {
     font-size: 3.25vw;
   }
