@@ -82,6 +82,10 @@ div.banner .banner-text{
     text-shadow: 3px 2px 5px black;
     max-width: fit-content;
   }
+
+  div.banner div.banner-text {
+    padding: 2vh 0 0 0;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
