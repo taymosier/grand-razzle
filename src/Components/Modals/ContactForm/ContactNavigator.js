@@ -27,7 +27,7 @@ export class ContactNavigator extends Component {
             style={
               {
                 "float": "left",
-                "background": `${this.state.active}` === `${categories[i]}` ? "black" : "grey",
+                "background": `${this.state.active}` === `${categories[i]}` ? "#35768C" : "grey",
                 "maxWidth": "fit-content",
                 "margin": "0 auto",
                 "minWidth": "24%",
@@ -42,7 +42,7 @@ export class ContactNavigator extends Component {
           </Button>);
     }
     return(
-      <div style={{"minWidth": "100%", "display": "flex"}}>
+      <div className="contact-nav" style={{"minWidth": "100%", "display": "flex"}}>
         {contents}
       </div>
     )

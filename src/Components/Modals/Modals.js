@@ -20,7 +20,7 @@ export class Modals extends Component {
   render(){
     return(
       <Col
-        className="menu"
+        className="modals"
         xl={this.state.size.xl}
         lg={this.state.size.lg}
         md={this.state.size.md}

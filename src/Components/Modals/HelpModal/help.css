@@ -158,6 +158,17 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 }
 
 @media (min-width: 1200px) {
+  div.help-toggle-container {
+    padding: .5rem;
+    display: flex;
+    min-width: fit-content;
+    max-width: fit-content;
+  }
+
+  div.help-toggle-container button.help-toggle:hover {
+    background: #3f93b0;
+  }
+
   div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
     font-size: 3vw;
   }
@@ -166,5 +177,15 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
     text-align: center;
     margin: 2.5vh 0 0 0;
     font-size: 2.5vw;
+  }
+
+  div.modal-dialog.help div.modal-content div.modal-header {
+    min-height: 12.5vh;
+    max-height: 12.5vh;
+  }
+
+  div.modal-dialog.help div.modal-content div.modal-header h5.modal-title {
+    font-size: 3.75vw;
+    margin: 0 auto;
   }
 }

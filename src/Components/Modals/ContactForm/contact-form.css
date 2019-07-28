@@ -14,7 +14,7 @@ div.modal-dialog.contact-form div.modal-content {
 div.contact-toggle-container {
   float: left;
   max-width: fit-content;
-  padding: .5rem 1rem;
+  padding: .5rem;
   min-height: 50px;
 }
 
@@ -23,9 +23,7 @@ button.contact-toggle {
   justify-content: space-between;
 }
 
-button.contact-toggle img {
-  max-width: 32.5px;
-}
+
 
 button.contact-toggle {
   background: transparent;
@@ -75,8 +73,23 @@ div.contact-form div.modal-header h5.modal-title div {
 }
 
 @media (min-width: 1200px) {
+  button.contact-toggle:hover {
+    background: #3f93b0;
+  }
+
+  button.contact-toggle img {
+    max-width: 32.5px;
+    min-height: 35px;
+    max-height: 35px;
+  }
+
   #contactFormSubmitButton {
     font-size: 2.25vw;
+    transition: .3s ease-in;
+  }
+
+  #contactFormSubmitButton:hover {
+    background: #35768C;
   }
 
   div.contact-form div.modal-content div.modal-body div.form-group label {
@@ -90,4 +103,13 @@ div.contact-form div.modal-header h5.modal-title div {
   div.contact-form div.modal-header h5.modal-title {
     min-width: 95%;
   }
+
+  div.contact-form div.modal-content div.contact-nav {
+      margin: 1vh 0 0 0;
+  }
+
+  div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
+    background: #3f93b0 !important;
+  }
+
 }

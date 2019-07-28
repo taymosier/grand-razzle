@@ -28,7 +28,7 @@ export class HelpNavigator extends Component {
             style={
               {
                 "float": "left",
-                "background": `${this.state.active}` === `${i}` ? "black" : "grey",
+                "background": `${this.state.active}` === `${i}` ? "#35768C" : "grey",
                 "maxWidth": "fit-content",
                 "margin": "0 auto",
                 "minWidth": "24%",

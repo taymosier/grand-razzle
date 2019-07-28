@@ -47,8 +47,8 @@ export class ContactModal extends Component {
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
           <ModalHeader toggle={this.toggle}>
             Fill Out The Sections Below And Click Submit!
-            <ContactNavigator setActive={this.setActive} active={this.state.active}/>
           </ModalHeader>
+            <ContactNavigator setActive={this.setActive} active={this.state.active}/>
           <ModalBody><ContactForm groups={this.state.groups} active={this.state.active}/></ModalBody>
           <ModalFooter>
           </ModalFooter>
