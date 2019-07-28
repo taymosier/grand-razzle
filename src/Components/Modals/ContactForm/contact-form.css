@@ -4,7 +4,7 @@ div.contact-form {
 
 div.modal-dialog.contact-form {
   min-height: 60vh;
-  margin: 15vh auto;
+  margin: 5vh auto;
 }
 
 div.modal-dialog.contact-form div.modal-content {
@@ -45,7 +45,6 @@ div.contact-form div.modal-header h5.modal-title div {
 
 #contactFormSubmitButton {
   display: block;
-  font-size: 1.25vw;
   margin: 0 auto;
   max-width: 80%;
   min-width: 80%;
@@ -53,26 +52,38 @@ div.contact-form div.modal-header h5.modal-title div {
 
 @media (max-width: 575px) {
   #contactFormSubmitButton {
-    display: block;
     font-size: 3.25vw;
-    margin: 0 auto;
-    max-width: 80%;
-    min-width: 80%;
-}
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px)  {
-
+  #contactFormSubmitButton {
+    font-size: 3.25vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  #contactFormSubmitButton {
+    font-size: 3.25vw;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  #contactFormSubmitButton {
+    font-size: 3.25vw;
+  }
 }
 
 @media (min-width: 1200px) {
+  #contactFormSubmitButton {
+    font-size: 2.25vw;
+  }
 
+  div.contact-form div.modal-content div.modal-body div.form-group label {
+    font-size: 1.5vw;
+  }
+
+  div.contact-form div.modal-content div.modal-body div.form-group input {
+    font-size: 1.5vw;
+  }
 }

@@ -23,6 +23,7 @@ export class ContactNavigator extends Component {
     for(let i = 0; i < categories.length; i++){
         contents.push(
           <Button
+            className="contact-nav"
             style={
               {
                 "float": "left",

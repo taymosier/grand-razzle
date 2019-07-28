@@ -87,8 +87,8 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
   }
 
   div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
-    font-size: 5.75vw;
-    line-height: 6.5vw;
+    font-size: 5vw;
+    line-height: 5.25vw;
     padding: 10px 0;
     text-align: center;
     margin: 5vh 0 0 0;
@@ -111,18 +111,34 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
     min-height: 55vh;
   }
 
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
+    font-size: 4vw;
+    line-height: 4.15vw;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5vh 0 0 0;
+  }
+
   div.modal-dialog.help div.modal-content div.help.modal-body div.help h3 {
       text-align: center;
       margin: 2.5vh 0 0 0;
   }
+
+  div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
+    font-size: 4vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+  div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
+    font-size: 3.75vw;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
+    font-size: 3.25vw;
+  }
 }
 
 @media (min-width: 1200px) {
