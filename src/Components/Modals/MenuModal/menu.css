@@ -89,198 +89,235 @@ div.menu nav.navbar {
 }
 
 @media (max-width: 575px) {
-  div.menu {
-    display: flex;
-    float: left;
-    min-height: fit-content;
-    padding: 2px;
-    z-index: 0;
-  }
-
-  div.menu ul.menu-button-list {
-    display: flex;
-    min-width: 100%;
-    padding: 0;
-    justify-content: center;
-    margin: 0;
-  }
-
-  div.menu ul.menu-button-list li.menu-item {
+  div.menu.modal-dialog {
+    min-width: 60vw;
+    max-width: 60vw;
+    left: 20vw;
     background: transparent;
-    min-height: 50px;
-    max-height: 60px;
-    font-size: 1.75vw;
-    min-width: fit-content;
-    display: flex;
   }
 
-  div.menu ul.menu-button-list  li.menu-item div.button-filter {
-    display: none;
+  div.menu.modal-dialog div.modal-content {
+    background: transparent;
   }
 
-  div.menu ul.menu-button-list li.menu-item div.contents {
+  div.menu.modal-dialog div.modal-body{
     min-width: 100%;
     max-width: 100%;
   }
 
+  div.menu.modal-dialog div.modal-body div.menu {
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+  }
+
+  div.menu-toggle-container {
+    max-width: fit-content;
+    float: left;
+  }
+
+  div.menu-toggle-container button.menu-toggle {
+    background: transparent;
+    border: .5px solid rgb(0, 0, 0, .1);
+  }
+
+  div.menu-toggle-container button.menu-toggle img {
+    max-width: 50px;
+    float: left;
+  }
+
+  div.menu ul.menu-button-list li.menu-item {
+    max-height: fit-content;
+  }
+
+  div.menu ul.menu-button-list li.menu-item div.button-filter {
+    min-height: 100%;
+    min-width: 99%;
+  }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
-    background: #61A7BE;
-    border-bottom: 1px solid #000;
-    box-shadow: 0.75px 1.25px 3.5px 0.2px #000;
-    color: #fff;
-    display: block;
-    font-family: Segoe UI,sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 0 .6vw 0 0;
-    max-height: 80px;
-    min-height: fit-content;
-    min-width: fit-content;
-    padding: 1vh 1vw;
-    text-align: left;
-    position: relative;
-    transition: .2s linear;
-    text-shadow: 1px 2px 3px #000;
-    z-index: 1250;
-    max-width: fit-content;
+    text-align: center;
+    font-size: 4.25vw;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
-    font-size: 20px;
-    padding: 1vh 1vw;
+    font-size: 4.25vw;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  div.menu {
-    display: flex;
-    float: left;
-    min-height: fit-content;
-    padding: 2px;
-  }
-
-  div.menu ul.menu-button-list {
-    display: flex;
-    min-width: 100%;
-    padding: 2vh 0;
-    justify-content: center;
-  }
-
-  div.menu ul.menu-button-list li.menu-item {
+  div.menu.modal-dialog {
+    min-width: 60vw;
+    max-width: 60vw;
+    left: 20vw;
     background: transparent;
-    min-height: 50px;
-    max-height: 60px;
-    font-size: 1.75vw;
-    min-width: fit-content;
-    display: flex;
   }
 
-  div.menu ul.menu-button-list  li.menu-item div.button-filter {
-    display: none;
+  div.menu.modal-dialog div.modal-content {
+    background: transparent;
   }
 
-  div.menu ul.menu-button-list li.menu-item div.contents {
+  div.menu.modal-dialog div.modal-body{
     min-width: 100%;
     max-width: 100%;
   }
 
+  div.menu.modal-dialog div.modal-body div.menu {
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+  }
+
+  div.menu-toggle-container {
+    max-width: fit-content;
+    float: left;
+  }
+
+  div.menu-toggle-container button.menu-toggle {
+    background: transparent;
+    border: .5px solid rgb(0, 0, 0, .1);
+  }
+
+  div.menu-toggle-container button.menu-toggle img {
+    max-width: 50px;
+    float: left;
+  }
+
+  div.menu ul.menu-button-list li.menu-item {
+    max-height: fit-content;
+  }
+
+  div.menu ul.menu-button-list li.menu-item div.button-filter {
+    min-height: 100%;
+    min-width: 99%;
+  }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
-    background: #61A7BE;
-    border-bottom: 1px solid #000;
-    box-shadow: 0.75px 1.25px 3.5px 0.2px #000;
-    color: #fff;
-    display: block;
-    font-family: Segoe UI,sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 0 .6vw 0 0;
-    max-height: 80px;
-    min-height: fit-content;
-    min-width: fit-content;
-    padding: 1vh 1vw;
-    text-align: left;
-    position: relative;
-    transition: .2s linear;
-    text-shadow: 1px 2px 3px #000;
-    z-index: 1250;
-    max-width: fit-content;
+    text-align: center;
+    font-size: 4.5vw;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
-    font-size: 20px;
-    padding: 1vh 1vw;
+    font-size: 4.5vw;
   }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  div.menu {
-    display: flex;
-    float: left;
-    min-height: fit-content;
-    padding: 2px;
-  }
-
-  div.menu ul.menu-button-list {
-    display: flex;
-    min-width: 100%;
-    padding: 2vh 0;
-    justify-content: center;
-  }
-
-  div.menu ul.menu-button-list li.menu-item {
+  div.menu.modal-dialog {
+    min-width: 60vw;
+    max-width: 60vw;
+    left: 20vw;
     background: transparent;
-    min-height: 50px;
-    max-height: 60px;
-    font-size: 1.75vw;
-    min-width: fit-content;
-    display: flex;
   }
 
-  div.menu ul.menu-button-list  li.menu-item div.button-filter {
-    display: none;
+  div.menu.modal-dialog div.modal-content {
+    background: transparent;
   }
 
-  div.menu ul.menu-button-list li.menu-item div.contents {
+  div.menu.modal-dialog div.modal-body{
     min-width: 100%;
     max-width: 100%;
   }
 
+  div.menu.modal-dialog div.modal-body div.menu {
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+  }
+
+  div.menu-toggle-container {
+    max-width: fit-content;
+    float: left;
+  }
+
+  div.menu-toggle-container button.menu-toggle {
+    background: transparent;
+    border: .5px solid rgb(0, 0, 0, .1);
+  }
+
+  div.menu-toggle-container button.menu-toggle img {
+    max-width: 50px;
+    float: left;
+  }
+
+  div.menu ul.menu-button-list li.menu-item {
+    max-height: fit-content;
+  }
+
+  div.menu ul.menu-button-list li.menu-item div.button-filter {
+    min-height: 100%;
+    min-width: 99%;
+  }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
-    background: #61A7BE;
-    border-bottom: 1px solid #000;
-    box-shadow: 0.75px 1.25px 3.5px 0.2px #000;
-    color: #fff;
-    display: block;
-    font-family: Segoe UI,sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin: 0 .6vw 0 0;
-    max-height: 80px;
-    min-height: fit-content;
-    min-width: fit-content;
-    padding: 1vh 1vw;
-    text-align: left;
-    position: relative;
-    transition: .2s linear;
-    text-shadow: 1px 2px 3px #000;
-    z-index: 1250;
-    max-width: fit-content;
+    text-align: center;
+    font-size: 3.25vw;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
-    font-size: 20px;
-    padding: 1vh 1vw;
+    font-size: 3.25vw;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  div.menu.modal-dialog {
+    min-width: 60vw;
+    max-width: 60vw;
+    left: 20vw;
+    background: transparent;
+  }
 
+  div.menu.modal-dialog div.modal-content {
+    background: transparent;
+  }
+
+  div.menu.modal-dialog div.modal-body{
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  div.menu.modal-dialog div.modal-body div.menu {
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: fit-content;
+  }
+
+  div.menu-toggle-container {
+    max-width: fit-content;
+    float: left;
+  }
+
+  div.menu-toggle-container button.menu-toggle {
+    background: transparent;
+    border: .5px solid rgb(0, 0, 0, .1);
+  }
+
+  div.menu-toggle-container button.menu-toggle img {
+    max-width: 50px;
+    float: left;
+  }
+
+  div.menu ul.menu-button-list li.menu-item {
+    max-height: fit-content;
+  }
+
+  div.menu ul.menu-button-list li.menu-item div.button-filter {
+    min-height: 100%;
+    min-width: 99%;
+  }
+
+  div.menu ul.menu-button-list li.menu-item a.menu-button {
+    text-align: center;
+    font-size: 3vw;
+  }
+
+  div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
+    font-size: 3vw;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -334,10 +371,10 @@ div.menu nav.navbar {
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
     text-align: center;
-    font-size: 2.25vw;
+    font-size: 2.75vw;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
-    font-size: 2.25vw;
+    font-size: 2.75vw;
   }
 }
