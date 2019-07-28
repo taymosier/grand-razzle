@@ -8,7 +8,8 @@ export class Thumbnail extends Component {
     super(props);
     this.state = {
       text: this.props.thumbnail.text,
-      image: this.setThumbnailImage(this.props.thumbnail.image)
+      image: this.setThumbnailImage(this.props.thumbnail.image),
+      src: this.props.thumbnail.image
     }
   }
 
@@ -20,11 +21,14 @@ export class Thumbnail extends Component {
     return(
       <Col
         className="thumbnail"
-        style={{"backgroundImage": `url(${this.state.image})`}}
       >
-        <p className="title">{this.state.text.title.en}</p>
-        <div className="flavor-text">{this.state.text.flavor.en}</div>
+        <img className="thumbnail" src={`${require(`../../../public/images/thumbnails/${this.state.src}`)}`} />
+        <div className="content">
+          <p className="title">{this.state.text.title.en}</p>
+          <div className="flavor-text">{this.state.text.flavor.en}</div>
+        </div>
         <div className="filter"></div>
+
       </Col>
     )
   }

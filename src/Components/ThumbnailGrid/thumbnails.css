@@ -53,26 +53,132 @@ div.thumbnail:hover > div.filter {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 575px) {
+  div.thumbnail.col {
 
-}
+  }
 
-@media (min-width: 420px) and (max-width: 575px) {
+  div.thumbnail.col img.thumbnail {
 
+  }
+
+  div.thumbnail.col div.content {
+
+  }
+
+  div.thumbnail.col div.content p.title {
+
+  }
+
+  div.thumbnail.col div.content div.flavor-text {
+
+  }
+
+  div.thumbnail.col div.filter {
+
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+  div.thumbnail.col {
 
+  }
+
+  div.thumbnail.col img.thumbnail {
+
+  }
+
+  div.thumbnail.col div.content {
+
+  }
+
+  div.thumbnail.col div.content p.title {
+
+  }
+
+  div.thumbnail.col div.content div.flavor-text {
+
+  }
+
+  div.thumbnail.col div.filter {
+
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  div.thumbnail.col {
 
+  }
+
+  div.thumbnail.col img.thumbnail {
+
+  }
+
+  div.thumbnail.col div.content {
+
+  }
+
+  div.thumbnail.col div.content p.title {
+
+  }
+
+  div.thumbnail.col div.content div.flavor-text {
+
+  }
+
+  div.thumbnail.col div.filter {
+
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+  div.thumbnail.col {
 
+  }
+
+  div.thumbnail.col img.thumbnail {
+
+  }
+
+  div.thumbnail.col div.content {
+
+  }
+
+  div.thumbnail.col div.content p.title {
+
+  }
+
+  div.thumbnail.col div.content div.flavor-text {
+
+  }
+
+  div.thumbnail.col div.filter {
+
+  }
 }
 
 @media (min-width: 1200px) {
+  div.thumbnail.col {
 
+  }
+
+  div.thumbnail.col img.thumbnail {
+
+  }
+
+  div.thumbnail.col div.content {
+
+  }
+
+  div.thumbnail.col div.content p.title {
+
+  }
+
+  div.thumbnail.col div.content div.flavor-text {
+
+  }
+
+  div.thumbnail.col div.filter {
+
+  }
 }
