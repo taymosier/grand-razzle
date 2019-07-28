@@ -25,7 +25,9 @@ export class Thumbnail extends Component {
         <img className="thumbnail" src={`${require(`../../../public/images/thumbnails/${this.state.src}`)}`} />
         <div className="content">
           <p className="title">{this.state.text.title.en}</p>
-          <div className="flavor-text">{this.state.text.flavor.en}</div>
+          <div className="flavor-text">
+            <p>{this.state.text.flavor.en}</p>
+          </div>
         </div>
         <div className="filter"></div>
 

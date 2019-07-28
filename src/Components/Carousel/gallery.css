@@ -72,6 +72,7 @@ div.image {
   div.carousel {
     margin: 5vh 2vw;
     min-height: 30vh;
+    min-width: 100%;
     text-align: center;
   }
 
