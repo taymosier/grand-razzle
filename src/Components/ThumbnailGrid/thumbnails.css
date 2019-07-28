@@ -100,7 +100,7 @@ div.thumbnail:hover > div.filter {
     color: white;
     font-weight: 300;
     height: 72.5%;
-    line-height: 4.25vw;
+    line-height: 22px;
     margin: 20% 0 0 0;
     max-height: 72.5%;
     min-height: 72.5%;
@@ -114,7 +114,7 @@ div.thumbnail:hover > div.filter {
 
   div.thumbnail div.content div.flavor-text p {
     margin: 0;
-    font-size: 3.75vw;
+    font-size: 20px;
   }
 
   div.thumbnail.col div.filter {
@@ -321,6 +321,7 @@ div.thumbnail:hover > div.filter {
     min-height: 100%;
     position: absolute;
     top: 0;
+    z-index: 1;
   }
 
   div.thumbnail div.content p.title {
