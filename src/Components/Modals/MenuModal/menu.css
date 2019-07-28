@@ -123,7 +123,7 @@ div.menu nav.navbar {
   }
 
   div.menu-toggle-container button.menu-toggle img {
-    max-width: 50px;
+    max-width: 40px;
     float: left;
   }
 
@@ -132,15 +132,15 @@ div.menu nav.navbar {
   }
 
   div.menu ul.menu-button-list li.menu-item div.button-filter {
-    min-height: 50px;
-    max-height: 50px;
+    min-height: 40px;
+    max-height: 40px;
     min-width: 99%;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
     text-align: center;
-    min-height: 50px;
-    max-height: 50px;
+    min-height: 40px;
+    max-height: 40px;
     font-size: 20px;
     line-height: 50px;
     align-items: center;
