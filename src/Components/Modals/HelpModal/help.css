@@ -31,8 +31,8 @@ div.modal-dialog.help div.modal-content {
 }
 
 div.modal-dialog.help div.modal-content div.modal-header {
-  min-height: 15vh;
-  max-height: 15vh;
+  min-height: 10vh;
+  max-height: 10vh;
 }
 
 div.modal-dialog.help div.modal-content div.modal-header h5.modal-title {
@@ -133,11 +133,27 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
   div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
     font-size: 3.75vw;
   }
+
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
+    font-size: 3.5vw;
+    line-height: 4vw;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5vh 0 0 0;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   div.modal-dialog.help div.modal-content div.modal-footer button.help-nav {
     font-size: 3.25vw;
+  }
+
+  div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
+    font-size: 2.75vw;
+    line-height: 3vw;
+    padding: 10px 20px;
+    text-align: center;
+    margin: 5vh 0 0 0;
   }
 }
 

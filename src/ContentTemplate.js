@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import { BillboardGenerator } from './Components/Billboards/BillboardGenerator';
 import { Banner } from './Components/Banners/Banner';
-import { Menu } from './Components/Menu/Menu';
 import { PageTitle } from './Components/PageTitle';
 import { FlavorCard } from './Components/FlavorCard/FlavorCard';
 import { ImageCarousel } from './Components/Carousel/ImageCarousel';
 import { ThumbnailGrid } from './Components/ThumbnailGrid/ThumbnailGrid';
+import { Modals } from './Components/Modals/Modals'
 
 
 import galleries from './Content/galleries.json';
@@ -74,7 +74,7 @@ export class ContentTemplate extends Component {
         <Container className={`${this.state.view}-page`}>
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
-            <Menu />
+            <Modals />
             <Col
               className="main-content"
               xl={{ size: 9, offset: 0 }}

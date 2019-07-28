@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Col, Collapse, Nav, Navbar, NavbarToggler } from 'reactstrap';
-import { ContactModal } from '../Modals/ContactForm/ContactModal';
-import { HelpModal } from '../Modals/HelpModal/HelpModal'
+import { Button, Col, Collapse, Nav, Navbar, NavbarToggler } from 'reactstrap';
+
 import { MenuButton } from './MenuButton';
-import './menu.css';
 import buttons from './buttons.json'
 
 export class Menu extends Component {
@@ -38,16 +36,9 @@ export class Menu extends Component {
         sm={this.state.size.sm}
         xs={this.state.size.xs}
       >
-        <Navbar color="faded" light>
-          <NavbarToggler onClick={this.toggleNavbar}/>
-            <Collapse isOpen={!this.state.collapsed} navbar>
-              <Nav className={"menu-button-list"}>
-                {buttons.map((button) => { return <MenuButton button={button} key={button.label}/> })}
-              </Nav>
-            </Collapse>
-        </Navbar>
-        <ContactModal />
-        <HelpModal />
+        <Nav className={"menu-button-list"}>
+          {buttons.map((button) => { return <MenuButton button={button} key={button.label}/> })}
+        </Nav>
       </Col>
     )
   }
