@@ -132,12 +132,15 @@ div.menu nav.navbar {
   }
 
   div.menu ul.menu-button-list li.menu-item div.button-filter {
-    min-height: 100%;
+    min-height: 60px;
+    max-height: 60px;
     min-width: 99%;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
     text-align: center;
+    min-height: 60px;
+    max-height: 60px;
     font-size: 4.5vw;
   }
 
