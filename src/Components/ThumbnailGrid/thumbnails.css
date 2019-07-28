@@ -155,10 +155,10 @@ div.thumbnail:hover > div.filter {
 }
 
 @media (min-width: 1200px) {
-  div.pools-page-container div.main-content {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+  div.pools-page.container div.main-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   div.thumbnail {
