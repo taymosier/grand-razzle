@@ -141,11 +141,11 @@ div.menu nav.navbar {
     text-align: center;
     min-height: 50px;
     max-height: 50px;
-    font-size: 16px;
+    font-size: 20px;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 
