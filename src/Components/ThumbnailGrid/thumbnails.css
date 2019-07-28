@@ -10,14 +10,13 @@ div.thumbnail {
   float: left;
   background-repeat: round;
   background-size: contain;
-
   text-align: center;
-  z-index: -200;
+  z-index: 0;
 }
 
-  div.thumbnail img.thumbnail {
-    max-width: 100%;
-  }
+div.thumbnail img.thumbnail {
+  max-width: 100%;
+}
 
 
 div.thumbnail div.contents {
@@ -31,7 +30,7 @@ div.thumbnail div.filter {
   opacity: 0;
   position: absolute;
   top: 0;
-  z-index: -100;
+  z-index: 1;
 }
 
 div.thumbnail p.title {
@@ -39,7 +38,7 @@ div.thumbnail p.title {
   font-size: 1.5vw;
   margin: 2% 0 0 0;
   padding: 0 5%;
-  z-index: 100;
+  z-index: 2;
 }
 
 div.thumbnail div.flavor-text {
@@ -51,7 +50,7 @@ div.thumbnail div.flavor-text {
   opacity: 0;
   margin: 2.5% 0 0 0;
   padding: 2.5% 5%;
-  z-index: 100;
+  z-index: 2;
 }
 
 div.thumbnail:hover div.flavor-text {
@@ -65,10 +64,11 @@ div.thumbnail:hover > div.filter {
 
 @media (max-width: 575px) {
   div.thumbnail.col {
-    max-width: 30%;
-    min-width: 30%;
-    margin: 2vh 1vw 0 1vw;
+    max-width: 80%;
+    min-width: 80%;
+    margin: 2vh auto 0 auto;
     padding: 0;
+    z-index: 0;
   }
 
   div.thumbnail.col img.thumbnail {
@@ -77,30 +77,60 @@ div.thumbnail:hover > div.filter {
   }
 
   div.thumbnail.col div.content {
+    min-width: 100%;
     min-height: 100%;
     position: absolute;
     top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.thumbnail.col div.content:hover > div.flavor-text {
+    opacity: 1;
   }
 
   div.thumbnail.col div.content p.title {
-
+    font-size: 5vw;
+    line-height: 5vw;
+    margin: 1vh 0 0 0;
+    padding: 2.5% ;
   }
 
   div.thumbnail.col div.content div.flavor-text {
+    color: white;
+    font-weight: 300;
+    height: 72.5%;
+    line-height: 4.25vw;
+    margin: 20% 0 0 0;
+    max-height: 72.5%;
+    min-height: 72.5%;
+    opacity: 1;
+    padding: 2.5% 5%;
+    position: absolute;
+    text-shadow: 1px 1px 3px darkslategrey;
+    transition: .4s ease-in;
+    z-index: 100;
+  }
 
+  div.thumbnail div.content div.flavor-text p {
+    margin: 0;
+    font-size: 3.75vw;
   }
 
   div.thumbnail.col div.filter {
-
+    z-index: 0;
+    opacity: .5;
+    transition: .4s ease-in;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   div.thumbnail.col {
-    max-width: 30%;
-    min-width: 30%;
-    margin: 2vh 1vw 0 1vw;
+    max-width: 70%;
+    min-width: 70%;
+    margin: 2vh auto 0 auto;
     padding: 0;
+    z-index: 0;
   }
 
   div.thumbnail.col img.thumbnail {
@@ -109,21 +139,49 @@ div.thumbnail:hover > div.filter {
   }
 
   div.thumbnail.col div.content {
+    min-width: 100%;
     min-height: 100%;
     position: absolute;
     top: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.thumbnail.col div.content:hover > div.flavor-text {
+    opacity: 1;
   }
 
   div.thumbnail.col div.content p.title {
-
+    font-size: 5vw;
+    line-height: 5.25vw;
+    margin: 1vh 0 0 0;
+    padding: 2.5%;
   }
 
   div.thumbnail.col div.content div.flavor-text {
+    color: white;
+    font-weight: 300;
+    height: 72.5%;
+    line-height: 4vw;
+    margin: 18.5% 0 0 0;
+    max-height: 72.5%;
+    min-height: 72.5%;
+    opacity: 0;
+    padding: 7.5% 2.5%;
+    position: absolute;
+    text-shadow: 1px 1px 3px darkslategrey;
+    transition: .4s ease-in;
+    z-index: 100;
+  }
 
+  div.thumbnail div.content div.flavor-text p {
+    margin: 0;
+    font-size: 3.5vw;
   }
 
   div.thumbnail.col div.filter {
-
+    z-index: 0;
+    transition: .4s ease-in;
   }
 }
 
@@ -166,17 +224,17 @@ div.thumbnail:hover > div.filter {
   div.thumbnail.col div.content div.flavor-text {
     color: white;
     font-weight: 300;
-    text-shadow: 1px 1px 3px darkslategrey;
-    line-height: 2.5vw;
-    opacity: 0;
-    margin: 18.5% 0 0 0;
-    padding: 2.5% 5%;
-    z-index: 100;
-    min-height: 72.5%;
     height: 72.5%;
+    line-height: 2.5vw;
+    margin: 18.5% 0 0 0;
     max-height: 72.5%;
+    min-height: 72.5%;
+    opacity: 0;
+    padding: 2.5% 5%;
     position: absolute;
+    text-shadow: 1px 1px 3px darkslategrey;
     transition: .4s ease-in;
+    z-index: 100;
   }
 
   div.thumbnail div.content div.flavor-text p {
@@ -210,12 +268,17 @@ div.thumbnail:hover > div.filter {
 
   }
 
+  div.thumbnail.col div.content:hover > div.flavor-text {
+    opacity: 1;
+  }
+
   div.thumbnail.col div.content div.flavor-text {
 
   }
 
   div.thumbnail.col div.filter {
-
+    z-index: 0;
+    transition: .4s ease-in;
   }
 }
 
@@ -256,7 +319,8 @@ div.thumbnail:hover > div.filter {
 
 
 
-  div.thumbnail div.filter {
-
+  div.thumbnail.col div.filter {
+    z-index: 0;
+    transition: .4s ease-in;
   }
 }
