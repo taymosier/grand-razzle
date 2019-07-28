@@ -89,6 +89,12 @@ div.menu nav.navbar {
 }
 
 @media (max-width: 575px) {
+
+  div.menu {
+    min-height: fit-content;
+    max-height: fit-content;
+  }
+
   div.menu.modal-dialog {
     min-width: 80vw;
     max-width: 80vw;
