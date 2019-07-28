@@ -5,7 +5,15 @@ export class ContactNavigator extends Component {
   constructor(props){
     super(props);
     this.state = {
+      active: this.props.active
+    }
+  }
 
+  componentDidUpdate(){
+    if(this.props.active !== undefined && this.state.active !== this.props.active){
+      this.setState({
+        active: this.props.active
+      })
     }
   }
 
@@ -18,6 +26,7 @@ export class ContactNavigator extends Component {
             style={
               {
                 "float": "left",
+                "background": `${this.state.active}` === `${categories[i]}` ? "black" : "grey",
                 "maxWidth": "fit-content",
                 "margin": "0 auto",
                 "minWidth": "24%",

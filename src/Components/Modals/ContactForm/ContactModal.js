@@ -45,10 +45,12 @@ export class ContactModal extends Component {
           {this.state.icon !== undefined ? <img src={require(`${this.state.icon}`)} /> : null}
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
-          <ModalHeader toggle={this.toggle}>Contact Us</ModalHeader>
+          <ModalHeader toggle={this.toggle}>
+            Fill Out The Sections Below And Click Submit!
+            <ContactNavigator setActive={this.setActive} active={this.state.active}/>
+          </ModalHeader>
           <ModalBody><ContactForm groups={this.state.groups} active={this.state.active}/></ModalBody>
           <ModalFooter>
-            <ContactNavigator setActive={this.setActive}/>
           </ModalFooter>
         </Modal>
       </div>

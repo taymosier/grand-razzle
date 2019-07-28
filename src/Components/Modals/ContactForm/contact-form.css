@@ -32,3 +32,21 @@ button.contact-toggle {
   border-color: rgba(0, 0, 0, 0.1);
   padding: 0.425rem .75rem;
 }
+
+div.contact-form div.modal-header h5.modal-title {
+  min-width: 100%;
+  text-align: center;
+  margin: 1vh 0 0 0;
+}
+
+div.contact-form div.modal-header h5.modal-title div {
+  margin: 1vh 0 0 0;
+}
+
+#contactFormSubmitButton {
+  display: block;
+  font-size: 1.25vw;
+  margin: 0 auto;
+  max-width: 80%;
+  min-width: 80%;
+}

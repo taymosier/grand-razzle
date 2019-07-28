@@ -24,6 +24,7 @@ export class HelpNavigator extends Component {
     for(let i = 0; i < this.state.numberOfSteps; i++){
         contents.push(
           <Button
+            className="help-nav"
             style={
               {
                 "float": "left",

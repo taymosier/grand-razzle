@@ -31,10 +31,11 @@ export class ContactForm extends Component {
   render(){
     console.log(`This state group length: ${this.state.groups["first-name"].label.text}`)
   return(
-    <Form>
+    <Form action="https://formspree.io/taymosier@gmail.com" method="POST">
       {Object.keys(this.state.groups).map((groupKey) => {
         return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} active={this.state.active}/>
       })}
+      <Button type="submit" value="Send" id="contactFormSubmitButton">Submit</Button>
     </Form>
     )
   }
