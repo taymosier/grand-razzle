@@ -189,8 +189,8 @@ div.thumbnail:hover > div.filter {
 
 
   div.thumbnail.col {
-    max-width: 45%;
-    min-width: 45%;
+    max-width: 47.5%;
+    min-width: 47.5%;
     margin: 2vh auto 0 auto;
     padding: 0;
     z-index: 0;
@@ -250,22 +250,29 @@ div.thumbnail:hover > div.filter {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   div.thumbnail.col {
-    max-width: 30%;
-    min-width: 30%;
+    max-width: 47.5%;
+    min-width: 47.5%;
+    margin: 2vh auto 0 auto;
+    padding: 0;
   }
 
   div.thumbnail.col img.thumbnail {
-
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
   }
 
   div.thumbnail.col div.content {
     min-height: 100%;
     position: absolute;
     top: 0;
+    z-index: 1;
   }
 
   div.thumbnail.col div.content p.title {
-
+    font-size: 2.75vw;
+    line-height: 2.75vw;
+    padding: 2% 0;
   }
 
   div.thumbnail.col div.content:hover > div.flavor-text {
@@ -273,12 +280,19 @@ div.thumbnail:hover > div.filter {
   }
 
   div.thumbnail.col div.content div.flavor-text {
+    line-height: 2vw;
+    padding: 0 5% 5% 5%;
+  }
 
+  div.thumbnail div.content div.flavor-text p {
+    margin: 0;
+    font-size: 1.75vw;
   }
 
   div.thumbnail.col div.filter {
-    z-index: 0;
+    min-width: 100%;
     transition: .4s ease-in;
+    z-index: 0;
   }
 }
 
