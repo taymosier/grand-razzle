@@ -49,6 +49,7 @@ div.banner .banner-text{
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 20vh;
+    max-height: 20vh;
   }
 
   div.banner h1 {
