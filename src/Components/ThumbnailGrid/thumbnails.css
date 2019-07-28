@@ -176,6 +176,7 @@ div.thumbnail:hover > div.filter {
     height: 72.5%;
     max-height: 72.5%;
     position: absolute;
+    transition: .4s ease-in;
   }
 
   div.thumbnail div.content div.flavor-text p {
@@ -185,6 +186,7 @@ div.thumbnail:hover > div.filter {
 
   div.thumbnail.col div.filter {
     z-index: 0;
+    transition: .4s ease-in;
   }
 }
 
