@@ -1,7 +1,7 @@
 div.banner {
   background-repeat: cover;
   background-size: cover;
-  min-height: 55vh;
+  min-height: 45vh;
   padding: 0;
   z-index: -200;
 }
@@ -39,7 +39,7 @@ div.banner h2 {
 
 div.banner .banner-text{
   z-index: 5000;
-  min-height: 55vh;
+  min-height: 45vh;
   padding: 10vh 0 0 0;
 }
 
@@ -219,12 +219,12 @@ div.banner .banner-text{
   }
 
   div.banner div.filter {
-    min-height: 55vh;
+    min-height: 45vh;
   }
 }
 
 @media (min-width: 1200px) {
   div.banner div.filter {
-    min-height: 55vh;
+    min-height: 45vh;
   }
 }
