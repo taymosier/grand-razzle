@@ -11,7 +11,7 @@ export class LinkedBillboardWithImage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: this.props.billboard.title.en,
+      title: this.props.title !== undefined ? this.props.billboard.title.en : null,
       subtitle: this.props.billboard.subtitle.en,
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
@@ -46,7 +46,7 @@ export class LinkedBillboardWithImage extends Component {
             sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
           >
-            <Title title={this.state.title} />
+            {this.state.title !== null ? <Title title={this.state.title} /> : null}
             <Subtitle subtitle={this.state.subtitle} />
             <FlavorText text={this.state.text} />
             { this.state.href !== undefined && this.state.href !== ""

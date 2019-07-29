@@ -1,8 +1,7 @@
 {
   "activities": [
     {
-      "title": {"en":"","es":""},
-      "key": "activity-billboard-1",
+      "key": "activity-billboard-0W",
       "subtitle": {"en":"","es":""},
       "type": "default",
       "text": {
@@ -13,8 +12,7 @@
       "link": ""
     },
     {
-      "title": {"en":"","es":""},
-      "key": "activity-billboard-2",
+      "key": "activity-billboard-1",
       "subtitle": {"en":"Joy Squad","es":"Joy Squad"},
       "type": "default",
       "text": {
@@ -26,7 +24,7 @@
     },
     {
       "title": {"en":"Pools & Poolside","es":""},
-      "key": "activity-billboard-3",
+      "key": "activity-billboard-2",
       "subtitle": {"en":"","es":""},
       "type": "bullets-with-image",
       "text": {
@@ -38,7 +36,7 @@
     },
     {
       "title": {"en":"Beach","es":""},
-      "key": "activity-billboard-4",
+      "key": "activity-billboard-3",
       "subtitle": {"en":"","es":""},
       "type": "bullets-with-image",
       "text": {
@@ -50,7 +48,7 @@
     },
     {
       "title": {"en":"Tours","es":""},
-      "key": "activity-billboard-5",
+      "key": "activity-billboard-4",
       "subtitle": {"en":"","es":""},
       "type": "bullets-with-image",
       "text":  {
@@ -62,7 +60,7 @@
     },
     {
       "title": {"en":"Nighttime","es":""},
-      "key": "activity-billboard-6",
+      "key": "activity-billboard-5",
       "subtitle": {"en":"","es":""},
       "type": "bullets-with-image",
       "text": {
@@ -73,8 +71,7 @@
       "link": ""
     },
     {
-      "title": {"en":"","es":""},
-      "key": "activity-billboard-7",
+      "key": "activity-billboard-6",
       "subtitle": {"en":"Kid's Club","es":"Kid's Club"},
       "type": "default",
       "text": {
@@ -85,7 +82,7 @@
       "link": ""
     },
     {
-      "title": {"en":"","es":""},
+      "key": "activity-billboard-7",
       "subtitle": {"en":"Explore Mexico","es":"Explore México"},
       "text": {
         "en":"Want some unique adventures? On and off resort experiences are offered by outside companies. The beach offers stand-up paddle boarding, surfing and kayaking. For high adventure recreation and exploring the Riviera Nayarit area there is zip-lining in the jungle, horseback riding to the waterfall, speed boat riding, snorkeling or deep sea fishing. Visit the travel concierge in your resort hotel lobby to coordinate a plan. ",
@@ -100,7 +97,6 @@
     {
       "title": {"en": "Where To Stay", "es":"DÓNDE HOSPEDARSE"},
       "key": "home-billboard-1",
-
       "type": "image",
       "subtitle": {
         "en": "Grande Luxxe Rooms & Suites",
@@ -142,7 +138,6 @@
   ],
   "dining": [
     {
-      "title": "",
       "key": "dining-billboard-1",
       "type": "image",
       "subtitle": "",
@@ -157,9 +152,7 @@
   ],
   "rooms": [
     {
-      "title": "",
       "key": "rooms-billboard-1",
-
       "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Two Bedroom Suites",
@@ -177,7 +170,6 @@
       }
     },
     {
-      "title": "",
       "key": "rooms-billboard-2",
       "type": "image",
       "subtitle": {
@@ -196,7 +188,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-3",
       "type": "image",
       "subtitle": {
@@ -215,7 +206,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-4",
       "type": "image",
       "subtitle": {
@@ -234,7 +224,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-5",
       "type": "image",
       "subtitle": {
@@ -253,7 +242,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-6",
       "type": "image",
       "subtitle": {
@@ -272,7 +260,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-7",
       "type": "image",
       "subtitle": {
@@ -291,7 +278,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "rooms-billboard-8",
       "type": "image",
       "subtitle": {
@@ -312,7 +298,6 @@
   ],
   "two-bedroom-suite": [
     {
-      "title": {"en":"","es":""},
       "key": "two-bedroom-suite-billboard-1",
       "type": "image",
       "subtitle": {
@@ -330,7 +315,6 @@
   ],
   "two-bedroom-presidential-villa" : [
     {
-      "title": {"en":"","es":""},
       "key": "two-bedroom-presidential-villa-billboard-1",
       "type": "image",
       "subtitle": {
@@ -348,7 +332,6 @@
   ],
   "three-bedroom-presidential-villa" : [
     {
-      "title": {"en":"","es":""},
       "key": "three-bedroom-presidential-villa-billboard-1",
       "type": "image",
       "subtitle": {
@@ -366,7 +349,6 @@
   ],
   "two-bedroom-spa-suite" : [
     {
-      "title": {"en":"","es":""},
       "key": "two-bedroom-spa-suite-billboard-1",
       "type": "image",
       "subtitle": {
@@ -384,7 +366,6 @@
   ],
   "three-bedroom-spa-suite" : [
     {
-      "title": {"en":"","es":""},
       "key": "three-bedroom-spa-suite-billboard-1",
       "type": "image",
       "subtitle": {
@@ -402,7 +383,6 @@
   ],
   "two-bedroom-residence-loft" : [
     {
-      "title": {"en":"","es":""},
       "key": "two-bedrooom-residence-loft-billboard-1",
       "type": "image",
       "subtitle": {
@@ -431,7 +411,6 @@
   ],
   "three-bedroom-residence-loft" : [
     {
-      "title": {"en":"","es":""},
       "key": "three-bedroom-residence-billboard-1",
       "type": "gallery",
       "subtitle": {
@@ -459,7 +438,6 @@
   ],
   "four-bedroom-residence" : [
     {
-      "title": {"en":"","es":""},
       "key": "four-bedroom-residence-billboard-1",
       "type": "gallery",
       "subtitle": {
@@ -476,7 +454,6 @@
   ],
   "getting-here": [
     {
-      "title": {"en":"","es":""},
       "key": "getting-here-billboard-1",
       "subtitle": {"en":"Map","es":""},
       "type": "map",
@@ -581,7 +558,6 @@
   ],
   "golf": [
     {
-      "title": {"en":"","es":""},
       "key": "golf-billboard-1",
       "subtitle": {"en": "The Nayar Course","es": "El Campo Nayar"},
       "type": "linked",
@@ -596,7 +572,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "golf-billboard-2",
       "subtitle": {"en": "The Norman Signature Course","es": "El Campo Norman Signature"},
       "type": "linked",
@@ -611,7 +586,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "golf-billboard-3",
       "subtitle": {"en": "The Lakes Course","es": "El Campo The Lakes"} ,
       "type": "default",
@@ -626,32 +600,33 @@
 
   "the-nayar-course": [
     {
-      "title": {"en":"Course Overview","es":""},
       "key": "nayar-billboard-1",
-      "subtitle":  {"en":"18 Hole Course","es":""},
-      "type": "bullets",
-      "text":{
-        "en": ["18 Hole, Par 70", "Yards - 6,668", "Course Type - Championship", "Grass on Greens - Champions Bermuda", "Grass on Fairways - Bermuda 419", "Bunkers - 49", "Lakes - 7"],
-        "es": "**Needs Translation**"
+      "type": "two-column",
+      "colOne": {
+        "title": "Overview",
+        "content": ["18 Hole, Par 70", "Yards - 6,668", "Course Type - Championship", "Grass on Greens - Champions Bermuda", "Grass on Fairways - Bermuda 419", "Bunkers - 49", "Lakes - 7"]
       },
-      "thumbnail": "",
-      "link": ""
+      "colTwo": {
+        "title": "Details & Amenities",
+        "content": ["The Vidanta Golf Academies", "Ameca Social House", "Pro Shop", "Shoes and club rental", "Lighted practice range (open until 10:30 PM)", "Short game area", "Putting green", "Caddie service", "Bag storage", "Valet parking"]
+      }
     },
     {
-      "title": {"en":"Details & Amenities","es":""},
       "key": "nayar-billboard-2",
-      "subtitle":  {"en":"18 Hole Course","es":""},
-      "type": "bullets",
-      "text":{
-        "en": ["The Vidanta Golf Academies", "Ameca Social House", "Pro Shop", "Shoes and club rental", "Lighted practice range (open until 10:30 PM)", "Short game area", "Putting green", "Caddie service", "Bag storage", "Valet parking"],
-        "es": "**Needs Translation**"
+      "type": "two-column",
+      "colOne": {
+        "content": ["Book Your Tee Time", "Call 1-866-231-4423", "golfnv@vidantagolf.com"]
       },
-      "thumbnail": "",
-      "link": ""
-    },
+      "colTwo": {
+        "content": ["Guests may arrange and confirm their tee times at the Pro Shop or Concierge Desk. Singles are accepted and may be paired upon request."]
+      }
+    }
+  ],
+
+  "the-norman-signature-course": [
     {
       "title": {"en":"Course Details And Overview","es":""},
-      "key": "nayar-billboard-3",
+      "key": "norman-billboard-1",
       "type": "two-column",
       "colOne": {
         "title": "Overview",
@@ -664,24 +639,8 @@
     }
   ],
 
-  "the-norman-signature-course": [
-    {
-      "title": {"en":"Course Overview","es":""},
-      "key": "norman-billboard-1",
-      "subtitle":  {"en":"18 Hole Course","es":""},
-      "type": "course-details",
-      "text":{
-        "en":"Open to every guest. The Brio Spa has a French approach with a European flare. When you step through the door you will immediately feel the magical release of stress and feel relaxation cascade over you.",
-        "es": "**Needs Translation**"
-      },
-      "thumbnail": "brio-spa-billboard.jpg",
-      "link":  ""
-    }
-  ],
-
   "spa": [
     {
-      "title": {"en":"","es":""},
       "key": "spa-billboard-1",
       "subtitle":  {"en":"Brio Spa","es":""},
       "type": "linked",
@@ -696,7 +655,6 @@
       }
     },
     {
-      "title": {"en":"","es":""},
       "key": "spa-billboard-2",
       "subtitle": {"en":"Spatium","es":"Spatium"},
       "type": "linked",

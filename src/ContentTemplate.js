@@ -100,7 +100,7 @@ export class ContentTemplate extends Component {
               {this.state.billboards !== null
                 ? this.state.billboards.map((billboard) => {
                     console.log(typeof billboard)
-                    return <BillboardGenerator key={billboard.title["en"]} billboard={billboard} />
+                    return <BillboardGenerator key={billboard.key} billboard={billboard} />
                   })
                 : null
               }

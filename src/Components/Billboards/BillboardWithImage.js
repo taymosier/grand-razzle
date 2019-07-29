@@ -6,7 +6,7 @@ export class BillboardWithImage extends Component {
   constructor(props){
     super(props);
     this.state = {
-      title: this.props.billboard.title.en,
+      title: this.props.billboard.title !== undefined ? this.props.billboard.title.en : null,
       subtitle: this.props.billboard.subtitle.en,
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
@@ -51,9 +51,7 @@ export class BillboardWithImage extends Component {
               sm={{ size: 12, offset: 0 }}
               xs={{ size: 12, offset: 0 }}
             >
-              <p className="title">
-                {this.state.title}
-              </p>
+              {this.state.title !== null ? <p className="title">{this.state.title}</p> : null}
               <p className="subtitle">
                 {this.state.subtitle}
               </p>

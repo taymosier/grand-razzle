@@ -29,7 +29,7 @@ export class BillboardTwoColumn extends Component {
           xs={{ size: 5, offset: 0 }}
           className="colOne"
         >
-          <h1 >{this.state.colOne.title}</h1>
+          {this.state.colOne.title !== undefined ? <h1 >{this.state.colOne.title}</h1> : null}
           <ul >
             {this.state.colOne.content.map((item) => {
                 return <li >{item}</li>
@@ -44,7 +44,7 @@ export class BillboardTwoColumn extends Component {
           xs={{ size: 7, offset: 0 }}
           className="colTwo"
         >
-          <h1 >{this.state.colTwo.title}</h1>
+          {this.state.colTwo.title !== undefined ? <h1 >{this.state.colTwo.title}</h1> : null}
           <ul >
             {this.state.colTwo.content.map((item) => {
                 return <li >{item}</li>
