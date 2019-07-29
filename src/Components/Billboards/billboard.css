@@ -826,6 +826,72 @@
 
   /* BillboardTextOverlay */
 
+  div.billboard.two-column {
+    min-height: 60vh;
+    padding: 0;
+  }
+
+  div.billboard.two-column ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+
+  div.billboard.two-column div.colOne{
+    border-right: 2px solid black;
+    min-height: 100%;
+  }
+
+  div.billboard.two-column div.colOne h1{
+    line-height: 100%;
+    margin: 2.5% 0 0 0;
+  }
+
+  div.billboard.two-column div.colOne ul{
+    margin: 5% 0;
+  }
+
+  div.billboard.two-column div.colOne ul li{
+    font-size: 1.35vw;
+    max-width: 90%;
+    min-width: 90%;
+    text-align: center;
+    padding: 1% 2.5%;
+    margin: 0 10% 5px 0px;
+  }
+
+  div.billboard.two-column div.colTwo{
+
+  }
+
+  div.billboard.two-column div.colTwo h1{
+    line-height: 100%;
+    margin: 2.5% 0 0 0;
+  }
+
+  div.billboard.two-column div.colTwo ul{
+    border-top: 1px solid black;
+    min-height: 80%;
+    margin: 2.5% 0 0 0;
+  }
+
+  div.billboard.two-column div.colTwo ul li{
+    font-size: 1.5vw;
+    max-width: 45%;
+    min-width: 45%;
+    margin: 1% 0 0 2.5%;
+    text-align: left;
+    overflow-wrap: break-word;
+    padding: 1.5% 1.5% 0 1.5%;
+    border-bottom: 1px solid black;
+    line-height: 100%;
+  }
+
+  /* ****************** */
+
+
+  /* BillboardTextOverlay */
+
   div.billboard.image-background {
 
   }

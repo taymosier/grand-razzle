@@ -11,6 +11,8 @@ import { LinkedBillboard } from './LinkedBillboard';
 import { BillboardWithMap } from './BillboardWithMap';
 import { BillboardWithBullets } from './BillboardWithBullets';
 import { BillboardWithBulletsAndImage } from './BillboardWithBulletsAndImage';
+import { BillboardTwoColumn } from './BillboardTwoColumn';
+
 
 
 
@@ -54,6 +56,9 @@ export class BillboardGenerator extends Component {
     switch(this.state.type){
       case "default":
         return <BillboardWithImage billboard={this.state.billboard} />
+        break;
+      case "two-column":
+        return <BillboardTwoColumn billboard={this.state.billboard} />
         break;
       case "bullets":
         return <BillboardWithBullets billboard={this.state.billboard} />
