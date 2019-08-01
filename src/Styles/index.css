@@ -8,6 +8,7 @@
 
 body {
   background: #bce5f2 !important;
+  overflow-x: hidden;
 }
 
 div.toolbox {
@@ -25,7 +26,12 @@ div.container {
 
 @media  (max-width: 575px){
   div.main-content {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
+  div.container {
+    padding: 0;
+    overflow: hidden;
+  }
+
 }

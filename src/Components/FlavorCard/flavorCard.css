@@ -36,6 +36,15 @@ div.flavor-card p.flavor-text {
 }
 
 @media  (max-width: 575px) {
+  div.flavor-card {
+    background: #8ECADE;
+    min-height: fit-content;
+    position: relative;
+    margin: 0 0 20px;
+    border: 5px solid rgb(53, 118, 140, .7);
+    box-shadow: 0px 5px 10px -5px;
+  }
+
   div.flavor-card p.flavor-text {
     background: transparent;
     border: 0;
@@ -43,16 +52,18 @@ div.flavor-card p.flavor-text {
     color: white;
     font-size: 4.25vw;
     font-family: "Oxygen", sans-serif;
+    letter-spacing: 1px;
     line-height: 6vw;
     min-height: fit-content;
     padding: 1vh 1vw;
     text-align: center;
-    text-shadow: 2px 1.5px 1.5px black;
+    text-shadow: 1px 2px 3px black;
   }
 
   div.flavor-card div.text-container {
-    padding: 0 1vw;
+    padding: 1vh 7.5vw 0 7.5vw;
   }
+
 }
 
 @media (min-width: 576px) and (max-width: 767px) {

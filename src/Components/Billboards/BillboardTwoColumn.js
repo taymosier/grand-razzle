@@ -23,10 +23,10 @@ export class BillboardTwoColumn extends Component {
       <Row className="billboard two-column">
         <Col
           xl={{ size: 5, offset: 0 }}
-          lg={{ size: 5, offset: 0 }}
-          md={{ size: 5, offset: 0}}
-          sm={{ size: 5, offset: 0 }}
-          xs={{ size: 5, offset: 0 }}
+          lg={{ size: 12, offset: 0 }}
+          md={{ size: 12, offset: 0}}
+          sm={{ size: 12, offset: 0 }}
+          xs={{ size: 12, offset: 0 }}
           className="colOne"
         >
           {this.state.colOne.title !== undefined ? <h1 >{this.state.colOne.title}</h1> : null}
@@ -38,10 +38,10 @@ export class BillboardTwoColumn extends Component {
         </Col>
         <Col
           xl={{ size: 7, offset: 0 }}
-          lg={{ size: 7, offset: 0 }}
-          md={{ size: 7, offset: 0}}
-          sm={{ size: 7, offset: 0 }}
-          xs={{ size: 7, offset: 0 }}
+          lg={{ size: 12, offset: 0 }}
+          md={{ size: 12, offset: 0}}
+          sm={{ size: 12, offset: 0 }}
+          xs={{ size: 12, offset: 0 }}
           className="colTwo"
         >
           {this.state.colTwo.title !== undefined ? <h1 >{this.state.colTwo.title}</h1> : null}
