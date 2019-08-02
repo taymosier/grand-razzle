@@ -118,6 +118,7 @@ div.menu nav.navbar {
     min-width: 100%;
     max-width: 100%;
     min-height: fit-content;
+    padding: 0;
   }
 
   div.menu-toggle-container {
