@@ -1,5 +1,27 @@
 @media (max-width: 575px) {
 
+  div.billboard {
+    background: #8ECADE;
+    border: 10px solid ghostwhite;
+    border-radius: 1.5%;
+    box-shadow: 3px 3px 7.5px -1px darkslategrey;
+    color: black;
+    margin: 4vh 0vw;
+    max-width: 100%;
+    max-height: fit-content;
+    min-height: fit-content;
+    min-width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-basis: unset;
+  }
+
   div.billboard a.button {
     background: #35768C;
     border: 2px outset white;
@@ -84,6 +106,7 @@
     text-shadow: -2px 1px 3px black;
     letter-spacing: 1px;
     margin: 0 0 .5vh 0;
+    padding: 10px 20px;
   }
 
   div.billboard div.text-container {
