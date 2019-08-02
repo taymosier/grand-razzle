@@ -1,6 +1,6 @@
 @media (max-width: 575px) {
 
-  div.billboard {
+  div.billboard, div.billboard.linked.with-image {
     background: #8ECADE;
     border: 10px solid ghostwhite;
     border-radius: 1.5%;
@@ -109,12 +109,21 @@
     padding: 10px 20px;
   }
 
+  div.billboard.linked.with-image p.subtitle {
+    font-size: 5vw;
+    color: white;
+    text-shadow: -2px 1px 3px black;
+    letter-spacing: 1px;
+    margin: 0 0 .5vh 0;
+    padding: 10px 20px;
+    line-height: 5.25vw;
+  }
+
   div.billboard div.text-container {
 
   }
 
-  div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
-    position: absolute;
+  div.billboard.linked.with-image div.text-container{
     z-index: 102;
     top: 0;
     padding: 1vh 1vw;
@@ -233,5 +242,28 @@
   }
 
   /* ****************** */
+
+  div.billboard.with-image div.image-col {
+    min-height: 100%;
+    position: absolute;
+    display: flex;
+  }
+
+  div.billboard.with-image div.image-col div.image-container {
+    margin: auto;
+    padding: 0vh 0;
+    display: contents;
+    min-height: 100%;
+  }
+
+  div.billboard.with-image div.contents {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  div.billboard.with-image div.text-container {
+    position: inherit;
+  }
+
 
 }
