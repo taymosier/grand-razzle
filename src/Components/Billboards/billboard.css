@@ -81,10 +81,6 @@
     margin: 0;
   }
 
-  div.billboard.linked.no-image {
-
-  }
-
   div.billboard.linked.no-image div.filter{
     z-index: 100;
   }
