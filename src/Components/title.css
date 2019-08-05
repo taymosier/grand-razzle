@@ -11,9 +11,10 @@ div.title {
     border-bottom: .85px solid darkgrey;
     color: white;
     font-size: 7.5vw;
+    line-height: 8vw;
+    margin: 0 1vw 2vh 1vw;
     min-width: 100%;
     text-align: center;
-    margin: 0 1vw 2vh 1vw;
     text-shadow: 2.25px 2px 3.5px black;
   }
 
