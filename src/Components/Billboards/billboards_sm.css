@@ -32,7 +32,7 @@
   }
 
   div.billboard div.text-container {
-    color: white;
+    color: black;
     position: absolute;
     z-index: 102;
   }
@@ -42,8 +42,8 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 3.65vh;
-    color: white;
-    text-shadow: -1px 0.5px 2.5px black;
+    color: black;
+    text-shadow: none;
   }
 
   div.billboard.map div.left-col  div.wrapper div.googleMap {

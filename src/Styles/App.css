@@ -73,7 +73,7 @@ body, .menuButton, .registration-step-container {
 
 .billboard-map > .right-col {
   background: black;
-  color: white;
+  color: black;
 }
 
 .billboard-map > .right-col > .info-container {
@@ -1281,7 +1281,7 @@ body, .menuButton, .registration-step-container {
 
   .thumbnail-flavor_text {
     bottom: 0;
-    color: white;
+    color: black;
     display: inline-block;
     font-size: 20px;
     left: 10%;
@@ -1310,7 +1310,7 @@ body, .menuButton, .registration-step-container {
     margin: 10% 0 0 0;
     position: -webkit-sticky;
     position: sticky;
-    color: white;
+    color: black;
     z-index: 500;
   }
 

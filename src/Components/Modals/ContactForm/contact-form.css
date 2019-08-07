@@ -1,5 +1,5 @@
 div.contact-form {
-
+	max-width: 40vw;
 }
 
 div.modal-dialog.contact-form {
@@ -23,7 +23,9 @@ button.contact-toggle {
   justify-content: space-between;
 }
 
-
+button.contact-nav {
+	font-size: 1.75vw;
+}
 
 button.contact-toggle {
   background: transparent;
@@ -49,14 +51,23 @@ div.contact-form div.modal-header h5.modal-title div {
 }
 
 @media (max-width: 575px) {
+
+  div.contact-form {
+	  max-width: 90vw;
+  }
+
   button.contact-toggle:hover {
     background: #3f93b0;
   }
-  
+
   button.contact-toggle img {
     max-width: 32.5px;
     min-height: 35px;
     max-height: 35px;
+  }
+
+  button.contact-nav {
+	font-size: 4vw;
   }
 
   div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {

@@ -28,6 +28,7 @@ export class BillboardWithImage extends Component {
   }
 
   render(){
+		//TODO if this.state.text === Array() => map items 
     return(
       <Row className="billboard with-image">
           <div className="contents">

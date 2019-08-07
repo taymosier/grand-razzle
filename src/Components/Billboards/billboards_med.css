@@ -15,7 +15,7 @@
     background: #35768C;
     border: 2px outset white;
     box-shadow: 1px 2px 3px 0px black;
-    color: white;
+    color: black;
     display: block;
     font-size: 3.1vw;
     font-weight: 300;
@@ -25,7 +25,7 @@
     padding: 5px 25px;
     position: sticky;
     text-align: center;
-    text-shadow: 1px 2px black;
+    text-shadow: none;
     transition: .25s ease-in;
     top: 90%;
   }
@@ -61,12 +61,12 @@
   }
 
   div.billboard p.subtitle {
-    color: white;
+    color: black;
     font-size: 5vh;
     letter-spacing: 1px;
     margin: 2.5vh 0 0 0;
     line-height: 5vh;
-    text-shadow: -2px 1px 3px black;
+    text-shadow: none;
   }
 
   div.billboard.map {
@@ -88,9 +88,9 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 4.5vh;
-    color: white;
+    color: black;
     padding: 3.5vh 0.5vw 2.5vh 0.5vw;
-    text-shadow: -1px 0.5px 2.5px black;
+    text-shadow: none;
   }
 
   div.billboard.map div.filter {

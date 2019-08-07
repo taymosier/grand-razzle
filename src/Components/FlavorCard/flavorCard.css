@@ -5,6 +5,7 @@ div.flavor-card {
   margin: 0 0 20px;
   border: 10px solid #35768C;
   box-shadow: 0px 5px 10px -5px;
+  border-radius: 1.25%;
 }
 
 div.flavor-card div.contents {
@@ -29,9 +30,9 @@ div.flavor-card p.flavor-text {
   background: transparent;
   border: 0;
   box-shadow: none;
-  color: white;
+  color: black;
   text-align: center;
-  text-shadow: 2px 1.5px 1.5px black;
+  text-shadow: none;
   min-height: fit-content;
 }
 
@@ -46,22 +47,22 @@ div.flavor-card p.flavor-text {
   }
 
   div.flavor-card p.flavor-text {
-    background: transparent;
-    border: 0;
-    box-shadow: none;
-    color: white;
-    font-size: 4.25vw;
-    font-family: "Oxygen", sans-serif;
-    letter-spacing: 1px;
-    line-height: 6vw;
-    min-height: fit-content;
-    padding: 1vh 1vw;
-    text-align: center;
-    text-shadow: 1px 2px 3px black;
+	  background: transparent;
+	  border: 0;
+	  box-shadow: none;
+	  color: black;
+	  font-size: 5.25vw;
+	  font-family: "Oxygen", sans-serif;
+	  letter-spacing: 1px;
+	  line-height: 6vw;
+	  min-height: fit-content;
+	  padding: 1vh .25vw;
+	  text-align: center;
+	  text-shadow: none;
   }
 
   div.flavor-card div.text-container {
-    padding: 1vh 7.5vw 0 7.5vw;
+    padding: 1vh 5vw 0 5vw;
   }
 
 }
@@ -71,11 +72,11 @@ div.flavor-card p.flavor-text {
       background: transparent;
       border: 0;
       box-shadow: none;
-      color: white;
+      color: black;
       padding: 2vh 2vw;
       font-size: 24px;
       text-align: center;
-      text-shadow: 2px 1.5px 1.5px black;
+      text-shadow: none;
       min-height: fit-content;
   }
 }
