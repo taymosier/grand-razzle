@@ -75,6 +75,14 @@
     text-shadow: none;
   }
 
+	div.billboard p.title {
+		font-size: 4vh;
+		color: white;
+		text-shadow: none;
+		letter-spacing: 1.5px;
+		margin: 0;
+	}
+
   div.billboard div.flavor-text-container {
     position: sticky;
     top: 10%;
@@ -103,7 +111,7 @@
 
   div.billboard p.subtitle {
     font-size: 3vh;
-    color: black;
+    color: white;
     text-shadow: none;
     letter-spacing: 1px;
     margin: 0 0 .5vh 0;
@@ -112,7 +120,7 @@
 
   div.billboard.linked.with-image p.subtitle {
     font-size: 5vw;
-    color: black;
+    color: white;
     text-shadow: none;
     letter-spacing: 1px;
     margin: 0 0 .5vh 0;
@@ -145,12 +153,12 @@
 
   div.billboard.map div.right-col h5 {
     font-size: 4.5vw;
-    color: black;
+    color: white;
   }
 
   div.billboard.map div.right-col p {
     font-size: 3vw;
-    color: black;
+    color: white;
   }
 
   /* BillboardTwoColumn */

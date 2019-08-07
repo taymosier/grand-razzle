@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import { ButtonGroup } from 'reactstrap';
 import { LanguageToggleButton } from './LanguageToggleButton';
+import './languageToggle.css';
 
 export class LanguageButtonContainer extends Component {
   constructor(props){
     super(props);
     this.state = {
-
+			setLanguage: this.props.setLanguage
     };
   }
 
@@ -19,7 +20,7 @@ export class LanguageButtonContainer extends Component {
 
     let languageButtons = [];
     for(let language in languages){
-      languageButtons.push(<LanguageToggleButton key={`${languages[language].value}`} value={languages[language].value} className={`button-language-${language}`} setLanguage={this.props.setLanguage}  language={languages[language].text} />)
+      languageButtons.push(<LanguageToggleButton key={`${languages[language].value}`} value={languages[language].value} className={`button-language-${language}`} setLanguage={this.state.setLanguage}  language={languages[language].text} />)
     }
     return(<ButtonGroup className={"language-button-container"}>
             {languageButtons}

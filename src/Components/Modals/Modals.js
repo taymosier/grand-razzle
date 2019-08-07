@@ -3,6 +3,9 @@ import { Button, Col } from 'reactstrap';
 import { MenuModal } from '../Modals/MenuModal/MenuModal'
 import { ContactModal } from '../Modals/ContactForm/ContactModal';
 import { HelpModal } from '../Modals/HelpModal/HelpModal'
+import { LanguageButtonContainer } from '../LanguageToggle/LanguageButtonContainer';
+import './modal.css';
+
 
 export class Modals extends Component {
   constructor(props){
@@ -15,7 +18,8 @@ export class Modals extends Component {
           "sm": { "size": "0", "offset": "0" },
           "xs": { "size": "12", "offset": "0" }
         },
-				language: this.props.language
+				language: this.props.language,
+				setLanguage: this.props.setLanguage
     };
   }
 
@@ -40,6 +44,8 @@ export class Modals extends Component {
         <MenuModal language={this.state.language} />
         <ContactModal language={this.state.language} />
         <HelpModal language={this.state.language} />
+				<LanguageButtonContainer setLanguage={this.state.setLanguage}/>
+
       </Col>
     );
   }

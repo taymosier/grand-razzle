@@ -135,6 +135,7 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
   div.help-toggle-container {
     padding: .5rem;
     display: flex;
+		float: left;
     min-width: fit-content;
     max-width: fit-content;
   }
@@ -182,6 +183,7 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
   div.help-toggle-container {
     padding: .5rem;
     display: flex;
+		float: left;
     min-width: fit-content;
     max-width: fit-content;
   }
@@ -257,10 +259,11 @@ div.modal-dialog.help div.modal-content div.help.modal-body div.help p {
 
 @media (min-width: 1200px) {
   div.help-toggle-container {
-    padding: .5rem;
-    display: flex;
+		display: flex;
+		float: left;
     min-width: fit-content;
     max-width: fit-content;
+		padding: .5rem;
   }
 
   div.modal-dialog.help div.modal-content div.modal-header button.close {

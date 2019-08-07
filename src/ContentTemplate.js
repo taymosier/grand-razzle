@@ -85,8 +85,7 @@ export class ContentTemplate extends Component {
         <Container className={`${this.state.view}-page`}>
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
-            <Modals language={this.state.language} />
-						<LanguageButtonContainer setLanguage={this.setLanguage}/>
+            <Modals language={this.state.language} setLanguage={this.setLanguage}/>
             <Col
               className="main-content"
               xl={{ size: 9, offset: 0 }}
