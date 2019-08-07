@@ -9,6 +9,7 @@ export class ContactFormSelect extends Component {
       name: this.props.field.name,
       id: this.props.field.id,
       multiple: this.props.field.multiple,
+			language: this.props.language,
       placeholder: this.props.field.placeholder !== undefined ? this.props.field.placeholder : null
     }
   }

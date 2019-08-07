@@ -11,9 +11,18 @@ export class BillboardWithImage extends Component {
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
       active: 0,
+			language: this.props.language,
       imageSrc: null
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   componentDidMount(){
     if(this.props.billboard.thumbnail !== undefined ){
@@ -28,7 +37,7 @@ export class BillboardWithImage extends Component {
   }
 
   render(){
-		//TODO if this.state.text === Array() => map items 
+		//TODO if this.state.text === Array() => map items
     return(
       <Row className="billboard with-image">
           <div className="contents">
@@ -53,9 +62,9 @@ export class BillboardWithImage extends Component {
               xs={{ size: 12, offset: 0 }}
             >
               {this.state.title !== null ? <p className="title">{this.state.title}</p> : null}
-              <p className="subtitle">
-                {this.state.subtitle}
-              </p>
+	              <p className="subtitle">
+	                {this.state.subtitle}
+	              </p>
               <div className="flavor-text-container">
                 <p className="flavor-text">
                   {this.state.text}

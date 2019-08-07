@@ -9,7 +9,8 @@ export class ContactFormGroup extends Component {
       group: this.props.group,
       key: this.props.key,
       category: this.props.group.category,
-      active: this.props.active
+      active: this.props.active,
+			language: this.props.language
     }
   }
 
@@ -27,7 +28,7 @@ export class ContactFormGroup extends Component {
     return(
       <FormGroup style={style}>
         {Object.keys(this.state.group).map((fieldKey)=> {
-          return <FieldGenerator key={fieldKey} fieldType={fieldKey} field={this.state.group[fieldKey]} />
+          return <FieldGenerator key={fieldKey} fieldType={fieldKey} field={this.state.group[fieldKey]} language={this.state.language}/>
         })}
       </FormGroup>
     )

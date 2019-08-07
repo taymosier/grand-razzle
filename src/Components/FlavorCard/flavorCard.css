@@ -69,15 +69,16 @@ div.flavor-card p.flavor-text {
 
 @media (min-width: 576px) and (max-width: 767px) {
   div.flavor-card p.flavor-text {
-      background: transparent;
-      border: 0;
-      box-shadow: none;
-      color: black;
-      padding: 2vh 2vw;
-      font-size: 24px;
-      text-align: center;
-      text-shadow: none;
-      min-height: fit-content;
+		background: transparent;
+    border: 0;
+    box-shadow: none;
+    color: black;
+    padding: 2vh 2vw;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-shadow: none;
+    min-height: fit-content;
   }
 }
 

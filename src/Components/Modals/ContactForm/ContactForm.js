@@ -9,7 +9,8 @@ export class ContactForm extends Component {
     this.state ={
       modal: false,
       groups: this.props.groups,
-      active: this.props.active
+      active: this.props.active,
+			language: this.props.language
     }
   }
 
@@ -25,18 +26,24 @@ export class ContactForm extends Component {
         active: this.props.active
       })
     }
+
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
   }
 
 
   render(){
     console.log(`This state group length: ${this.state.groups["first-name"].label.text}`)
-  return(
-    <Form action="https://formspree.io/taymosier@gmail.com" method="POST">
-      {Object.keys(this.state.groups).map((groupKey) => {
-        return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} active={this.state.active}/>
-      })}
-      <Button type="submit" value="Send" id="contactFormSubmitButton">Submit</Button>
-    </Form>
+  	return(
+	    <Form action="https://formspree.io/taymosier@gmail.com" method="POST">
+	      {Object.keys(this.state.groups).map((groupKey) => {
+	        return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} active={this.state.active} language={this.state.language}/>
+	      })}
+	      <Button type="submit" value="Send" id="contactFormSubmitButton">{this.props.language === "en" ? "Submit" : "Enviar"}</Button>
+	    </Form>
     )
   }
 }

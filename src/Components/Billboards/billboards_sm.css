@@ -14,6 +14,21 @@
     z-index: 101;
   }
 
+	div.billboard p.title {
+		font-size: 4vh;
+		color: white;
+		text-shadow: none;
+		letter-spacing: 1.5px;
+		margin: 0;
+	}
+
+  div.billboard p.subtitle {
+    font-size: 4vh;
+    color: white;
+    text-shadow: none;
+    letter-spacing: 1px;
+  }
+
   div.billboard div.image-container {
     max-width: 100%;
   }
@@ -32,17 +47,35 @@
   }
 
   div.billboard div.text-container {
-    color: black;
-    position: absolute;
+    color: white;
     z-index: 102;
   }
 
+	div.billboard a.button {
+		background: #35768C;
+		border: 2px outset white;
+		box-shadow: 1px 2px 3px 0px black;
+		color: white;
+		display: block;
+		font-size: 4vw;
+		font-weight: 300;
+		margin: 30px auto 20px auto;
+		max-width: fit-content;
+		min-width: 100%;
+		padding: 5px 25px;
+		position: sticky;
+		text-align: center;
+		text-shadow: none;
+		transition: .25s ease-in;
+		top: 90%;
+	}
+
   div.billboard p.flavor-text{
-    font-size: 3.5vh;
+		font-size: 3.5vw;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 3.65vh;
-    color: black;
+    line-height: 3.65vw;
+    color: white;
     text-shadow: none;
   }
 
@@ -52,5 +85,21 @@
     margin: 1vh 0 2vh 0;
     float: left;
     z-index: 1250;
+  }
+
+	div.billboard.map {
+		color: white;
+	}
+
+	div.billboard.map div.right-col {
+		z-index: 102;
+	}
+
+	div.billboard.map div.right-col h5 {
+    font-size: 3vw;
+  }
+
+  div.billboard.map div.right-col p {
+    font-size: 2.75vw;
   }
 }

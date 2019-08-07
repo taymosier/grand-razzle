@@ -3,13 +3,16 @@
     "category": "Basic",
     "label": {
       "for": "first-name",
-      "text": "First Name"
+      "text": {
+				"en": "First Name",
+				"es" : "Nombre de Pila"
+			}
     },
     "input": {
       "type": "text",
       "name": "first-name",
       "id": "firstName",
-      "placeholder": "John"
+      "placeholder": ""
     }
   },
 
@@ -17,13 +20,16 @@
     "category": "Basic",
     "label": {
       "for": "last-name",
-      "text": "Last Name"
+      "text": {
+				"en": "Last Name",
+				"es" : "Apellido"
+			}
     },
     "input": {
       "type": "text",
       "name": "last-name",
       "id": "lastName",
-      "placeholder": "Doe"
+      "placeholder": ""
     }
   },
 
@@ -31,13 +37,16 @@
     "category": "Basic",
     "label": {
       "for": "email",
-      "text": "Email"
+      "text": {
+				"en": "Email",
+				"es" : "Correo Electrónico"
+			}
     },
     "input": {
       "type": "email",
       "name": "email",
       "id": "exampleEmail",
-      "placeholder": "johndoe@gmail.com"
+      "placeholder": ""
     }
   },
 
@@ -45,13 +54,16 @@
     "category": "Basic",
     "label": {
       "for": "phone",
-      "text": "Phone"
+      "text": {
+				"en": "Phone",
+				"es" : "Número de Teléfono"
+			}
     },
     "input": {
       "type": "number",
       "name": "phone",
       "id": "phone",
-      "placeholder": "555-555-5555"
+      "placeholder": ""
     }
   },
 
@@ -59,7 +71,10 @@
     "category": "Itinerary",
     "label": {
       "for": "rooms",
-      "text": "Rooms"
+      "text": {
+				"en": "Rooms",
+				"es" : "Habitación"
+			}
     },
     "select": {
       "options": [
@@ -77,7 +92,10 @@
     "category": "Itinerary",
     "label": {
       "for": "comments",
-      "text": "Comments"
+      "text": {
+				"en": "Comments",
+				"es" : "Comentarios"
+			}
     },
     "textarea": {
       "id": "commentsTextBox",
@@ -90,7 +108,10 @@
     "category": "Itinerary",
     "label": {
       "for": "arrival-date",
-      "text": "Desired Arrival Date"
+      "text": {
+				"en": "Desired Arrival Date",
+				"es" : "Fecha de Llegada Deseada"
+			}
     },
     "input": {
       "type": "date",
@@ -104,7 +125,10 @@
     "category": "Itinerary",
     "label": {
       "for": "departure-date",
-      "text": "Desired Departure Date"
+      "text": {
+				"en": "Desired Departure Date",
+				"es" : "Fecha de Salida Deseada"
+			}
     },
     "input": {
       "type": "date",
@@ -130,7 +154,10 @@
       "type": "text",
       "name": "unit-number",
       "id": "departureDateField",
-      "placeholder": "Suite - P.O. Box - Apt - Unit"
+			"placeholder": {
+				"en": "Suite - P.O. Box - Apt - Unit",
+				"es": "Suite - P.O. Box - Apt - Unidad"
+			}
     }
   },
 
@@ -140,7 +167,10 @@
       "type": "text",
       "name": "city",
       "id": "city",
-      "placeholder": "City"
+			"placeholder": {
+				"en": "City",
+				"es": "Ciudad"
+			}
     }
   },
 
@@ -150,7 +180,10 @@
       "type": "text",
       "name": "state",
       "id": "state",
-      "placeholder": "State"
+			"placeholder": {
+				"en": "State",
+				"es": "Estado"
+			}
     }
   },
 
@@ -160,7 +193,10 @@
       "type": "text",
       "name": "country",
       "id": "coutnry",
-      "placeholder": "Country"
+			"placeholder": {
+				"en": "Country",
+				"es": "País"
+			}
     }
   },
 
@@ -170,7 +206,10 @@
       "type": "text",
       "name": "zipcode",
       "id": "zipcode",
-      "placeholder": "Zipcode"
+			"placeholder": {
+				"en": "Zipcode",
+				"es": "Código postal"
+			}
     }
   }
 }

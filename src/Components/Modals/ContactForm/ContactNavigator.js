@@ -5,7 +5,8 @@ export class ContactNavigator extends Component {
   constructor(props){
     super(props);
     this.state = {
-      active: this.props.active
+      active: this.props.active,
+			language: this.props.language
     }
   }
 
@@ -15,6 +16,12 @@ export class ContactNavigator extends Component {
         active: this.props.active
       })
     }
+
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
   }
 
   render(){

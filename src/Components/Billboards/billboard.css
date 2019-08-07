@@ -171,19 +171,9 @@
     overflow: hidden;
   }
 
-
-
-
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;
     min-width: 100%;
-  }
-
-  div.billboard p.subtitle {
-    font-size: 3vh;
-    color: black;
-    text-shadow: none;
-    letter-spacing: 1px;
   }
 
   div.billboard div.text-container {
@@ -224,15 +214,6 @@
     float: left;
     z-index: 1250;
   }
-
-  div.billboard.map div.right-col h5 {
-    font-size: 2.5vw;
-  }
-
-  div.billboard.map div.right-col p {
-    font-size: 2vw;
-  }
-
 
   div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
     position: absolute;
@@ -343,10 +324,6 @@
     text-align: center;
   }
 
-
-
-
-
   div.billboard div.billboardImage {
     background-size: cover;
     background-repeat: no-repeat;
@@ -364,7 +341,6 @@
     min-width: fit-content;
     display: contents;
   }
-
 
   div.billboard div.flavor-text-container {
     position: sticky;
@@ -402,14 +378,6 @@
     z-index: 101;
   }
 
-  div.billboard p.title {
-    font-size: 4vh;
-    color: black;
-    text-shadow: none;
-    letter-spacing: 1.5px;
-    margin: 0;
-  }
-
   div.billboard.linked.no-image {
 
   }
@@ -417,7 +385,6 @@
   div.billboard.linked.no-image div.filter{
     z-index: 100;
   }
-
 
   div.billboard.map {
     min-width: 100%;
@@ -538,7 +505,7 @@
     border: 10px solid ghostwhite;
     border-radius: 1.5%;
     box-shadow: 3px 3px 7.5px -1px darkslategrey;
-    color: black;
+    color: white;
     margin: 4vh 1vw;
     max-width: 100%;
     max-height: fit-content;
@@ -553,7 +520,7 @@
     background: #35768C;
     border: 2px outset white;
     box-shadow: 1px 2px 3px 0px black;
-    color: black;
+    color: white;
     display: block;
     font-size: 2.1vw;
     font-weight: 300;
@@ -599,7 +566,7 @@
     min-height: 100%;
     position: absolute;
     min-width: 100%;
-    opacity: .35;
+    opacity: .5;
     z-index: 101;
   }
 
@@ -609,11 +576,11 @@
   }
 
   div.billboard p.flavor-text{
-    font-size: 3.15vh;
+		font-size: 3vw;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 3.5vh;
-    color: black;
+    line-height: 3.25vw;
+    color: white;
     text-shadow: none;
   }
 
@@ -629,7 +596,6 @@
     overflow: hidden;
   }
 
-
   div.billboard div.image-col div.image-container {
     margin: auto;
     padding: 0vh 0;
@@ -641,8 +607,8 @@
   }
 
   div.billboard p.subtitle {
-    font-size: 3vh;
-    color: black;
+		font-size: 3vw;
+    color: white;
     text-shadow: none;
     letter-spacing: 1px;
   }
@@ -657,7 +623,7 @@
 
   div.billboard p.title {
     font-size: 4vh;
-    color: black;
+    color: white;
     text-shadow: none;
     letter-spacing: 1.5px;
     margin: 0;
@@ -685,6 +651,11 @@
     float: left;
     z-index: 1250;
   }
+
+	div.billboard.map div.right-col {
+		color: white;
+		z-index: 102;
+	}
 
   div.billboard.map div.right-col h5 {
     font-size: 2.5vw;
@@ -1019,10 +990,10 @@
   }
 
   div.billboard p.flavor-text{
-    font-size: 3.75vh;
+		font-size: 2.5vw;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 5.15vh;
+    line-height: 2.75vw;
     color: black;
     text-shadow: none;
   }

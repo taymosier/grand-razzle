@@ -6,7 +6,7 @@ export class ContactFormLabel extends Component {
     super(props);
     this.state = {
       for: this.props.field.for,
-      text: this.props.field.text
+      text: this.props.field.text[this.props.language]
     }
   }
 

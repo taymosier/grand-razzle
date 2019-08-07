@@ -12,11 +12,20 @@ export class ContactModal extends Component {
     this.state = {
       groups: contactForm,
       modal: false,
-      active: "Basic"
+      active: "Basic",
+			language: this.props.language
     }
     this.toggle = this.toggle.bind(this);
     this.setActive = this.setActive.bind(this);
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   componentDidMount(){
     this.setState({
@@ -49,7 +58,9 @@ export class ContactModal extends Component {
             Fill Out The Sections Below And Click Submit!
           </ModalHeader>
             <ContactNavigator setActive={this.setActive} active={this.state.active}/>
-          <ModalBody><ContactForm groups={this.state.groups} active={this.state.active}/></ModalBody>
+          <ModalBody>
+						<ContactForm groups={this.state.groups} active={this.state.active} language={this.state.language}/>
+					</ModalBody>
           <ModalFooter>
           </ModalFooter>
         </Modal>

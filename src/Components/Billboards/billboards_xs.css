@@ -5,7 +5,7 @@
     border: 10px solid ghostwhite;
     border-radius: 1.5%;
     box-shadow: 3px 3px 7.5px -1px darkslategrey;
-    color: black;
+    color: white;
     margin: 4vh 0vw;
     max-width: 100%;
     max-height: fit-content;
@@ -26,7 +26,7 @@
     background: #35768C;
     border: 2px outset white;
     box-shadow: 1px 2px 3px 0px black;
-    color: black;
+    color: white;
     display: block;
     font-size: 6.5vw;
     font-weight: 300;
@@ -70,7 +70,7 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 3.5vh;
-    color: black;
+    color: white;
     padding: 0 15px;
     text-shadow: none;
   }

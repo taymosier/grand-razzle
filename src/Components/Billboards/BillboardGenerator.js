@@ -22,12 +22,21 @@ export class BillboardGenerator extends Component {
     super(props);
     this.state = {
       billboard: this.props.billboard,
+			language: this.props.language,
       type: this.props.billboard.type,
       hasThumbnail: this.hasThumbnail(this.props.billboard),
       hasLink: this.hasLink(this.props.billboard),
       isMap: this.isMap(this.props.billboard)
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   hasThumbnail(billboard){
     if(billboard.thumbnail !== ""){
@@ -55,28 +64,28 @@ export class BillboardGenerator extends Component {
   render(){
     switch(this.state.type){
       case "default":
-        return <BillboardWithImage billboard={this.state.billboard} />
+        return <BillboardWithImage billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "two-column":
-        return <BillboardTwoColumn billboard={this.state.billboard} />
+        return <BillboardTwoColumn billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "bullets":
-        return <BillboardWithBullets billboard={this.state.billboard} />
+        return <BillboardWithBullets billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "bullets-with-image":
-        return <BillboardWithBulletsAndImage billboard={this.state.billboard} />
+        return <BillboardWithBulletsAndImage billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "map":
-        return <BillboardWithMap />
+        return <BillboardWithMap language={this.state.language}/>
         break;
       case "linked":
-        return <LinkedBillboardWithImage billboard={this.state.billboard} />
+        return <LinkedBillboardWithImage billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "linked-no-image":
-        return <LinkedBillboard billboard={this.state.billboard} />
+        return <LinkedBillboard billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "no-image":
-        return <Billboard billboard={this.state.billboard} />
+        return <Billboard billboard={this.state.billboard} language={this.state.language}/>
         break;
       default:
         return <div>Error Loading Billboard</div>

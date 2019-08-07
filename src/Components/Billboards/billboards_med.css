@@ -15,7 +15,7 @@
     background: #35768C;
     border: 2px outset white;
     box-shadow: 1px 2px 3px 0px black;
-    color: black;
+    color: white;
     display: block;
     font-size: 3.1vw;
     font-weight: 300;
@@ -61,7 +61,7 @@
   }
 
   div.billboard p.subtitle {
-    color: black;
+    color: white;
     font-size: 5vh;
     letter-spacing: 1px;
     margin: 2.5vh 0 0 0;
@@ -88,7 +88,7 @@
     font-weight: 300;
     letter-spacing: 1px;
     line-height: 4.5vh;
-    color: black;
+    color: white;
     padding: 3.5vh 0.5vw 2.5vh 0.5vw;
     text-shadow: none;
   }

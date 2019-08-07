@@ -374,6 +374,7 @@ div.menu nav.navbar {
 
   div.menu.modal-dialog div.modal-content {
     background: transparent;
+		border: 0;
   }
 
   div.menu.modal-dialog div.modal-body{

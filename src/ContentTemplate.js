@@ -7,6 +7,7 @@ import { FlavorCard } from './Components/FlavorCard/FlavorCard';
 import { ImageCarousel } from './Components/Carousel/ImageCarousel';
 import { ThumbnailGrid } from './Components/ThumbnailGrid/ThumbnailGrid';
 import { Modals } from './Components/Modals/Modals'
+import { LanguageButtonContainer } from './Components/LanguageToggle/LanguageButtonContainer';
 
 
 import galleries from './Content/galleries.json';
@@ -26,8 +27,10 @@ export class ContentTemplate extends Component {
       gallery: null,
       thumbnails: null,
       flavor: null,
-      view: null
+      view: null,
+			language: "en"
     }
+		this.setLanguage = this.setLanguage.bind(this);
   }
 
   componentDidMount(){
@@ -68,13 +71,22 @@ export class ContentTemplate extends Component {
       : null
   }
 
+	setLanguage(e){
+    e.preventDefault();
+    console.log(e.target.value)
+    this.setState({
+      language: `${e.target.value}`
+    });
+  }
+
   render(){
     if(this.state.view !== undefined){
       return(
         <Container className={`${this.state.view}-page`}>
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
-            <Modals />
+            <Modals language={this.state.language} />
+						<LanguageButtonContainer setLanguage={this.setLanguage}/>
             <Col
               className="main-content"
               xl={{ size: 9, offset: 0 }}
@@ -84,12 +96,12 @@ export class ContentTemplate extends Component {
               xs={{ size: 12, offset: 0 }}
             >
               {this.state.view !== null
-                ? <PageTitle view={this.state.view} />
+                ? <PageTitle view={this.state.view} language={this.state.language}/>
                 : null
               }
               {this.state.flavor !== null
                 ? this.state.flavor.map((text) => {
-                    return <FlavorCard flavor={text["en"]} />
+                    return <FlavorCard flavor={text[`${this.state.language}`]} />
                   })
                 : null
               }
@@ -100,12 +112,12 @@ export class ContentTemplate extends Component {
               {this.state.billboards !== null
                 ? this.state.billboards.map((billboard) => {
                     console.log(typeof billboard)
-                    return <BillboardGenerator key={billboard.key} billboard={billboard} />
+                    return <BillboardGenerator key={billboard.key} billboard={billboard} language={this.state.language}/>
                   })
                 : null
               }
               {this.state.thumbnails !== null
-                ? <ThumbnailGrid view={this.state.view} thumbnails={this.state.thumbnails}/>
+                ? <ThumbnailGrid view={this.state.view} thumbnails={this.state.thumbnails} language={this.state.language}/>
                 : null
               }
             </Col>

@@ -10,9 +10,18 @@ export class FieldGenerator extends Component {
     super(props);
     this.state = {
       type: null,
-      field: null
+      field: null,
+			language: this.props.language
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   componentDidMount(){
     this.setState({
@@ -25,19 +34,19 @@ export class FieldGenerator extends Component {
     switch(`${this.state.type}`){
       case "input":
         console.log('THIS IS AN INPUT CASE 1')
-        return <ContactFormInput field={this.state.field} />
+        return <ContactFormInput field={this.state.field} language={this.state.language}/>
         break;
       case "select":
         console.log('THIS IS AN SELECT CASE 2')
-        return <ContactFormSelect field={this.state.field} />
+        return <ContactFormSelect field={this.state.field} language={this.state.language}/>
         break;
       case "label":
         console.log('THIS IS AN LABEL CASE 3')
-        return <ContactFormLabel field={this.state.field} />
+        return <ContactFormLabel field={this.state.field} language={this.state.language}/>
         break;
       case "textarea":
         console.log('THIS IS AN TEXTAREA CASE 4')
-        return <ContactTextArea field={this.state.field} />
+        return <ContactTextArea field={this.state.field} language={this.state.language}/>
         break;
       default:
         console.log(`UNREGISTERED FIELD TYPE ${this.state.type}`)

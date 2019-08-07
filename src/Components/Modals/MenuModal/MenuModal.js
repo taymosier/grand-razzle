@@ -7,7 +7,8 @@ export class MenuModal extends Component {
   constructor(props){
     super(props);
     this.state = {
-      modal: false
+      modal: false,
+			language: this.props.language
     }
     this.toggle = this.toggle.bind(this);
   }
@@ -17,6 +18,14 @@ export class MenuModal extends Component {
       icon: "./menu.png"
     })
   }
+
+	componentDidUpdate(){
+		if(this.state.language !== this.props.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   toggle(){
     this.setState({

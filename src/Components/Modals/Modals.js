@@ -15,8 +15,18 @@ export class Modals extends Component {
           "sm": { "size": "0", "offset": "0" },
           "xs": { "size": "12", "offset": "0" }
         },
+				language: this.props.language
     };
   }
+
+	componentDidUpdate(){
+		if(this.state.language !== this.props.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
+
   render(){
     return(
       <Col
@@ -27,9 +37,9 @@ export class Modals extends Component {
         sm={this.state.size.sm}
         xs={this.state.size.xs}
       >
-        <MenuModal />
-        <ContactModal />
-        <HelpModal />
+        <MenuModal language={this.state.language} />
+        <ContactModal language={this.state.language} />
+        <HelpModal language={this.state.language} />
       </Col>
     );
   }

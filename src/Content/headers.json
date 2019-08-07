@@ -1,7 +1,7 @@
 {
   "home": {
     "en":"Welcome To Luxurious Paradise",
-    "es": "nuevo vallarta"
+    "es": "Bienvenido al lujoso paraíso"
   },
   "rooms": {
     "en":"Grande Luxxe Accommodations",
@@ -13,39 +13,39 @@
   },
   "dining": {
     "en":"Where To Eat And Drink",
-    "es": "nuevo vallarta"
+    "es": "Dónde comer y beber"
   },
   "what-to-do": {
     "en":"Awesome Adventures",
-    "es":"**Needs Translation**"
+    "es":"Aventuras impresionantes"
   },
   "golf": {
-    "en": "A Superb Golfing Architecture Landscape ",
-    "es": "**Needs Translation**"
+    "en": "A Superb Golfing Architecture Landscape",
+    "es": "Un magnífico paisaje de arquitectura de golf"
   },
   "the-nayar-course": {
-    "en": "A Superb Golfing Architecture Landscape ",
-    "es": "**Needs Translation**"
+    "en": "A Superb Golfing Architecture Landscape",
+    "es": "Un magnífico paisaje de arquitectura de golf"
   },
   "the-norman-signature-course": {
-    "en": "A Superb Golfing Architecture Landscape ",
-    "es": "**Needs Translation**"
+    "en": "A Superb Golfing Architecture Landscape",
+    "es": "Un magnífico paisaje de arquitectura de golf"
   },
   "spa": {
     "en":"Relaxation and Tranquility ",
-    "es":"**Needs Translation**"
+    "es":"Relajación y Tranquilidad"
   },
   "activities": {
     "en":"Activities For Everyone",
-    "es":"nuevo vallarta"
+    "es":"Actividades para todos"
   },
   "entertainment": {
-    "en": "Nighttime Fun for All ",
-    "es":"**Needs Translation**"
+    "en": "Nighttime Fun for All",
+    "es":"Diversión nocturna para todos"
   },
   "new-offerings": {
     "en":"New Delights to Try",
-    "es":"**Needs Translation**"
+    "es":"Nuevas delicias para probar"
   },
   "pools": {
     "en":"Ease into the Luscious Water",
@@ -53,43 +53,43 @@
   },
   "two-bedroom-suite":{
     "en": "Two Bedroom Suites",
-    "es": ""
+    "es": "Suites de dos habitaciones"
   },
   "two-bedroom-presidential-villa":{
     "en": "Two Bedroom Presidential Villa",
-    "es": ""
+    "es": "Villa presidenciales de dos dormitorios"
   },
   "three-bedroom-presidential-villa":{
     "en": "Three Bedroom Presidential Villa",
-    "es": ""
+    "es": "Villa presidencial de tres habitaciones"
   },
   "two-bedroom-spa-suite":{
     "en": "Two Bedroom Spa Suite",
-    "es": ""
+    "es": "Suite Spa de dos habitaciones"
   },
   "three-bedroom-spa-suite":{
     "en": "Three Bedroom Spa Suite",
-    "es": ""
+    "es": "Suite Spa de tres habitaciones"
   },
   "two-bedroom-residence-loft":{
     "en": "Two Bedroom Residence Loft",
-    "es": ""
+    "es": "Loft de residencia de dos habitaciones"
   },
   "three-bedroom-residence-loft":{
     "en": "Three Bedroom Residence Loft",
-    "es": ""
+    "es": "Loft de residencia de tres habitaciones"
   },
   "four-bedroom-residence":{
     "en": "Four Bedroom Residence",
-    "es": ""
+    "es": "Residencia de cuatro habitaciones"
   },
   "brio-spa":{
     "en": "Treatments",
-    "es": ""
+    "es": "Tratos"
   },
   "spatium":{
     "en": "Treatments",
-    "es": ""
+    "es": "Tratos"
   }
 
 }
