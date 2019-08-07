@@ -11,6 +11,14 @@ export class BillboardTextOverlay extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
+
   setThumbnail(thumbnail){
     return {
       "backgroundImage": `url(${require("../../../public/images/billboards/" + thumbnail)})`

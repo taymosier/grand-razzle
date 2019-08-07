@@ -8,6 +8,14 @@ export class Title extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.title !== this.state.title){
+			this.setState({
+				title: this.props.title
+			})
+		}
+	}
+
   render(){
     return(
       <p className="title">

@@ -19,6 +19,11 @@ export class BillboardWithMap extends Component {
         language: this.props.language
       })
     }
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
   }
   render(){
     return(

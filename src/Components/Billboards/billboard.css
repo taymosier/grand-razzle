@@ -73,14 +73,6 @@
     z-index: 101;
   }
 
-  div.billboard p.title {
-    font-size: 4vh;
-    color: black;
-    text-shadow: none;
-    letter-spacing: 1.5px;
-    margin: 0;
-  }
-
   div.billboard.linked.no-image div.filter{
     z-index: 100;
   }

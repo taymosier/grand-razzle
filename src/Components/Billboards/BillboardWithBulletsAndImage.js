@@ -17,6 +17,14 @@ export class BillboardWithBulletsAndImage extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
+
   setThumbnail(thumbnail){
     return require(`../../../public/images/billboards/${thumbnail}`)
   }

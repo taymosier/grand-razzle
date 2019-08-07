@@ -15,8 +15,17 @@ export class LinkedBillboard extends Component {
       subtitle: this.props.billboard.subtitle.en !== "" ? this.props.billboard.subtitle.en : null,
       text: this.props.billboard.text.en,
       href: this.props.billboard.link,
+			language: this.props.language
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   render(){
     return(

@@ -11,13 +11,25 @@ export class LinkedBillboardWithImage extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      title: this.props.title !== undefined ? this.props.billboard.title.en : null,
-      subtitle: this.props.billboard.subtitle.en,
-      text: this.props.billboard.text.en,
+			title: this.props.title !== undefined ? this.props.billboard.title[this.props.language] : null,
+      subtitle: this.props.billboard.subtitle[this.props.language],
+      text: this.props.billboard.text[this.props.language],
       href: this.props.billboard.link,
+			language: this.props.language,
       imageSrc: this.setThumbnail(this.props.billboard.thumbnail)
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language,
+				subtitle: this.props.billboard.subtitle[this.props.language],
+				text: this.props.billboard.text[this.props.language],
+				title: this.props.title !== undefined ? this.props.billboard.title[this.props.language] : null
+			})
+		}
+	}
 
   setThumbnail(thumbnail){
     return require(`../../../public/images/billboards/${thumbnail}`)

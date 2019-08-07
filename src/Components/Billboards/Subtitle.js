@@ -8,6 +8,14 @@ export class Subtitle extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.subtitle !== this.state.subtitle){
+			this.setState({
+				subtitle: this.props.subtitle
+			})
+		}
+	}
+
   render(){
     return(
       <p className="subtitle">

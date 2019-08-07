@@ -105,7 +105,7 @@
       "type": "linked",
       "text": {
         "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or place to bring together the entire family Grande Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
-        "es": "***NEEDS UPDATED TEXT*** Desde hermosas habitaciones hasta lujosos lofts y amplias suites, Grande Luxxe Nuevo Vallarta ofrece una gran variedad de alojamientos de alta calidad."
+				"es": "Lujo superior presentado a la altura de la indulgencia diseñado para inspirar descanso y relajación. Ya sea que esté buscando una escapada romántica, unas vacaciones con amigos o un lugar para reunir a toda la familia, los alojamientos de Grande Luxxe ofrecen un ambiente sofisticado de paz y armonía."
       },
       "thumbnail": "rooms-billboard.jpg",
       "link": {
@@ -144,7 +144,7 @@
       "type": "default",
       "text": {
         "en":"Guests may choose to dine however they like in over 40 restaurants. Choose from a fast casual bite to eat on the go, a poolside culinary pampering or a fine dining experience. The food offerings are from all over the world including a gourmet market. Expect your taste buds to be delighted with flavors you’ll remember forever. Once you arrive browse through the inroom restaurant book to make your dining plans for the week. Contact the concierge for which restaurants require reservations and make your reservation early to guarantee your preferred day and time. ",
-        "es": "**Needs Translation**"
+        "es": "Los huéspedes pueden optar por cenar como quieran en más de 40 restaurantes. Elija entre un bocado rápido e informal para comer mientras viaja, un mimo culinario junto a la piscina o una excelente experiencia gastronómica. Las ofertas de comida son de todo el mundo, incluido un mercado gourmet. Espere que sus papilas gustativas estén encantadas con sabores que recordará para siempre. Una vez que llegue, explore el libro del restaurante de la habitación para hacer sus planes de comidas para la semana. Póngase en contacto con el concierge para el cual los restaurantes requieren reservaciones y haga su reservación con anticipación para garantizar su día y hora preferidos."
       },
       "thumbnail": "dining-billboard-0.jpg",
       "link": ""
@@ -179,7 +179,7 @@
       "type": "linked",
       "text": {
         "en": "This exclusive villa features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs, and a private terrace with a plunge pool.",
-        "es": "**Needs Translation**"
+        "es": "Esta exclusiva villa cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y una terraza privada con piscina profunda."
       },
       "thumbnail": "presidential-villa-billboard-1.jpg",
       "link": {
@@ -197,7 +197,7 @@
       "type": "linked",
       "text": {
         "en": "This expansive villa is the same as above except with two gourmet kitchens, two living rooms, three bedrooms, three and a half bathrooms with three Jacuzzi tubs, and two private terraces with two plunge pools.",
-        "es": ""
+        "es": "Esta villa expansiva es la misma que la anterior, excepto con dos cocinas gourmet, dos salas de estar, tres dormitorios, tres baños y medio con tres bañeras de hidromasaje y dos terrazas privadas con dos piscinas de inmersión."
       },
       "thumbnail": "presidential-villa-billboard.jpg",
       "link": {
@@ -215,7 +215,7 @@
       "type": "linked",
       "text": {
         "en": "This amazing space offers two bedrooms, two bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, a private terrace with plunge pool and another private deck.",
-        "es": ""
+        "es": "Este increíble espacio ofrece dos dormitorios, dos baños con bañera de hidromasaje en cada uno junto con un medio baño, una sala designada para masajes privados, una cocina gourmet, una sala de estar, una terraza privada con piscina profunda y otra terraza privada."
       },
       "thumbnail": "spa-suite-billboard.jpg",
       "link": {
@@ -233,7 +233,7 @@
       "type": "linked",
       "text": {
         "en": "This amazing space offers three bedrooms, three bathrooms with a Jacuzzi tub in each along with a half bathroom, a designated room for private massages, a gourmet kitchen, a living room, spacious private terrace with plunge pool and another private deck.",
-        "es": ""
+        "es": "Este increíble espacio ofrece tres dormitorios, tres baños con bañera de hidromasaje en cada uno junto con un medio baño, una sala designada para masajes privados, una cocina gourmet, una sala de estar, una amplia terraza privada con piscina profunda y otra terraza privada."
       },
       "thumbnail": "spa-suite-billboard-1.jpg",
       "link": {
@@ -251,7 +251,7 @@
       "type": "linked",
       "text": {
         "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
-        "es": ""
+        "es": "Este exquisito y lujoso alojamiento de dos pisos ofrece dos habitaciones con camas extra grandes, tres baños, una cocina gourmet, una sala de estar, un comedor y una terraza con piscina profunda."
       },
       "thumbnail": "residence-loft-billboard-1.jpg",
       "link": {
@@ -269,7 +269,7 @@
       "type": "linked",
       "text": {
         "en": "This two-story exquisite “over the top” luxurious quarters offers three bedrooms with king size beds, four bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
-        "es": ""
+        "es": "Este exquisito y lujoso alojamiento de dos pisos ofrece tres habitaciones con camas king size, cuatro baños, una cocina gourmet, una sala de estar, comedor y terraza con piscina profunda."
       },
       "thumbnail": "residence-loft-billboard.jpg",
       "link": {
@@ -287,7 +287,7 @@
       "type": "linked",
       "text": {
         "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
-        "es": ""
+        "es": "Esta suite exclusiva cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina profunda."
       },
       "thumbnail": "four-bedroom-billboard.jpg",
       "link": {
@@ -307,7 +307,7 @@
       "type": "default",
       "text": {
         "en": ["8 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "Two King-Size Beds |or| One King-size Bed & Two Double Beds", "Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Dos Tamaño-rey camas o Uno cama Tamaño-rey y Dos doble camas_/_Baños: Dos y medio Baños con Tres Jacuzzi Tubs"
     },
       "thumbnail": "two-bedroom-presidential-suite-floorplan.jpg",
       "link": ""
@@ -324,7 +324,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "One King-size Bed & Two Double Beds", "Two Full Bathrooms with one Jacuzzi Tub & 1 Half Bathroom"],
-        "es": "**Needs translation"
+				"es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Uno Tamaño-rey cama y Dos doble camas_/_Baños: Dos Baños con Jacuzzi Tub y uno medio baño "
     },
       "thumbnail": "two-bedroom-presidential-villa-floorplan.jpg",
       "link": ""
@@ -341,7 +341,7 @@
       "type": "default",
       "text": {
         "en": ["10 adults |and| 2-4 kids depending on age and size", "Three Bedrooms", "Two King-size Beds & Two Double Beds", "3.5 Bathrooms with Three Jacuzzi Tubs"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail": "three-bedroom-presidential-villa-floorplan.jpg",
       "link": ""
@@ -358,7 +358,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2 children under 12 years old", "Two Bedrooms", "Two King-size Beds", "Two Full Bathrooms with Two Jacuzzi Tubs |and| 1 Half Bathroom"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail": "two-bedroom-spa-suite-floorplan.jpg",
       "link": ""
@@ -375,7 +375,7 @@
       "type": "default",
       "text": {
         "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail": "three-bedroom-spa-suite-floorplan.jpg",
       "link": ""
@@ -392,7 +392,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 children under 12 years old", "Two Bedrooms", "Two King-Size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail":  [
         {
@@ -419,7 +419,7 @@
       },
       "text": {
         "en": ["8 adults |and| 2-4 children under 12 years old", "Three Bedrooms", "Two Double Beds", "Four Full Bathrooms with Two Jacuzzi Tubs"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail": [
         {
@@ -446,7 +446,7 @@
       },
       "text": {
         "en": ["12 adults", "Four Bedrooms", "Four Double Beds", "Four Full Bathrooms - 2 with Two Jacuzzi Tubs | 1 Half Bathroom"],
-        "es": "**Needs Translation**"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
     },
       "thumbnail": "four-bedroom-floorplan.jpg",
       "link": ""

@@ -14,6 +14,14 @@ export class BillboardWithBullets extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
+
   render(){
     return(
       <Row className="billboard bullets">

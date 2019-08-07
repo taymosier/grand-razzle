@@ -11,6 +11,14 @@ export class BillboardTwoColumn extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
+
   componentDidMount(){
     this.setState({
       colOne: this.props.billboard.colOne,

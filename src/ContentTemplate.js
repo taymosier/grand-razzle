@@ -100,7 +100,7 @@ export class ContentTemplate extends Component {
               }
               {this.state.flavor !== null
                 ? this.state.flavor.map((text) => {
-                    return <FlavorCard flavor={text[`${this.state.language}`]} />
+                    return <FlavorCard flavor={text[`${this.state.language}`]} language={this.state.language} />
                   })
                 : null
               }

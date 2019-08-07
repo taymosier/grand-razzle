@@ -8,6 +8,14 @@ export class FlavorText extends Component {
     }
   }
 
+	componentDidUpdate(){
+		if(this.props.text !== this.state.text){
+			this.setState({
+				text: this.props.text
+			})
+		}
+	}
+
   render(){
     return(
       <div className="flavor-text-container">
@@ -17,7 +25,7 @@ export class FlavorText extends Component {
             this.state.text.map((block) => {
               return <li>
                         <p>
-                          {block} 
+                          {block}
                         </p>
                      </li>
             })

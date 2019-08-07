@@ -8,7 +8,7 @@ export class BillboardWithImage extends Component {
     this.state = {
       title: this.props.billboard.title !== undefined ? this.props.billboard.title.en : null,
       subtitle: this.props.billboard.subtitle.en,
-      text: this.props.billboard.text.en,
+      text: this.props.billboard.text[this.props.language],
       href: this.props.billboard.link,
       active: 0,
 			language: this.props.language,
