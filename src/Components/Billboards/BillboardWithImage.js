@@ -19,6 +19,7 @@ export class BillboardWithImage extends Component {
 	componentDidUpdate(){
 		if(this.props.language !== this.state.language){
 			this.setState({
+				text: this.props.billboard.text[this.props.language],
 				language: this.props.language
 			})
 		}

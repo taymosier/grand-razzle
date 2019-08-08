@@ -12,10 +12,10 @@ export class Modals extends Component {
     super(props);
     this.state = {
         size: {
-          "xl": { "size": "2",  "offset": "0" },
-          "lg": { "size": "3",  "offset": "0" },
-          "md": { "size": "0", "offset": "0" },
-          "sm": { "size": "0", "offset": "0" },
+          "xl": { "size": "12",  "offset": "0" },
+          "lg": { "size": "12",  "offset": "0" },
+          "md": { "size": "12", "offset": "0" },
+          "sm": { "size": "12", "offset": "0" },
           "xs": { "size": "12", "offset": "0" }
         },
 				language: this.props.language,
@@ -44,7 +44,7 @@ export class Modals extends Component {
         <MenuModal language={this.state.language} />
         <ContactModal language={this.state.language} />
         <HelpModal language={this.state.language} />
-				<LanguageButtonContainer setLanguage={this.state.setLanguage}/>
+				<LanguageButtonContainer setLanguage={this.state.setLanguage} language={this.state.language}/>
 
       </Col>
     );

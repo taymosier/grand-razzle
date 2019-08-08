@@ -19,6 +19,10 @@ div.toolbox {
   background: yellow;
 }
 
+div.container {
+	padding: 0;
+}
+
 
 div.container {
   min-height: fit-content;

@@ -7,16 +7,26 @@ export class PageTitle extends Component {
     super(props);
     this.state = {
       header: null,
-      view: null
+      view: null,
+			langugage: this.props.language
     }
   }
 
   componentDidMount(){
     this.setState({
-      header: headers[`${this.props.view}`]["en"],
+      header: headers[`${this.props.view}`][this.props.language],
       view: this.props.view
     })
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				header: headers[`${this.props.view}`][this.props.language],
+				language: this.props.language
+			})
+		}
+	}
 
   render(){
     if(this.state.view !== null){

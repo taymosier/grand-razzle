@@ -6,9 +6,19 @@ export class ContactFormLabel extends Component {
     super(props);
     this.state = {
       for: this.props.field.for,
+			language: this.props.language,
       text: this.props.field.text[this.props.language]
     }
   }
+
+	componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language,
+				text: this.props.field.text[this.props.language]
+			})
+		}
+	}
 
   render(){
     return (

@@ -6,11 +6,23 @@ export class FlavorCard extends Component {
   constructor(props){
     super(props);
     this.state = {
-      flavor: this.props.flavor
+      flavor: this.props.flavor,
+			language: this.props.language
     }
   }
 
-  //splitText here
+	componentDidUpdate(){
+		if(this.props.flavor !== this.state.flavor){
+			this.setState({
+				flavor: this.props.flavor
+			})
+		}
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
+	}
 
   render(){
     console.log(typeof this.state.flavor)

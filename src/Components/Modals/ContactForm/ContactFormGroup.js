@@ -15,6 +15,11 @@ export class ContactFormGroup extends Component {
   }
 
   componentDidUpdate(){
+		if(this.props.language !== this.state.language){
+			this.setState({
+				language: this.props.language
+			})
+		}
     if(this.props.active !== undefined && this.state.active !== this.props.active){
       this.setState({
         active: this.props.active

@@ -62,7 +62,7 @@ export class LinkedBillboardWithImage extends Component {
             <Subtitle subtitle={this.state.subtitle} />
             <FlavorText text={this.state.text} />
             { this.state.href !== undefined && this.state.href !== ""
-              ? <BillboardButton link={this.state.href} />
+              ? <BillboardButton link={this.state.href} language={this.state.language}/>
               : null
             }
           </Col>

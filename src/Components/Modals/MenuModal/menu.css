@@ -366,10 +366,11 @@ div.menu nav.navbar {
 @media (min-width: 1200px) {
 
   div.menu.modal-dialog {
+		background: transparent;
+		left: 20vw;
+    margin: 7.5vh 0 0 0;
+		max-width: 60vw;
     min-width: 60vw;
-    max-width: 60vw;
-    left: 20vw;
-    background: transparent;
   }
 
   div.menu.modal-dialog div.modal-content {

@@ -83,13 +83,13 @@ export class ContentTemplate extends Component {
     if(this.state.view !== undefined){
       return(
         <Container className={`${this.state.view}-page`}>
+					<Modals language={this.state.language} setLanguage={this.setLanguage}/>
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
-            <Modals language={this.state.language} setLanguage={this.setLanguage}/>
             <Col
               className="main-content"
-              xl={{ size: 9, offset: 0 }}
-              lg={{ size: 9, offset: 0 }}
+              xl={{ size: 10, offset: 1 }}
+              lg={{ size: 10, offset: 1 }}
               md={{ size: 12, offset: 0 }}
               sm={{ size: 12, offset: 0 }}
               xs={{ size: 12, offset: 0 }}

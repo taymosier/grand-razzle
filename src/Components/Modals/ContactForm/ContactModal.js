@@ -55,7 +55,7 @@ export class ContactModal extends Component {
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
           <ModalHeader toggle={this.toggle}>
-            Fill Out The Sections Below And Click Submit!
+            {this.state.language === "en" ? "Fill Out The Sections Below And Click Submit!" : "Complete las secciones a continuación y haga clic en Enviar."}
           </ModalHeader>
             <ContactNavigator setActive={this.setActive} active={this.state.active}/>
           <ModalBody>

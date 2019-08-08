@@ -144,7 +144,10 @@
       "type": "text",
       "name": "street-address",
       "id": "streetAddress",
-      "placeholder": "Street Address"
+      "placeholder": {
+				"en": "Street Address",
+				"es": "Dirección"
+			}
     }
   },
 

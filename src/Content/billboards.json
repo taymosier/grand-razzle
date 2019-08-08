@@ -110,7 +110,10 @@
       "thumbnail": "rooms-billboard.jpg",
       "link": {
         "href": "/rooms",
-        "label": "View Room"
+        "label": {
+					"en": "View Rooms",
+					"es": "Ver Habitacións"
+				}
       }
     },
     {
@@ -166,7 +169,10 @@
       "thumbnail": "two-bedroom-billboard.jpg",
       "link": {
         "href":"/rooms/two-bedroom-suite",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -184,7 +190,10 @@
       "thumbnail": "presidential-villa-billboard-1.jpg",
       "link": {
         "href": "/rooms/two-bedroom-presidential-villa",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -202,7 +211,10 @@
       "thumbnail": "presidential-villa-billboard.jpg",
       "link": {
         "href": "/rooms/three-bedroom-presidential-villa",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -220,7 +232,10 @@
       "thumbnail": "spa-suite-billboard.jpg",
       "link": {
         "href": "/rooms/two-bedroom-spa-suite",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -238,7 +253,10 @@
       "thumbnail": "spa-suite-billboard-1.jpg",
       "link": {
         "href": "/rooms/three-bedroom-spa-suite",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -256,7 +274,10 @@
       "thumbnail": "residence-loft-billboard-1.jpg",
       "link": {
         "href": "/rooms/two-bedroom-residence-loft",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -274,7 +295,10 @@
       "thumbnail": "residence-loft-billboard.jpg",
       "link": {
         "href": "/rooms/three-bedroom-residence-loft",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     },
     {
@@ -292,7 +316,10 @@
       "thumbnail": "four-bedroom-billboard.jpg",
       "link": {
         "href": "/rooms/four-bedroom-residence",
-        "label": "View Room"
+        "label": {
+					"en": "View Room",
+					"es": "Ver Habitación"
+				}
       }
     }
   ],
@@ -307,7 +334,7 @@
       "type": "default",
       "text": {
         "en": ["8 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "Two King-Size Beds |or| One King-size Bed & Two Double Beds", "Two Full Bathrooms with Jacuzzi Tubs |and| 1 Half Bathroom"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Dos Tamaño-rey camas o Uno cama Tamaño-rey y Dos doble camas_/_Baños: Dos y medio Baños con Tres Jacuzzi Tubs"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Dos tamaño-rey camas o Uno cama Tamaño-rey y Dos doble camas_/_Baños: Dos Baños con Jacuzzi tinas y uno medio baños"
     },
       "thumbnail": "two-bedroom-presidential-suite-floorplan.jpg",
       "link": ""
@@ -324,7 +351,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "One King-size Bed & Two Double Beds", "Two Full Bathrooms with one Jacuzzi Tub & 1 Half Bathroom"],
-				"es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Uno Tamaño-rey cama y Dos doble camas_/_Baños: Dos Baños con Jacuzzi Tub y uno medio baño "
+				"es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Uno tamaño-rey cama y Dos doble camas_/_Baños: Dos Baños con Jacuzzi tina y uno medio baño"
     },
       "thumbnail": "two-bedroom-presidential-villa-floorplan.jpg",
       "link": ""
@@ -341,7 +368,7 @@
       "type": "default",
       "text": {
         "en": ["10 adults |and| 2-4 kids depending on age and size", "Three Bedrooms", "Two King-size Beds & Two Double Beds", "3.5 Bathrooms with Three Jacuzzi Tubs"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 10 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos tamaño-rey camas y dos camas dobles_/_Baños: Tres y medio banos con tres Jacuzzi tinas"
     },
       "thumbnail": "three-bedroom-presidential-villa-floorplan.jpg",
       "link": ""
@@ -358,7 +385,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2 children under 12 years old", "Two Bedrooms", "Two King-size Beds", "Two Full Bathrooms with Two Jacuzzi Tubs |and| 1 Half Bathroom"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Camas: Dos tamaño-rey camas_/_Baños: Dos Baños con dos Jacuzzi tinas"
     },
       "thumbnail": "two-bedroom-spa-suite-floorplan.jpg",
       "link": ""
@@ -375,7 +402,7 @@
       "type": "default",
       "text": {
         "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Baños: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos camas dobles_/_Baños: Tres y medio Banos con Dos Jacuzzi tinas"
     },
       "thumbnail": "three-bedroom-spa-suite-floorplan.jpg",
       "link": ""
@@ -392,7 +419,7 @@
       "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 children under 12 years old", "Two Bedrooms", "Two King-Size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos tamaño-rey camas_/_Baños: Tres Banos con Dos Jacuzzi tinas"
     },
       "thumbnail":  [
         {
@@ -419,7 +446,7 @@
       },
       "text": {
         "en": ["8 adults |and| 2-4 children under 12 years old", "Three Bedrooms", "Two Double Beds", "Four Full Bathrooms with Two Jacuzzi Tubs"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos camas dobles_/_Baños: Quatro Banos con Dos Jacuzzi tinas"
     },
       "thumbnail": [
         {
@@ -446,7 +473,7 @@
       },
       "text": {
         "en": ["12 adults", "Four Bedrooms", "Four Double Beds", "Four Full Bathrooms - 2 with Two Jacuzzi Tubs | 1 Half Bathroom"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos king-size, dos camas dobles_/_Bathrooms: Three and a half Bathrooms with Three Jacuzzi Tubs"
+        "es": "Ocupación: 12 adultos_/_Tipo: Quatro recámaras_/_Camas: Quatro camas dobles_/_Baños: Quatro Banos con Dos Jacuzzi tinas y uno medio baño"
     },
       "thumbnail": "four-bedroom-floorplan.jpg",
       "link": ""
@@ -470,7 +497,11 @@
       "type": "no-image",
       "text": {
         "en": ["Passports are required for everyone traveling to Mexico, including children.", "As you pass through Immigration, the officer gives back a portion of the immigration form. You must keep this in a safe place. It is recommended to keep it inside your passport. You must show this portion of the immigration form to depart Mexico.", "The resort is vigilant in creating safe, healthy environments for its members. Purified water from the tap and bottled water are in all the rooms and in all of the restaurants water in all of our restaurants."],
-        "es": "**Needs Translation**"
+        "es": [
+					"Se requieren pasaportes para todos los que viajan a México, incluidos los niños.",
+					"A medida que pasa por Inmigración, el oficial le devuelve una parte del formulario de inmigración. Debe mantener esto en un lugar seguro. Se recomienda mantenerlo dentro de su pasaporte. Debe mostrar esta parte del formulario de inmigración para salir de México.",
+					"El complejo está atento a la creación de entornos seguros y saludables para sus miembros. El agua purificada del grifo y el agua embotellada se encuentran en todas las habitaciones y en todos los restaurantes, el agua en todos nuestros restaurantes."
+				]
       },
       "thumbnail": "",
       "link": ""
@@ -487,7 +518,10 @@
       "thumbnail": "",
       "link": {
         "href": "https://shuttleservices.vidanta.com",
-        "label": "Shuttle Services"
+        "label": {
+					"en": "Shuttle Services",
+					"es": "Servicios de transporte"
+				}
       }
     },
     {
@@ -497,7 +531,7 @@
       "type": "default",
       "text": {
         "en":"The new entrance allows guests to arrive at the resort much more quickly. It is located right after the bridge that crosses the Ameca River. The previous entrance is closed to all traffic.",
-        "es": "**Needs Translation**"
+        "es": "La nueva entrada permite a los huéspedes llegar al resort mucho más rápido. Se encuentra justo después del puente que cruza el río Ameca. La entrada anterior está cerrada a todo el tráfico."
       },
       "thumbnail": "new-entrance-billboard.jpg",
       "link": ""
@@ -514,12 +548,15 @@
       "type": "linked",
       "text": {
         "en":"The variety of pools, a Lazy River, an Aqua Park, water fountains and waterfalls are all inviting to those that love the water or enjoy spending time at the pool. You can choose a different luxurious location every day. ",
-        "es": "**Needs Translation**"
+        "es": "La variedad de piscinas, un río lento, un parque acuático, fuentes de agua y cascadas invitan a aquellos que aman el agua o disfrutan pasar tiempo en la piscina. Puedes elegir un lugar lujoso diferente cada día."
         },
       "thumbnail": "punta-pool-east.jpg",
       "link": {
         "href": "/what-to-do/pools",
-        "label": "View Pools"
+        "label": {
+					"en": "View Pools",
+					"es": "Ver piscinas"
+				}
       }
     },
     {
@@ -532,12 +569,15 @@
       "type": "linked",
       "text": {
         "en":"There are endless resort activities to enjoy your days for all ages from kids to adults.",
-        "es": "**Needs Translation**"
+        "es": "Hay un sinfín de actividades de resort para disfrutar sus días para todas las edades, desde niños hasta adultos."
       },
       "thumbnail": "activities-billboard.jpg",
       "link": {
         "href": "/what-to-do/activities",
-        "label": "View Activities"
+        "label": {
+					"en": "View Activities",
+					"es": "View Actividades"
+				}
       }
     },
     {
@@ -562,13 +602,16 @@
       "subtitle": {"en": "The Nayar Course","es": "El Campo Nayar"},
       "type": "linked",
       "text": {
-        "en": "This 18-hole, par 70 naturally and architecturally enhanced notable wonder welcomes beginners to advance. The seven lakes and 49 selectably designed bunkers create quite the opposition for the skillful golfer.",
-        "es": "**Needs Translation**"
+        "en": "This 18-hole, par 70 naturally and architecturally enhanced notable wonder welcomes beginners to advanced. The seven lakes and 49 selectably designed bunkers create quite the opposition for the skillful golfer.",
+        "es": "Esta maravilla notable de 18 hoyos, par 70, mejorada natural y arquitectónicamente, invita a los principiantes a avanzar. Los siete lagos y los 49 bunkers diseñados de forma selectiva crean una gran oposición para el hábil golfista."
       },
       "thumbnail": "the-nayar-course-billboard.jpg",
       "link": {
         "href": "/golf/the-nayar-course",
-        "label": "Course Details"
+        "label": {
+					"en": "Course Details",
+					"es": "Detalles del Curso"
+				}
       }
     },
     {
@@ -577,12 +620,15 @@
       "type": "linked",
       "text": {
         "en": "The 18-hole Greg Norman Signature Course is newly completed with an alluring and gorgeous layout that can only be accessed by the Ameca Bridge; the longest golf cart bridge in the world. This course is nestled in the tall perennial Bahiagrasses and cleverly designed greens.",
-        "es": "**Needs Translation**"
+				"es": "Esta maravilla notable de 18 hoyos, par 70, mejorada natural y arquitectónicamente, invita a los principiantes a avanzar. Los siete lagos y los 49 bunkers diseñados de forma selectiva crean una gran oposición para el hábil golfista."
       },
       "thumbnail": "the-norman-signature-course-billboard.jpg",
       "link": {
         "href": "/golf/the-norman-signature-course",
-        "label": "Course Details"
+        "label": {
+					"en": "Course Details",
+					"es": "Detalles del Curso"
+				}
       }
     },
     {
@@ -591,7 +637,7 @@
       "type": "default",
       "text": {
         "en": "This magnificent 10 hole, par-3 course is the most recent development of golf offerings at the resort. It shines with the most breathtaking views of some of the resort’s most admired landmarks while you play. It uniquely offers night playing with a lighted golf course until 11pm.",
-        "es": "**Needs Translation**"
+				"es": "Esta maravilla notable de 18 hoyos, par 70, mejorada natural y arquitectónicamente, invita a los principiantes a avanzar. Los siete lagos y los 49 bunkers diseñados de forma selectiva crean una gran oposición para el hábil golfista."
       },
       "thumbnail": "the-lakes-course-billboard.jpg",
       "link": ""
@@ -646,12 +692,15 @@
       "type": "linked",
       "text":{
         "en":"Open to every guest. The Brio Spa has a French approach with a European flare. When you step through the door you will immediately feel the magical release of stress and feel relaxation cascade over you.",
-        "es": "**Needs Translation**"
+        "es": "Abierto a todos los invitados. El Brio Spa tiene un enfoque francés con un toque europeo. Cuando entras por la puerta, inmediatamente sentirás la liberación mágica del estrés y sentirás una cascada de relajación sobre ti."
       },
       "thumbnail": "brio-spa-billboard.jpg",
       "link": {
         "href": "/spa/brio-spa",
-        "label": "More Info"
+        "label": {
+					"en": "More Info",
+					"es": "Más Información"
+				}
       }
     },
     {
@@ -660,12 +709,15 @@
       "type": "linked",
       "text": {
         "en":"This upscale spa is only for Grand Luxxe guests. The offerings at the Spatium exceeds any spa experience you have had before. The palatial Spatium soars the spa experience beyond your expectations or dreams. The opulent and breathtaking luxurious indoor and outdoor surroundings soothes your mind, body and spirit with the most current spa treatments and methods of relaxation.",
-        "es": "**Needs Translation**"
+        "es": "Este exclusivo spa es solo para huéspedes de Grand Luxxe. Las ofertas en el Spatium exceden cualquier experiencia de spa que haya tenido antes. El palaciego Spatium eleva la experiencia del spa más allá de sus expectativas o sueños. Los lujosos y opulentos alrededores interiores y exteriores de lujo alivian su mente, cuerpo y espíritu con los tratamientos de spa y métodos de relajación más actuales."
       },
       "thumbnail": "spatium-billboard.jpg",
       "link": {
         "href": "/spa/spatium",
-        "label": "More Info"
+        "label": {
+					"en": "More Info",
+					"es": "Más Información"
+				}
       }
     },
     {
@@ -675,7 +727,7 @@
       "type": "default",
       "text": {
         "en":"Wellness is a choice that we can strive to achieve. Guests are offered a chance to embark on this health improving journey. The Wellness Program guides with steps to take to reach a greater harmony with the mind, body and spirit connection of living a more whole and joyful life. Contact your concierge for more information. ",
-        "es": "**Needs Translation**"
+        "es": "El bienestar es una opción que podemos esforzarnos por lograr. Los huéspedes tienen la oportunidad de embarcarse en este viaje de mejora de la salud. El Programa de Bienestar guía los pasos a seguir para alcanzar una mayor armonía con la mente, el cuerpo y la conexión espiritual para vivir una vida más completa y alegre. Póngase en contacto con su conserje para obtener más información."
       },
       "thumbnail": "wellness-billboard.jpg",
       "link": ""
@@ -692,7 +744,7 @@
       "type": "default",
       "text": {
         "en":"Location is nestled in the emerald jungle at Grand Luxxe Residence Tower. Spatium blends treatments of beauty with natural cultural healing inside extravagant furnishings to enable you to feel more pampered than ever before. The lavish surroundings inside and outside bring deep relaxation and joy like heaven on earth.",
-        "es": "**Needs Translation**"
+        "es": "La ubicación se encuentra en la jungla esmeralda de la torre de la residencia Grand Luxxe. Spatium combina tratamientos de belleza con curación cultural natural dentro de muebles extravagantes para que pueda sentirse más mimado que nunca. Los lujosos alrededores interiores y exteriores brindan una profunda relajación y alegría como el cielo en la tierra."
       },
       "thumbnail": "spatium-billboard-1.jpg",
       "link": ""
@@ -707,7 +759,7 @@
       "type": "default",
       "text": {
         "en":"Open only to Grand Luxxe guests. Spatium soars the spa experience above all others with its unique luscious water therapy offerings in the midst of palm trees, dancing water fountains and billowy cushioned chairs. ",
-        "es": "**Needs Translation**"
+        "es": "Abierto solo para huéspedes de Grand Luxxe. Spatium eleva la experiencia del spa por encima de todos los demás con sus ofertas exclusivas de terapia de agua en medio de palmeras, fuentes de agua danzantes y sillas acolchadas onduladas."
       },
       "thumbnail": "hydrotherapy-billboard.jpg",
       "link": ""
@@ -720,7 +772,7 @@
       "subtitle": {"en":"","es":""},
       "text": {
         "en":"Brio Spa location is in The Grand Mayan. It draws from the classic French art of pampering with exquisite architectural designs. Invite the mind, body and spirit to enjoy the choices of therapeutic treatments that will leave you as light as air. After your treatment, relax in the outdoor area under a palapa, submerge in the Jacuzzi or invigorate in the cold plunge. ",
-        "es": "**Needs Translation**"
+        "es": "Brio Spa is located in The Grand Mayan. It is based on the classic French art of pampering with exquisite architectural designs. Invite the mind, body and spirit to enjoy the therapeutic treatment options that will leave you as light as air. After your treatment, relax in the outdoor area under a palapa, soak in the hot tub or revitalize yourself in the cold dive."
       },
       "type": "default",
       "thumbnail": "brio-spa-billboard-1.jpg",
@@ -733,7 +785,7 @@
       "type": "default",
       "text": {
         "en":"Allow the purification ritual of the Temazcal, an ancient sweat lodge from the cultural roots of the Mexican Shaman guided ritual to help your body and soul detox and be set free. See the staff at Brio Spa to schedule this unique Temazcal experience. ",
-        "es": "**NEeds Translation**"
+        "es": "Permita el ritual de purificación del Temazcal, un antiguo refugio de sudor de las raíces culturales del ritual guiado por el chamán mexicano para ayudar a su cuerpo y alma a desintoxicarse y ser liberados. Consulte al personal de Brio Spa para programar esta experiencia única de Temazcal."
       },
       "thumbnail": "temazcal-billboard.jpg",
       "link": ""
@@ -747,7 +799,7 @@
       "type": "default",
       "text": {
         "en":"Watch in amazement at the expansive 75,000-square-foot, indoor-outdoor entertainment pavilion. Santuario offers a different show each night that the entire family will love: musical and dance performances, acrobatics, unique artists’ demonstrations plus even more. Sit back, relax and watch the show as you allow your taste buds to be tantalized with special drinks from the award winning bartenders and specialty drink designers.",
-        "es": "**Needs Translation**"
+        "es": "Mire con asombro el amplio pabellón de entretenimiento interior-exterior de 75,000 pies cuadrados. Santuario ofrece un espectáculo diferente cada noche que encantará a toda la familia: actuaciones musicales y de baile, acrobacias, demostraciones únicas de artistas y mucho más. Siéntese, relájese y mire el espectáculo mientras deja que su paladar sea seducido con bebidas especiales de los galardonados camareros y diseñadores de bebidas especiales."
         },
       "thumbnail": "santuario-billboard.jpg",
       "link": ""
@@ -759,7 +811,7 @@
       "type": "default",
       "text": {
         "en":"Once the sun has set La Cantina and Gong begin their spectacular light show with glowing colors dancing to the music and glistening through the lake and fountains. No show is the same so you can be delightfully dazzled at the lake and light show every night.",
-        "es": "**Needs Translation**"
+        "es": "Una vez que el sol se ha puesto, La Cantina y Gong comienzan su espectacular espectáculo de luces con colores brillantes que bailan al son de la música y brillan a través del lago y las fuentes. Ningún espectáculo es igual, por lo que puede deslumbrarse en el lago y ver luces todas las noches."
       },
       "thumbnail": "the-lake-show-billboard.jpg",
       "link": ""
@@ -771,7 +823,7 @@
       "type": "default",
       "text":  {
         "en":"Step into an evening of Mexican culture. Stunning local dancers and singers will capture your full attention. The entire family will love Theme Nights and Family Movie Nights. The Grand Bliss beach invites you to enjoy an evening beach party of authentic Mexican food flavors and mariachi band. You will hear the music and smell the amazing aromas before you even step onto the sand. The Family Movie Nights are often near one of the pools, contact activities for location. ",
-        "es": "**Needs Translation**"
+        "es": "Entra en una noche de cultura mexicana. Impresionantes bailarines y cantantes locales capturarán toda su atención. Toda la familia adorará las noches temáticas y las noches de películas familiares. La playa Grand Bliss te invita a disfrutar de una fiesta en la playa con auténticos sabores de comida mexicana y banda de mariachis. Escucharás la música y olerás los increíbles aromas incluso antes de pisar la arena. Las noches de cine familiar suelen estar cerca de una de las piscinas, actividades de contacto para la ubicación."
         },
       "thumbnail": "theme-nights-billboard.jpg",
       "link": ""
@@ -783,7 +835,7 @@
       "type": "default",
       "text": {
         "en":"Be entertained by the local sought after talented musicians in multiple locations around the resort. There are a variety of genres offered. One will certainly tickle your fancy: Cuban, mariachi, Jazz, classic piano, saxophone or other common and unique instruments. Be sure to visit The Grand Lobby Bar, Santuario, Azur, La Cantina or Havana Moon for a sound and visual experience to remember. Havana Moon performers often encourage and lead the guests in dancing fun. Contact your concierge for the schedule of musician performers. ",
-        "es": "**Needs Translation**"
+        "es": "Diviértase con los buscados músicos locales con talento en múltiples ubicaciones alrededor del resort. Hay una variedad de géneros ofrecidos. Uno seguramente le hará cosquillas: cubano, mariachi, jazz, piano clásico, saxofón u otros instrumentos comunes y únicos. Asegúrese de visitar The Grand Lobby Bar, Santuario, Azur, La Cantina o Havana Moon para una experiencia sonora y visual para recordar. Los artistas de Havana Moon a menudo animan y guían a los invitados a divertirse bailando. Póngase en contacto con su conserje para conocer el horario de los músicos."
       },
       "thumbnail": "live-music-billboard.jpg",
       "link": ""
@@ -795,7 +847,7 @@
       "type": "default",
       "text": {
         "en":"You are certain to experience a Holiday that you will forever remember. Invite your family and friends to share the most joyous Holiday of their life. The resort shines with delight during special occasions with Holiday theme honored activities, special events and celebrations. Be sure to contact your concierge for the schedule of Holiday offerings.",
-        "es": "**Needs Translation**"
+        "es": "Seguro que experimentará unas vacaciones que recordará para siempre. Invite a su familia y amigos a compartir las vacaciones más felices de su vida. El resort brilla con deleite en ocasiones especiales con actividades temáticas de vacaciones, eventos especiales y celebraciones. Asegúrese de contactar a su conserje para el horario de las ofertas de vacaciones."
         },
       "thumbnail": "holidays-billboard.jpg",
       "link": ""
@@ -808,8 +860,8 @@
       "subtitle": {"en":"Almaverde","es":"Almaverde"},
       "type": "default",
       "text": {
-        "en":"Almaverde is a 40 acre farm that produces 65 types of vegetables and fruits that are used at all the resort restaurants. The resort proudly provides their guests with fresh farm to table produce. Contact your concierge to tour.",
-        "es": "**Needs Translation**"
+				"en":"Almaverde is a 40 acre farm that produces 65 types of vegetables and fruits that are used at all the resort restaurants. The resort proudly provides their guests with fresh farm to table produce. Contact your concierge to tour.",
+        "es": "Almaverde es una granja de 40 acres que produce 65 tipos de verduras y frutas que se utilizan en todos los restaurantes del complejo. El complejo ofrece orgullosamente a sus huéspedes productos frescos de la granja a la mesa. Póngase en contacto con su conserje para hacer un recorrido."
       },
       "thumbnail": "almaverde-billboard.jpg",
       "link": ""
@@ -821,7 +873,7 @@
       "type": "default",
       "text": {
         "en":"This impressive new tower dazzles the eye with breathtaking views of the entire resort: the nearby Ameca River, the tranquil Banderas Bay and the Sierra Madre Mountains in the background. The rooftop Quinto Restaurant offers a morning brunch as well as food and drink poolside service with a smile. And of course the Joy Squad visits you by your lounge chair to clean your sunglasses and offer you a variety of flavors of Mexico popsicles.",
-        "es": "**Needs Translation**"
+        "es": "Esta impresionante torre nueva deslumbra con las vistas impresionantes de todo el complejo: el cercano río Ameca, la tranquila Bahía de Banderas y las montañas de la Sierra Madre en el fondo. El restaurante Quinto de la azotea ofrece un brunch matutino, así como servicio de comidas y bebidas junto a la piscina con una sonrisa. Y, por supuesto, Joy Squad lo visita junto a su sillón para limpiar sus gafas de sol y ofrecerle una variedad de sabores de paletas heladas de México."
       },
       "thumbnail": "whats-new-billboard-2.jpg",
       "link": ""
@@ -833,7 +885,7 @@
       "type": "default",
       "text": {
         "en":"The professional mixologists teach you all about the history and types of tequila. This well known Mexican liquor has many levels of quality and variations in color. Your newly acquired knowledge will help you discern the best tequila for every occasion.",
-        "es": "**Needs Translation**"
+        "es": "Los mixólogos profesionales te enseñan todo sobre la historia y los tipos de tequila. Este conocido licor mexicano tiene muchos niveles de calidad y variaciones de color. Su conocimiento recién adquirido lo ayudará a discernir el mejor tequila para cada ocasión."
       },
       "thumbnail": "tequila-tour-billboard.jpg",
       "link": ""

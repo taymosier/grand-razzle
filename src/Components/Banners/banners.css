@@ -50,6 +50,7 @@ div.banner .banner-text{
     background-repeat: no-repeat;
     min-height: 20vh;
     max-height: 20vh;
+		margin: 75px 0 0 0;
   }
 
   div.banner h1 {
@@ -140,7 +141,10 @@ div.banner .banner-text{
 
 @media (min-width: 768px) and (max-width: 991px) {
   div.banner {
-    min-height: 25vh;
+		min-height: 25vh;
+    margin: 75px 0 0 0;
+    max-height: 48vh;
+    background-repeat: no-repeat;
   }
 
   div.banner div.filter {
