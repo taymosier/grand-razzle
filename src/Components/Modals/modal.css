@@ -1,7 +1,8 @@
-div.modals {
-	min-height: 75px;
-	display: block;
-	position: fixed;
-	background: #bce5f2 !important;
-	z-index: 10000;
-}
+	div.modals {
+    min-height: 75px;
+    display: block;
+    position: fixed;
+    background: #bce5f2 !important;
+    z-index: 10000;
+    border-bottom: 2px solid rgb(0,0,0, .3);
+	}

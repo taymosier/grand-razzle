@@ -69,7 +69,7 @@ export class HelpModal extends Component {
 			{
 				"header": {
 					"en": "Step #3: Pay",
-					"es": "Paso # 3: pagar"
+					"es": "Paso # 3: Pagar"
 				},
 				"body": {
 					"en": "Pay once there’s a confirmation number that’s verifiable with resort's central reservations. Full payment is then due.  Payments - PayPal or check.",

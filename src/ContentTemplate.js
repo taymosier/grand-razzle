@@ -14,6 +14,7 @@ import galleries from './Content/galleries.json';
 import thumbnailGrids from './Content/thumbnail_grids.json'
 import billboards from './Content/billboards.json';
 import flavorTexts from './Content/flavor.json';
+import footer from './footer.css';
 import './Styles/index.css';
 var banners = require('./Content/banners.json')
 
@@ -120,6 +121,9 @@ export class ContentTemplate extends Component {
                 : null
               }
             </Col>
+						<Row className="footer">
+							<p>Mexico Grand Luxury Rentals Inc.</p>
+						</Row>
           </Row>
         </Container>
       )

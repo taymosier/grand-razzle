@@ -20,13 +20,14 @@
 @media (min-width: 576px) and (max-width: 767px) {
 	div.language-button-container {
 		min-width: 55%;
-    display: flex;
-    min-height: 100%;
+		display: flex;
+		min-height: 75px;
 	}
 
 	div.language-button-container button.language-toggle-button {
 		margin: 1vh 2.5% !important;
 		max-width: 45% !important;
+		font-size: 4vw;
 	}
 }
 
@@ -34,12 +35,13 @@
 	div.language-button-container {
 		min-width: 60%;
 		display: flex;
-		min-height: 100%;
+		min-height: 75px;
 	}
 
 	div.language-button-container button.language-toggle-button {
 		margin: 1vh 2.5% !important;
 		max-width: 45% !important;
+		font-size: 3vw;
 	}
 }
 
