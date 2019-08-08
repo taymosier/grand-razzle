@@ -113,6 +113,10 @@ div.contact-form div.modal-header h5.modal-title div {
   #contactFormSubmitButton {
     font-size: 3.25vw;
   }
+
+	div.contact-form div.modal-content div.modal-body div.form-group label {
+    margin-bottom: 2px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
