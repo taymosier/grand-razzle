@@ -135,7 +135,10 @@
       "thumbnail": "punta-pool-east.jpg",
       "link": {
         "href": "/pools",
-        "label": "View Pools"
+        "label": {
+					"en": "View Pools",
+					"es": "Ver Piscinas"
+				}
       }
     }
   ],
@@ -555,7 +558,7 @@
         "href": "/what-to-do/pools",
         "label": {
 					"en": "View Pools",
-					"es": "Ver piscinas"
+					"es": "Ver Piscinas"
 				}
       }
     },

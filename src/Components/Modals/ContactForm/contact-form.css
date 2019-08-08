@@ -54,7 +54,7 @@ div.contact-form div.modal-header h5.modal-title div {
 
   div.contact-form {
 	  max-width: 90vw;
-		padding: 10vh 0 0 0;
+		padding: 7.5vh 0 0 0;
   }
 
   button.contact-toggle:hover {
@@ -74,6 +74,11 @@ div.contact-form div.modal-header h5.modal-title div {
   div.contact-form div.modal-content div.contact-nav button.contact-nav:hover {
     background: #3f93b0 !important;
   }
+
+	div.contact-form div.modal-header h5.modal-title {
+		font-size: 20px;
+		line-height: 22px;
+	}
 
   #contactFormSubmitButton {
     font-size: 3.25vw;
