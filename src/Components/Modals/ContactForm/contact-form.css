@@ -109,7 +109,9 @@ div.contact-form div.modal-header h5.modal-title div {
 		transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 	}
 
-
+	div.contact-form div.modal-content div.modal-header {
+		padding: 5px 0;
+	}
 
 	div.contact-form div.modal-content div.modal-footer {
 		padding: 4px 0;
