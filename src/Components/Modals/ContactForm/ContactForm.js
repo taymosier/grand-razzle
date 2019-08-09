@@ -38,7 +38,7 @@ export class ContactForm extends Component {
   render(){
     console.log(`This state group length: ${this.state.groups["first-name"].label.text}`)
   	return(
-	    <Form action="https://formspree.io/taymosier@gmail.com" method="POST">
+	    <Form action="https://formspree.io/lwattsovercash@grandeluxxemexicojoyrentals.com" method="POST">
 	      {Object.keys(this.state.groups).map((groupKey) => {
 	        return <ContactFormGroup group={this.state.groups[groupKey]} key={groupKey} active={this.state.active} language={this.state.language}/>
 	      })}

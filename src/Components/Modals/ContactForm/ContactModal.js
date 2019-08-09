@@ -51,7 +51,7 @@ export class ContactModal extends Component {
     return(
       <div className={"contact-toggle-container"}>
         <Button className={"contact-toggle"} onClick={this.toggle}>
-          {this.state.icon !== undefined ? How It Works : null}
+          {this.state.icon !== undefined ? <p>How It Works</p> : null}
         </Button>
         <Modal className="contact-form" isOpen={this.state.modal} toggle={this.toggle} groups={this.state.groups}>
           <ModalHeader toggle={this.toggle}>
