@@ -91,7 +91,7 @@ export class HelpModal extends Component {
     return(
       <div className={"help-toggle-container"}>
         <Button className={"help-toggle"} onClick={this.toggle}>
-          {this.state.icon !== undefined ? <img src={require(`${this.state.icon}`)} /> : null }
+          {this.state.icon !== undefined ? <p>How It Works</p> : null }
         </Button>
         <Modal className="help" isOpen={this.state.modal} toggle={this.toggle} >
           <ModalHeader toggle={this.toggle}>
