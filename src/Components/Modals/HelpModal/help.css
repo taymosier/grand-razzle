@@ -17,7 +17,11 @@ div.help-toggle-container button.help-toggle:hover {
 div.help-toggle-container button.help-toggle img {
   background: transparent;
   max-width: 30px;
+}
 
+div.help-toggle-container button.help-toggle p {
+  color: black;
+	margin: 0;
 }
 
 div.modal-dialog.help {
