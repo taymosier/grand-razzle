@@ -9,7 +9,7 @@
 	}
 
 	div.language-button-container button.language-toggle-button {
-		margin: .5vh 5% !important;
+		margin: .5vh 2.5% .5vh 0 !important;
 		min-width: 90%;
 		max-width: 90% !important;
 		font-size: 22px;
