@@ -2,7 +2,7 @@
 
 @media (max-width: 575px) {
 	div.language-button-container {
-		min-width: 30%;
+		min-width: 90%;
     display: flex;
     min-height: 60%;
     flex-direction: column;
