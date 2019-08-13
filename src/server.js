@@ -15,6 +15,11 @@ server.get('/sitemap.xml', (req, res) => {
   res.sendFile(path.join(__dirname, '../sitemap.xml'));
 })
 
+server.get('/robots.txt', (req, res) => {
+  res.contentType('text/html');
+  res.sendFile(path.join(__dirname, '../public/robots.txt'));
+})
+
 
 
 server
