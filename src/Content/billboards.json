@@ -264,7 +264,6 @@
     },
     {
       "key": "rooms-billboard-6",
-      "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Two Bedroom Residence Loft",
         "es":""
@@ -285,7 +284,6 @@
     },
     {
       "key": "rooms-billboard-7",
-      "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Three Bedroom Residence Loft",
         "es":""
@@ -306,7 +304,6 @@
     },
     {
       "key": "rooms-billboard-8",
-      "type": "image",
       "subtitle": {
         "en":"Grande Luxxe Four Bedroom Residence",
         "es":""
@@ -351,7 +348,6 @@
         "en":"",
         "es":""
       },
-      "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 kids depending on age and size", "Two Bedrooms", "One King-size Bed & Two Double Beds", "Two Full Bathrooms with one Jacuzzi Tub & 1 Half Bathroom"],
 				"es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Cama: Uno tamaño-rey cama y Dos doble camas_/_Baños: Dos Baños con Jacuzzi tina y uno medio baño"
@@ -368,7 +364,6 @@
         "en":"",
         "es":""
       },
-      "type": "default",
       "text": {
         "en": ["10 adults |and| 2-4 kids depending on age and size", "Three Bedrooms", "Two King-size Beds & Two Double Beds", "3.5 Bathrooms with Three Jacuzzi Tubs"],
         "es": "Ocupación: 10 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos tamaño-rey camas y dos camas dobles_/_Baños: Tres y medio banos con tres Jacuzzi tinas"
@@ -385,7 +380,6 @@
         "en":"",
         "es":""
       },
-      "type": "default",
       "text": {
         "en": ["6 adults |and| 2 children under 12 years old", "Two Bedrooms", "Two King-size Beds", "Two Full Bathrooms with Two Jacuzzi Tubs |and| 1 Half Bathroom"],
         "es": "Ocupación: 6 adultos_/_2-4 niños según edad y talla_/_Tipo: Dos recámaras_/_Camas: Dos tamaño-rey camas_/_Baños: Dos Baños con dos Jacuzzi tinas"
@@ -402,7 +396,6 @@
         "en":"",
         "es":""
       },
-      "type": "default",
       "text": {
         "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
         "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos camas dobles_/_Baños: Tres y medio Banos con Dos Jacuzzi tinas"
@@ -419,7 +412,6 @@
         "en":"",
         "es":""
       },
-      "type": "default",
       "text": {
         "en": ["6 adults |and| 2-4 children under 12 years old", "Two Bedrooms", "Two King-Size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
         "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos tamaño-rey camas_/_Baños: Tres Banos con Dos Jacuzzi tinas"
