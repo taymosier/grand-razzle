@@ -145,6 +145,7 @@
   "dining": [
     {
       "key": "dining-billboard-1",
+      "type": "image",
       "subtitle": "",
       "type": "default",
       "text": {
@@ -433,7 +434,7 @@
   "three-bedroom-residence-loft" : [
     {
       "key": "three-bedroom-residence-billboard-1",
-      "type": "image",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""
