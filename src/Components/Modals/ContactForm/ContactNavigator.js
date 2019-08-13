@@ -25,7 +25,7 @@ export class ContactNavigator extends Component {
   }
 
   render(){
-    let categories = ["Basic", "Itinerary", "Address"];
+    let categories = ["Personal", "Itinerary", "Address"];
     let contents = [];
     for(let i = 0; i < categories.length; i++){
         contents.push(
