@@ -9,6 +9,7 @@ import { BillboardWithImage } from './BillboardWithImage';
 import { LinkedBillboardWithImage } from './LinkedBillboardWithImage';
 import { LinkedBillboard } from './LinkedBillboard';
 import { BillboardWithMap } from './BillboardWithMap';
+import { BillboardWithGallery } from './BillboardWithGallery';
 import { BillboardWithBullets } from './BillboardWithBullets';
 import { BillboardWithBulletsAndImage } from './BillboardWithBulletsAndImage';
 import { BillboardTwoColumn } from './BillboardTwoColumn';
@@ -47,10 +48,8 @@ export class BillboardGenerator extends Component {
 
   hasLink(billboard){
     if(billboard.link !== ""){
-      console.log(`billboard link: ${billboard.link}`)
       return true;
     }
-    console.log('Does not have link')
     return false;
   }
 
@@ -64,7 +63,10 @@ export class BillboardGenerator extends Component {
   render(){
     switch(this.state.type){
       case "default":
-        return <BillboardWithImage billboard={this.state.billboard} language={this.state.language}/>
+        return <BillboardWithGallery billboard={this.state.billboard} language={this.state.language}/>
+        break;
+			case "gallery":
+        return <BillboardWithGallery billboard={this.state.billboard} language={this.state.language}/>
         break;
       case "two-column":
         return <BillboardTwoColumn billboard={this.state.billboard} language={this.state.language}/>

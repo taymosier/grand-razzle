@@ -434,7 +434,7 @@
   "three-bedroom-residence-loft" : [
     {
       "key": "three-bedroom-residence-billboard-1",
-      "type": "default",
+      "type": "gallery",
       "subtitle": {
         "en":"",
         "es":""
@@ -443,7 +443,18 @@
         "en": ["8 adults |and| 2-4 children under 12 years old", "Three Bedrooms", "Two Double Beds", "Four Full Bathrooms with Two Jacuzzi Tubs"],
         "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Cama: Dos camas dobles_/_Baños: Quatro Banos con Dos Jacuzzi tinas"
     },
-      "thumbnail": "three-bedroom-residence-floorplan-1.jpg",
+      "thumbnails": [
+        {
+          "index": "0",
+          "src": "three-bedroom-residence-floorplan-1.jpg",
+          "caption": "First Floor"
+        },
+        {
+          "index": "1",
+          "src": "three-bedroom-residence-floorplan-2.jpg",
+          "caption": "Second Floor"
+        }
+      ],
       "link": ""
     }
   ],
