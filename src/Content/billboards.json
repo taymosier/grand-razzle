@@ -359,7 +359,7 @@
   "three-bedroom-presidential-villa" : [
     {
       "key": "three-bedroom-presidential-villa-billboard-1",
-      "type": "image",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""
@@ -375,7 +375,7 @@
   "two-bedroom-spa-suite" : [
     {
       "key": "two-bedroom-spa-suite-billboard-1",
-      "type": "image",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""
@@ -391,7 +391,7 @@
   "three-bedroom-spa-suite" : [
     {
       "key": "three-bedroom-spa-suite-billboard-1",
-      "type": "image",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""
@@ -407,7 +407,7 @@
   "two-bedroom-residence-loft" : [
     {
       "key": "two-bedrooom-residence-loft-billboard-1",
-      "type": "image",
+      "type": "gallery",
       "subtitle": {
         "en":"",
         "es":""
@@ -416,7 +416,7 @@
         "en": ["6 adults |and| 2-4 children under 12 years old", "Two Bedrooms", "Two King-Size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
         "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos tamaño-rey camas_/_Baños: Tres Banos con Dos Jacuzzi tinas"
     },
-      "thumbnail":  [
+      "thumbnails":  [
         {
           "index": "0",
           "src": "two-bedroom-residence-floorplan-1.jpg",
@@ -461,7 +461,7 @@
   "four-bedroom-residence" : [
     {
       "key": "four-bedroom-residence-billboard-1",
-      "type": "gallery",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""

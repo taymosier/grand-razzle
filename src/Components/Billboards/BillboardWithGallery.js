@@ -8,7 +8,7 @@ export class BillboardWithGallery extends Component {
 		this.state = {
 			title: this.props.billboard.title !== undefined ? this.props.billboard.title.en : null,
 			subtitle: this.props.billboard.subtitle.en,
-			text: this.props.billboard.text[this.props.language],
+			text: this.setText(this.props.language),
 			href: this.props.billboard.link,
 			active: 0,
 			thumbnails: this.props.billboard.thumbnails,
@@ -20,7 +20,7 @@ export class BillboardWithGallery extends Component {
 	componentDidUpdate(){
 		if(this.props.language !== this.state.language){
 			this.setState({
-				text: this.props.billboard.text[this.props.language],
+				text: this.setText(this.props.language),
 				language: this.props.language
 			})
 		}
@@ -35,6 +35,20 @@ export class BillboardWithGallery extends Component {
       this.setState({imageSrc: this.setThumbnail(this.props.billboard.thumbnails[0].src)})
     }
   }
+
+	setText(language){
+		let textArray = [];
+		if(typeof this.props.billboard.text[language] === "object"){
+			this.props.billboard.text[language].map((block) => {
+				textArray.push(
+					<p className="flavor-text">{block}</p>
+				)
+			})
+		} else {
+			return this.props.billboard.text[language]
+		}
+		return textArray;
+	}
 
   setThumbnail(thumbnail){
     return require(`../../../public/images/billboards/${thumbnail}`)
@@ -56,11 +70,11 @@ export class BillboardWithGallery extends Component {
   render(){
 		//TODO if this.state.text === Array() => map items
     return(
-      <Row className="billboard with-image" onClick={this.nextImage}>
+      <Row className="billboard with-gallery" onClick={this.nextImage}>
           <div className="contents">
             <div className="filter" />
             <Col
-              xl={{ size: 5, offset: 0 }}
+              xl={{ size: 6, offset: 0 }}
               lg={{ size: 12, offset: 0 }}
               md={{ size: 12, offset: 0}}
               sm={{ size: 12, offset: 0 }}
@@ -83,9 +97,7 @@ export class BillboardWithGallery extends Component {
 	                {this.state.subtitle}
 	              </p>
               <div className="flavor-text-container">
-                <p className="flavor-text">
                   {this.state.text}
-                </p>
               </div>
             </Col>
           </div>

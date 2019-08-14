@@ -1016,6 +1016,31 @@
     text-decoration: none;
   }
 
+	/* BillboardWithGallery */
+	div.billboard.gallery {
+
+	}
+
+	div.billboard.with-gallery div.contents div.text-container div.flavor-text-container {
+		display: flex;
+		min-height: 90%;
+		flex-direction: column;
+	}
+
+	div.billboard.with-gallery div.contents div.text-container div.flavor-text-container p.flavor-text {
+		min-width: 100%;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin: 2vh 0;
+		font-size: 2.75vw;
+	}
+
+
+
+
+/********************************/
+
   /* BillboardTwoColumn */
 
   div.billboard.two-column {
@@ -1081,40 +1106,4 @@
 
   /* ****************** */
 
-
-  /* BillboardTextOverlay */
-
-  div.billboard.image-background {
-
-  }
-
-  div.billboard.image-background div.image{
-
-  }
-
-  div.billboard.image-background div.text-container {
-
-  }
-
-  div.billboard.image-background div.text-container p {
-
-  }
-
-  div.billboard.image-background div.text-container p.title {
-
-  }
-
-  div.billboard.image-background div.text-container p.subtitle {
-
-  }
-
-  div.billboard.image-background div.text-container p.text {
-
-  }
-
-  div.billboard.no-image {
-
-  }
-
-  /* ****************** */
 }

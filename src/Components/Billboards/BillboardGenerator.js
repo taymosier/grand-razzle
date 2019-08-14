@@ -63,7 +63,7 @@ export class BillboardGenerator extends Component {
   render(){
     switch(this.state.type){
       case "default":
-        return <BillboardWithGallery billboard={this.state.billboard} language={this.state.language}/>
+        return <BillboardWithImage billboard={this.state.billboard} language={this.state.language}/>
         break;
 			case "gallery":
         return <BillboardWithGallery billboard={this.state.billboard} language={this.state.language}/>
