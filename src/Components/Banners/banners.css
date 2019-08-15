@@ -192,6 +192,11 @@ div.banner .banner-text{
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+
+	div.banner {
+		margin: 5vh 0 0 0; 
+	}
+
   div.banner h1 {
     color: white;
     z-index: 5500;

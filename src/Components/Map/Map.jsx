@@ -35,7 +35,6 @@ export class Map extends Component {
     if(this.state.google !== this.props.google){
       this.setState({google:this.props.google})
       this.loadMap();
-      console.log(this.props)
     }
   }
 

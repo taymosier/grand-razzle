@@ -41,7 +41,7 @@ export class LinkedBillboard extends Component {
             {this.state.title !== null ? <Title title={this.state.title} /> : null}
             {this.state.subtitle !== null ? <Subtitle subtitle={this.state.subtitle} /> : null}
             <FlavorText text={this.state.text} />
-            <BillboardButton link={this.state.href} />
+            <BillboardButton link={this.state.href} language={this.state.language}/>
           </Col>
           <div className="filter" />
         </div>

@@ -84,7 +84,6 @@
 	}
 
   div.billboard div.flavor-text-container {
-    position: sticky;
     top: 10%;
     padding: 0 2vw;
   }
@@ -129,7 +128,8 @@
   }
 
   div.billboard div.text-container {
-
+		display: flex;
+		flex-direction: column;
   }
 
   div.billboard.linked.with-image div.text-container{

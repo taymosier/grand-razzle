@@ -14,12 +14,7 @@ export class Billboard extends Component {
   }
 
   hasThumbnail(billboard){
-    if(billboard.thumbnail !== ""){
-      console.log('found thumbnail')
-      return true;
-    }
-    console.log('thumbnail not found ')
-    return false;
+		 return billboard.thumbnail !== "" ? true : false
   }
 
   render(){

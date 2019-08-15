@@ -36,7 +36,6 @@ export class ContactForm extends Component {
 
 
   render(){
-    console.log(`This state group length: ${this.state.groups["first-name"].label.text}`)
   	return(
 	    <Form action="https://formspree.io/lwattsovercash@grandeluxxemexicojoyrentals.com" method="POST">
 	      {Object.keys(this.state.groups).map((groupKey) => {

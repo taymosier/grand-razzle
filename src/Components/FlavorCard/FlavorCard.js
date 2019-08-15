@@ -25,7 +25,6 @@ export class FlavorCard extends Component {
 	}
 
   render(){
-    console.log(typeof this.state.flavor)
     return(
       <div className={"flavor-card"}>
         <div className="contents">

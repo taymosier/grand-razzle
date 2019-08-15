@@ -343,7 +343,7 @@
   "two-bedroom-presidential-villa" : [
     {
       "key": "two-bedroom-presidential-villa-billboard-1",
-      "type": "image",
+      "type": "default",
       "subtitle": {
         "en":"",
         "es":""
@@ -510,14 +510,14 @@
         "en": "Once you book your vacation, you can arrange transportation from the airport to the resort by following the information sent to you in your confirmation email or by clicking the button below. At this site, you will be able to reserve your transportation using your reservation number. A confirmation slip will then be emailed to you directly from the transportation company once they’ve reviewed and accepted your request. When You Arrive Transportation to Vidanta Nuevo Vallarta is provided by Gapsa Vallarta. When you get through customs at the airport, exit the International Arrivals area. Look for a driver wearing black pants and a tan shirt, carrying a Gapsa Vallarta sign marked with your resort hotel logo.",
         "es": "Disfrute de sus vacaciones con esta bebida fresca de Santuario, cuyo protagonista es el sabor ahumado del mezcal, que se mezcla con cítricos y jengibre para ofrecer un toque de intensidad."
       },
-      "thumbnail": "",
-      "link": {
-        "href": "https://shuttleservices.vidanta.com",
-        "label": {
+      "thumbnail": "bus_icon.png",
+			"link": {
+				"href": "https://shuttleservices.vidanta.com",
+				"label": {
 					"en": "Shuttle Services",
 					"es": "Servicios de transporte"
 				}
-      }
+			}
     },
     {
       "title": {"en": "New entrance", "es":"New entrance"},

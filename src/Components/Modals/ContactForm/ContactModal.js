@@ -47,7 +47,6 @@ export class ContactModal extends Component {
   }
 
   render(){
-    console.log(Object.keys(contactForm))
     return(
       <div className={"contact-toggle-container"}>
         <Button className={"contact-toggle"} onClick={this.toggle}>

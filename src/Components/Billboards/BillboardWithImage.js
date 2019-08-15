@@ -8,18 +8,19 @@ export class BillboardWithImage extends Component {
     this.state = {
       title: this.props.billboard.title !== undefined ? this.props.billboard.title.en : null,
       subtitle: this.props.billboard.subtitle.en,
-      text: this.props.billboard.text[this.props.language],
+      text: this.setText(this.props.language),
       href: this.props.billboard.link,
       active: 0,
 			language: this.props.language,
       imageSrc: null
     }
+		this.setText = this.setText.bind(this);
   }
 
 	componentDidUpdate(){
 		if(this.props.language !== this.state.language){
 			this.setState({
-				text: this.props.billboard.text[this.props.language],
+				text: this.setText(this.props.language),
 				language: this.props.language
 			})
 		}
@@ -32,6 +33,23 @@ export class BillboardWithImage extends Component {
         : this.setState({imageSrc: this.setThumbnail(this.props.billboard.thumbnail[parseInt(this.state.active)].src)})
     }
   }
+
+	setText(language){
+		// if the flavor text is an array of strings, map through each one and return an array of <p> elements,
+		// otherwise, if the flavor text is a single string, it will be returned as a single <p> element
+
+		let textArray = [];
+		if(typeof this.props.billboard.text[language] === "object"){
+			this.props.billboard.text[language].map((block) => {
+				textArray.push(
+					<p className="flavor-text">{block}</p>
+				)
+			})
+		} else {
+			return <p className="flavor-text">{this.props.billboard.text[language]}</p>
+		}
+		return textArray;
+	}
 
   setThumbnail(thumbnail){
     return require(`../../../public/images/billboards/${thumbnail}`)
@@ -67,9 +85,7 @@ export class BillboardWithImage extends Component {
 	                {this.state.subtitle}
 	              </p>
               <div className="flavor-text-container">
-                <p className="flavor-text">
-                  {this.state.text}
-                </p>
+                {this.state.text}
               </div>
             </Col>
           </div>

@@ -74,7 +74,6 @@ export class ContentTemplate extends Component {
 
 	setLanguage(e){
     e.preventDefault();
-    console.log(e.target.value)
     this.setState({
       language: `${e.target.value}`
     });
@@ -91,7 +90,7 @@ export class ContentTemplate extends Component {
               className="main-content"
               xl={{ size: 10, offset: 1 }}
               lg={{ size: 10, offset: 1 }}
-              md={{ size: 12, offset: 0 }}
+              md={{ size: 10, offset: 1 }}
               sm={{ size: 12, offset: 0 }}
               xs={{ size: 12, offset: 0 }}
             >
@@ -111,7 +110,6 @@ export class ContentTemplate extends Component {
               }
               {this.state.billboards !== null
                 ? this.state.billboards.map((billboard) => {
-                    console.log(typeof billboard)
                     return <BillboardGenerator key={billboard.key} billboard={billboard} language={this.state.language}/>
                   })
                 : null
