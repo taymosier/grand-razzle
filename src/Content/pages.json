@@ -3,6 +3,7 @@
     "view": "home",
     "banner": "home",
     "path": "/",
+		"class": "",
     "key": "home"
 
   },
@@ -10,132 +11,154 @@
     "view": "rooms",
     "banner": "rooms",
     "path": "/rooms",
+		"class": "",
     "key": "rooms"
   },
   {
     "view": "two-bedroom-suite",
     "banner": "rooms",
     "path": "/rooms/two-bedroom-suite",
+		"class": "room",
     "key": "two-bedroom-suite "
   },
   {
     "view": "two-bedroom-presidential-villa",
     "banner": "rooms",
     "path": "/rooms/two-bedroom-presidential-villa",
+		"class": "room",
     "key": "two-bedroom-presidential-villa"
   },
   {
     "view": "three-bedroom-presidential-villa",
     "banner": "rooms",
     "path": "/rooms/three-bedroom-presidential-villa",
+		"class": "room",
     "key": "three-bedroom-presidential-villa"
   },
   {
     "view": "two-bedroom-spa-suite",
     "banner": "rooms",
     "path": "/rooms/two-bedroom-spa-suite",
+		"class": "room",
     "key": "two-bedroom-spa-suite"
   },
   {
     "view": "three-bedroom-spa-suite",
     "banner": "rooms",
     "path": "/rooms/three-bedroom-spa-suite",
+		"class": "room",
     "key": "three-bedroom-spa-suite"
   },
   {
     "view": "two-bedroom-residence-loft",
     "banner": "rooms",
     "path": "/rooms/two-bedroom-residence-loft",
+		"class": "room",
     "key": "two-bedroom-residence-loft"
   },
   {
     "view": "three-bedroom-residence-loft",
     "banner": "rooms",
     "path": "/rooms/three-bedroom-residence-loft",
+		"class": "room",
     "key": "three-bedroom-residence-loft"
   },
   {
     "view": "four-bedroom-residence",
     "banner": "rooms",
     "path": "/rooms/four-bedroom-residence",
+		"class": "room",
     "key": "four-bedroom-residence"
   },
   {
     "view": "getting-here",
     "banner": "getting-here",
     "path": "/getting-here",
+		"class": "",
     "key": "getting-here"
   },
   {
     "view": "dining",
     "banner": "dining",
     "path": "/dining",
+		"class": "",
     "key": "dining"
   },
   {
     "view": "what-to-do",
     "banner": "what-to-do",
     "path": "/what-to-do",
+		"class": "",
     "key": "what-to-do"
   },
   {
     "view": "pools",
     "banner": "pools",
     "path": "/what-to-do/pools",
+		"class": "",
     "key": "pools"
   },
   {
     "view": "activities",
     "banner": "activities",
     "path": "/what-to-do/activities",
+		"class": "",
     "key": "activities"
   },
   {
     "view": "golf",
     "banner": "golf",
     "path": "/golf",
+		"class": "",
     "key": "golf"
   },
   {
     "view": "the-nayar-course",
     "banner": "golf",
     "path": "/golf/the-nayar-course",
+		"class": "",
     "key": "the-nayar-course"
   },
   {
     "view": "the-norman-signature-course",
     "banner": "golf",
     "path": "/golf/the-norman-signature-course",
+		"class": "",
     "key": "the-norman-signature-course"
   },
   {
     "view": "spa",
     "banner": "spa",
     "path": "/spa",
+		"class": "",
     "key": "spa"
   },
   {
     "view": "spatium",
     "banner": "spa",
     "path": "/spa/spatium",
+		"class": "",
     "key": "spatium"
   },
   {
     "view": "brio-spa",
     "banner": "spa",
     "path": "/spa/brio-spa",
+		"class": "",
     "key": "brio-spa"
   },
   {
     "view": "entertainment",
     "banner": "entertainment",
     "path": "/entertainment",
+		"class": "",
     "key": "entertainment"
   },
   {
     "view": "new-offerings",
     "banner": "new-offerings",
     "path": "/new-offerings",
+		"class": "",
     "key": "new-offerings"
   }
 ]

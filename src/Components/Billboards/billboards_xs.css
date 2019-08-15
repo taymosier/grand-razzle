@@ -252,6 +252,24 @@
 
   /* ****************** */
 
+	div.room.container div.billboard.with-image div.contents {
+		flex-direction: column;
+	}
+
+	div.room.container div.billboard.with-image div.filter {
+		opacity: .4;
+	}
+
+	div.room.container div.billboard.with-image div.image-col {
+		position: relative;
+		z-index: 102;
+	}
+
+	div.room.container div.billboard.with-image div.image-col div.image-container img.image{
+		min-height: 40vh;
+	}
+
+
   div.billboard.with-image div.image-col {
     min-height: 100%;
     position: absolute;

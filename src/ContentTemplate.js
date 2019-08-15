@@ -43,7 +43,8 @@ export class ContentTemplate extends Component {
         gallery: this.checkForGallery(view),
         thumbnails: this.checkForThumbnailGrid(view),
         flavor: this.checkForFlavorText(view),
-        view: this.props.view
+        view: this.props.view,
+				classType: this.props.classType
       })
     }
   }
@@ -82,7 +83,7 @@ export class ContentTemplate extends Component {
   render(){
     if(this.state.view !== undefined){
       return(
-        <Container className={`${this.state.view}-page`}>
+        <Container className={`${this.state.view}-page ${this.state.classType}`}>
 					<Modals language={this.state.language} setLanguage={this.setLanguage}/>
           <Banner attrs={banners[`${this.props.banner}`]}/>
           <Row >
