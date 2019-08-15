@@ -102,4 +102,35 @@
   div.billboard.map div.right-col p {
     font-size: 2.75vw;
   }
+
+	div.room.container div.billboard.with-image div.contents {
+		flex-direction: column;
+	}
+
+	div.room.container div.billboard.with-image div.filter {
+		opacity: .4;
+	}
+
+	div.room.container div.billboard.with-image div.image-col {
+		position: relative;
+		z-index: 102;
+	}
+
+	div.room.container div.billboard.with-image div.image-col div.image-container img.image{
+		min-height: 40vh;
+	}
+
+	div.room.container div.billboard.with-image div.contents div.text-container {
+		position: relative;
+	}
+
+	div.room.container div.billboard.with-image div.contents div.text-container div.flavor-text-container p.flavor-text{
+		font-size: 4vw;
+	}
+
+	div.spa.container p.flavor-text{
+		font-size: 4vw;
+		line-height: 4.25vw;
+	}
+
 }

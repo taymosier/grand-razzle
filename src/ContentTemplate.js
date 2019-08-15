@@ -92,7 +92,7 @@ export class ContentTemplate extends Component {
               xl={{ size: 10, offset: 1 }}
               lg={{ size: 10, offset: 1 }}
               md={{ size: 10, offset: 1 }}
-              sm={{ size: 12, offset: 0 }}
+              sm={{ size: 10, offset: 1 }}
               xs={{ size: 12, offset: 0 }}
             >
               {this.state.view !== null

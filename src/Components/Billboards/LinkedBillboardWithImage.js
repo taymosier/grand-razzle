@@ -58,8 +58,8 @@ export class LinkedBillboardWithImage extends Component {
             sm={{ size: 12, offset: 0 }}
             xs={{ size: 12, offset: 0 }}
           >
-            {this.state.title !== null ? <Title title={this.state.title} /> : null}
-            <Subtitle subtitle={this.state.subtitle} />
+            {this.state.title !== null && this.state.title !== "" ? <Title title={this.state.title} /> : null}
+						{this.state.subtitle !== null && this.state.subtitle !== "" ? <Subtitle subtitle={this.state.subtitle} /> : null}
             <FlavorText text={this.state.text} />
             { this.state.href !== undefined && this.state.href !== ""
               ? <BillboardButton link={this.state.href} language={this.state.language}/>

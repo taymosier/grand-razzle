@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Col, Row } from 'reactstrap';
+import { Title } from './Title';
+import { Subtitle } from './Subtitle';
 import './billboard.css';
 
 export class BillboardWithImage extends Component {
@@ -80,10 +82,8 @@ export class BillboardWithImage extends Component {
               sm={{ size: 12, offset: 0 }}
               xs={{ size: 12, offset: 0 }}
             >
-              {this.state.title !== null ? <p className="title">{this.state.title}</p> : null}
-	              <p className="subtitle">
-	                {this.state.subtitle}
-	              </p>
+						{this.state.title !== null && this.state.title !== "" ? <Title title={this.state.title} /> : null}
+						{this.state.subtitle !== null && this.state.subtitle !== "" && this.state.subtitle !== undefined ? <Subtitle subtitle={this.state.subtitle} /> : null}
               <div className="flavor-text-container">
                 {this.state.text}
               </div>

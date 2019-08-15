@@ -390,7 +390,7 @@
     margin: 4vh 1vw;
     max-width: 100%;
     max-height: fit-content;
-    min-height: fit-content;
+    min-height: 65vh;
     min-width: 100%;
     padding: 0;
     position: relative;
@@ -409,15 +409,9 @@
     background-position: right;
   }
 
-  div.billboard div.contents {
-    min-height: 100%;
-    min-width: fit-content;
-    display: contents;
-  }
-
   div.billboard div.flavor-text-container {
     position: sticky;
-    top: 10%;
+    top: 5%;
   }
 
   div.billboard div.image-col {
@@ -436,19 +430,13 @@
   div.billboard div.image-col div.image-container {
     margin: auto;
     padding: 0vh 0;
+		display: flex;
+		min-height: 100%;
   }
 
   div.billboard div.image-col div.image-container img.image {
     max-width: 100%;
     min-width: 100%;
-  }
-
-  div.billboard div.text-container {
-    border-top: none;
-    border-bottom: none;
-    min-height: 100%;
-    padding: 10px 3.5vw 20px 3.5vw;
-    z-index: 101;
   }
 
   div.billboard.linked.no-image {
@@ -891,6 +879,22 @@
     margin: 0 auto;
 	}
 
+	div.room.container div.billboard.with-image div.contents {
+		flex-direction: column;
+	}
+
+	div.room.container div.billboard.with-image div.filter {
+		opacity: .4;
+	}
+
+	div.room.container div.billboard.with-image div.image-col {
+		position: relative;
+		z-index: 102;
+	}
+
+	div.room.container div.billboard.with-image div.image-col div.image-container img.image{
+		min-height: 40vh;
+	}
 
   /* **************************** */
 
@@ -1194,6 +1198,24 @@
 	div.billboard.with-gallery div.contents div.filter {
 		visibility: hidden;
 	}
+
+	div.room.container div.billboard.with-image div.contents {
+		flex-direction: column;
+	}
+
+	div.room.container div.billboard.with-image div.filter {
+		opacity: .4;
+	}
+
+	div.room.container div.billboard.with-image div.image-col {
+		position: relative;
+		z-index: 102;
+	}
+
+	div.room.container div.billboard.with-image div.image-col div.image-container img.image{
+		min-height: 40vh;
+	}
+
 
 
 
