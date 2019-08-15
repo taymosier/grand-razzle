@@ -620,14 +620,14 @@
   }
 
   div.billboard a.button {
-    background: #35768C;
     border: 2px outset white;
     box-shadow: 1px 2px 3px 0px black;
+		background: #35768C;
     color: white;
     display: block;
-    font-size: 2.1vw;
+    font-size: 4vw;
     font-weight: 300;
-    margin: 30px auto 20px auto;
+    margin: auto auto 20px auto;
     max-width: fit-content;
     min-width: 100%;
     padding: 5px 25px;
@@ -635,7 +635,7 @@
     text-align: center;
     text-shadow: none;
     transition: .25s ease-in;
-    top: 85%;
+    top: 90%;
   }
 
   div.billboard a.button:hover {
@@ -658,9 +658,10 @@
   }
 
   div.billboard div.contents {
-    min-height: 100%;
-    min-width: fit-content;
-    display: contents;
+		min-height: 70vh;
+    min-width: 100%;
+    flex-direction: column;
+    display: flex;
   }
 
   div.billboard div.filter {
@@ -674,15 +675,19 @@
   }
 
   div.billboard div.flavor-text-container {
-    position: sticky;
-    top: 10%;
+		min-height: 100%;
+    height: 100%;
+    line-height: 100%;
+    max-height: 100%;
+    display: flex;
+    margin: 1vh auto auto auto;
   }
 
   div.billboard p.flavor-text{
-		font-size: 3vw;
+		font-size: 4vw;
     font-weight: 300;
     letter-spacing: 1px;
-    line-height: 3.25vw;
+    line-height: 3.75vw;
     color: white;
     text-shadow: none;
   }
@@ -700,36 +705,42 @@
   }
 
   div.billboard div.image-col div.image-container {
-    margin: auto;
-    padding: 0vh 0;
+		margin: 0;
+		padding: 0vh 0;
+		min-height: 100%;
+		display: flex;
   }
 
   div.billboard div.image-col div.image-container img.image {
+		min-height: 100%;
     max-width: 100%;
     min-width: 100%;
+    display: flex;
   }
 
   div.billboard p.subtitle {
-		font-size: 3vw;
+		font-size: 4.25vw;
     color: white;
     text-shadow: none;
     letter-spacing: 1px;
+    margin: auto;
+    line-height: 4.5vw;
   }
 
   div.billboard div.text-container {
     border-top: none;
     border-bottom: none;
     min-height: 100%;
-    padding: 10px 2.5vw 20px 2.5vw;
+    padding: 5px 2.5vw;
     z-index: 101;
   }
 
   div.billboard p.title {
-    font-size: 4vh;
+		font-size: 5.25vw;
     color: white;
     text-shadow: none;
     letter-spacing: 1.5px;
-    margin: 0;
+    margin: 5vh 0 auto 0;
   }
 
   div.billboard.linked.no-image {
@@ -772,6 +783,8 @@
   div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
     position: absolute;
     z-index: 102;
+		display: flex;
+		flex-direction: column;
   }
 
   /* BillboardTwoColumn */
@@ -1187,7 +1200,7 @@
 	/* BillboardWithGallery */
 	div.billboard.with-gallery div.contents div.text-container div.flavor-text-container {
 		display: flex;
-		min-height: 90%;
+		min-height: 100%;
 		flex-direction: column;
 	}
 
@@ -1196,7 +1209,8 @@
 		text-align: center;
 		display: flex;
 		flex-direction: column;
-		margin: 2vh 0;
+		margin: auto;
+		padding: 2vh 2vw;
 		font-size: 2.75vw;
 	}
 
@@ -1288,6 +1302,20 @@
     border-bottom: 1px solid black;
     line-height: 100%;
   }
+
+	div.room.container div.billboard div.flavor-text-container p.flavor-text{
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+		margin: auto;
+		min-width: 100%;
+	}
+
+	div.room.container div.billboard div.flavor-text-container{
+		display: flex;
+		flex-direction: column;
+		min-height: 100%;
+	}
 
   /* ****************** */
 
