@@ -720,7 +720,7 @@
     border-top: none;
     border-bottom: none;
     min-height: 100%;
-    padding: 10px 3.5vw 20px 3.5vw;
+    padding: 10px 2.5vw 20px 2.5vw;
     z-index: 101;
   }
 
@@ -879,8 +879,13 @@
     margin: 0 auto;
 	}
 
-	div.room.container div.billboard.with-image div.contents {
-		flex-direction: column;
+	div.room.container div.billboard.with-image {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	div.room.container div.billboard.with-image div.contents div.text-container{
+		position: relative;
 	}
 
 	div.room.container div.billboard.with-image div.filter {

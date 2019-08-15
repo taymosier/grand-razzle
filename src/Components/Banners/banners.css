@@ -194,7 +194,7 @@ div.banner .banner-text{
 @media (min-width: 992px) and (max-width: 1199px) {
 
 	div.banner {
-		margin: 5vh 0 0 0; 
+		margin: 5vh 0 0 0;
 	}
 
   div.banner h1 {
@@ -233,6 +233,11 @@ div.banner .banner-text{
 }
 
 @media (min-width: 1200px) {
+
+	div.banner {
+		margin: 8vh 0 0 0;
+	}
+
   div.banner div.filter {
     min-height: 45vh;
   }
