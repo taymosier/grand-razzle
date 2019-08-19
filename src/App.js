@@ -6,7 +6,11 @@ var pages = require("./Content/pages.json");
 // import './Styles/App.css';
 
 function generateRouteComponent(page){
-  return <Route exact path={`${page.path}`} key={`${page.key}`} render={() => {return generateTemplate(`${page.view}`, `${page.banner}`, `${page.class}`)}} />
+  return <Route exact
+						path={`${page.path}`}
+						key={`${page.key}`}
+						render={() => {return generateTemplate(`${page.view}`, `${page.banner}`, `${page.class}`)}}
+					/>
 }
 
 function generateTemplate(view, banner, classType){

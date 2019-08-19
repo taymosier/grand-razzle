@@ -72,7 +72,7 @@ export class HelpModal extends Component {
 					"es": "Paso # 3: Pagar"
 				},
 				"body": {
-					"en": "Pay once there’s a confirmation number that’s verifiable with resort's central reservations. Full payment is then due.  Payments - PayPal or check.",
+					"en": "Pay once there’s a confirmation number that’s verifiable with resort's central reservations. Full payment is then due. Payments - PayPal Invoice; bank transfer, debit or credit card.",
 					"es": "Pague una vez que haya un número de confirmación que sea verificable con las reservas centrales del resort. El pago total es debido. Pagos: PayPal o cheque."
 				},
 			},
