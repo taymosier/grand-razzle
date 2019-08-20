@@ -5,7 +5,7 @@ import express from 'express';
 import { renderToString } from 'react-dom/server';
 import path from 'path';
 var xml = require('xml');
-var proxyaddr = require('proxy-addr');	
+var proxyaddr = require('proxy-addr');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors = require('cors');
@@ -13,10 +13,10 @@ var cors = require('cors');
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
 const server = express();
-app.use(cors());
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(cookieParser());
+server.use(cors());
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
+server.use(cookieParser());
 
 
 server.get('/sitemap.xml', (req, res) => {
