@@ -104,7 +104,7 @@
       },
       "type": "linked",
       "text": {
-        "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or place to bring together the entire family Grande Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
+        "en": "Superior luxury featured at the height of indulgence designed to inspire rest and relaxation. Whether you’re looking for a romantic escape, vacation with friends or a place to bring together the entire family, Grande Luxxe accommodations offer a sophisticated atmosphere of peace and harmony.",
 				"es": "Lujo superior presentado a la altura de la indulgencia diseñado para inspirar descanso y relajación. Ya sea que esté buscando una escapada romántica, unas vacaciones con amigos o un lugar para reunir a toda la familia, los alojamientos de Grande Luxxe ofrecen un ambiente sofisticado de paz y armonía."
       },
       "thumbnail": "rooms-billboard.jpg",
@@ -270,7 +270,7 @@
       },
       "type": "linked",
       "text": {
-        "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, three bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
+        "en": "This two-story exquisite “over the top” luxurious quarters offers two bedrooms with king-size beds, one bedroom with two double-size beds, three bathrooms; two Jacuzzi tubs, full guest bathroom, gourmet kitchen with eating bar, a living room, dining room area, laundry room with washer and dryer and a terrace with dining table, daybed, two armchairs and plunge pool. There are two TV viewing areas and four TVs. ",
         "es": "Este exquisito y lujoso alojamiento de dos pisos ofrece dos habitaciones con camas extra grandes, tres baños, una cocina gourmet, una sala de estar, un comedor y una terraza con piscina profunda."
       },
       "thumbnail": "residence-loft-billboard-1.jpg",
@@ -290,7 +290,7 @@
       },
       "type": "linked",
       "text": {
-        "en": "This two-story exquisite “over the top” luxurious quarters offers three bedrooms with king size beds, four bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
+        "en": "This two-story exquisite “over the top” luxurious quarters offers three bedrooms; two bedrooms with king-size beds, one bedroom with two double beds, four bathrooms, a gourmet kitchen, a living room, dining room and terrace with plunge pool. ",
         "es": "Este exquisito y lujoso alojamiento de dos pisos ofrece tres habitaciones con camas king size, cuatro baños, una cocina gourmet, una sala de estar, comedor y terraza con piscina profunda."
       },
       "thumbnail": "residence-loft-billboard.jpg",
@@ -310,7 +310,7 @@
       },
       "type": "linked",
       "text": {
-        "en": "This exclusive suite features a gourmet kitchen, a living room, two bedrooms, two and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
+        "en": "This exclusive suite features a gourmet kitchen, a living room, a dining area, four bedrooms, four and a half bathrooms with two Jacuzzi tubs and two private terraces and a plunge pool.",
         "es": "Esta suite exclusiva cuenta con una cocina gourmet, una sala de estar, dos dormitorios, dos baños y medio con dos bañeras de hidromasaje y dos terrazas privadas y una piscina profunda."
       },
       "thumbnail": "four-bedroom-billboard.jpg",
@@ -397,8 +397,8 @@
         "es":""
       },
       "text": {
-        "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
-        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos camas dobles_/_Baños: Tres y medio Banos con Dos Jacuzzi tinas"
+        "en": ["8 adults |and| 2 children under 12 years old", "Three Bedrooms", "Two King-size Beds & Two Double-size Beds", "Three Bathrooms with Two Jacuzzi Tubs"],
+        "es": "Ocupación: 8 adultos_/_2-4 niños según edad y talla_/_Tipo: Tres recámaras_/_Camas: Dos tamaño-rey camas y dos camas dobles_/_Baños: Tres y medio Banos con Dos Jacuzzi tinas"
     },
       "thumbnail": "three-bedroom-spa-suite-floorplan.png",
       "link": ""
@@ -491,7 +491,7 @@
       "subtitle": {"en":"","es":""},
       "type": "no-image",
       "text": {
-        "en": ["Passports are required for everyone traveling to Mexico, including children.", "As you pass through Immigration, the officer gives back a portion of the immigration form. You must keep this in a safe place. It is recommended to keep it inside your passport. You must show this portion of the immigration form to depart Mexico.", "The resort is vigilant in creating safe, healthy environments for its members. Purified water from the tap and bottled water are in all the rooms and in all of the restaurants water in all of our restaurants."],
+        "en": ["Passports are required for everyone traveling to Mexico, including children.", "As you pass through Immigration, the officer gives back a portion of the immigration form. You must keep this in a safe place. It is recommended to keep it inside your passport. You must show this portion of the immigration form to depart Mexico.", "The resort is vigilant in creating safe, healthy environments for its members.Purified water from the tap and bottled water are in all the rooms and in all of the restaurants."],
         "es": [
 					"Se requieren pasaportes para todos los que viajan a México, incluidos los niños.",
 					"A medida que pasa por Inmigración, el oficial le devuelve una parte del formulario de inmigración. Debe mantener esto en un lugar seguro. Se recomienda mantenerlo dentro de su pasaporte. Debe mostrar esta parte del formulario de inmigración para salir de México.",

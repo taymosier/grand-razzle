@@ -45,7 +45,6 @@ export class Modals extends Component {
         <ContactModal language={this.state.language} />
         <HelpModal language={this.state.language} />
 				<LanguageButtonContainer setLanguage={this.state.setLanguage} language={this.state.language}/>
-
       </Col>
     );
   }

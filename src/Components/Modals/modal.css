@@ -7,6 +7,18 @@
     border-bottom: 2px solid rgb(0,0,0, .3);
 	}
 
+	div.modals p.rating {
+		float: left;
+		background: lightgray;
+		border: 2px solid rgb(50,150,255,.5);
+		max-height: 80%;
+		min-height: 80%;
+		margin: .5% 0 0 0;
+		padding: 7.5px 15px;
+		font-weight: 400;
+		font-size: 20px;
+	}
+
 	@media (max-width: 575px) {
 		div.modals {
 			padding: 0;

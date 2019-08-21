@@ -52,7 +52,7 @@ export class HelpModal extends Component {
 					"es": "Paso # 1: Verificar fechas"
 				},
 				"body": {
-					"en": "Fill out Check Availability form. Availability changes daily. We call resort to check availability of your desired location and date. We try our best to respond within 24 hours. We send a confirmation email that the dates and location are available along with the Booking Form.",
+					"en": "Fill out Check Availability form. Availability changes daily. Check in dates are on a Friday, Saturday, Sunday or Monday for a minimum of 7 nights. We call resort to check availability of your desired location and date. We try our best to respond within 24 hours. We send a confirmation email that the dates and location are available along with the Booking Form.",
 					"es": "Rellene el formulario Comprobar disponibilidad. La disponibilidad cambia diariamente. Llamamos al resort para verificar la disponibilidad de su ubicación y fecha deseadas. Hacemos todo lo posible para responder dentro de las 24 horas. Enviamos un correo electrónico de confirmación de que las fechas y la ubicación están disponibles junto con el Formulario de reserva."
 				}
       },
