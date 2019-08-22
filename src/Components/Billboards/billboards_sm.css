@@ -80,13 +80,13 @@
   }
 
   div.billboard div.image-col div.image-container {
-    margin: auto;
-    padding: 0vh 0;
+		margin: auto;
+    padding: 0;
     justify-content: center;
     display: flex;
-    line-height: 100%;
     min-height: 100%;
-		min-width: 100%;
+    min-width: 100%;
+    max-height: fit-content;
   }
 
   div.billboard div.image-container img {
@@ -126,6 +126,12 @@
     text-shadow: none;
   }
 
+	div.billboard.map div.left-col  div.wrapper {
+		min-height: 100%;
+		min-width: 100%;
+		display: flex;
+	}
+
   div.billboard.map div.left-col  div.wrapper div.googleMap {
     min-height: 40vh;
     max-width: 100%;
@@ -160,11 +166,14 @@
 
 	div.room.container div.billboard.with-image div.image-col {
 		position: relative;
-		z-index: 102;
+    z-index: 102;
+    max-height: 100%;
 	}
 
 	div.room.container div.billboard.with-image div.image-col div.image-container img.image{
-		min-height: 40vh;
+		min-height: 0vh;
+		max-height: 50%;
+		display: block;
 	}
 
 	div.room.container div.billboard.with-image div.contents div.text-container {
