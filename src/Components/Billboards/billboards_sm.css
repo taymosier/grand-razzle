@@ -1,7 +1,53 @@
 @media (min-width: 576px) and (max-width: 767px) {
+	div.billboard {
+		background: #8ECADE;
+		border: 10px solid ghostwhite;
+		border-radius: 1.5%;
+		box-shadow: 3px 3px 7.5px -1px darkslategrey;
+		color: black;
+		margin: 4vh 0;
+		max-width: 100%;
+		max-height: fit-content;
+		min-height: 90vh;
+		min-width: 100%;
+		padding: 0;
+		position: relative;
+		text-align: center;
+		justify-content: center;
+	}
+
+	div.billboard div.contents {
+		min-height: 100%;
+		min-width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
   div.billboard a.button {
-    font-size: 3.5vw;
+		background: #35768C;
+		border: 2px outset white;
+		box-shadow: 1px 2px 3px 0px black;
+		color: black;
+		display: block;
+		font-size: 2.1vw;
+		font-weight: 300;
+		margin: 30px auto 20px auto;
+		max-width: fit-content;
+		min-width: 100%;
+		padding: 5px 25px;
+		position: sticky;
+		text-align: center;
+		text-shadow: none;
+		transition: .25s ease-in;
+		top: 85%;
   }
+
+	div.billboard a.button:hover {
+		border: 2px inset white;
+		box-shadow: 1px 2px 8px 0px silver;
+		letter-spacing: 1.25px;
+		text-decoration: none;
+	}
 
   div.billboard div.filter {
     background: linear-gradient(0deg,black, darkslategray 20%, black 90%);
@@ -40,6 +86,7 @@
     display: flex;
     line-height: 100%;
     min-height: 100%;
+		min-width: 100%;
   }
 
   div.billboard div.image-container img {

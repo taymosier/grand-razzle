@@ -23,7 +23,7 @@ div.title {
 
 @media (min-width: 576px) and (max-width: 767px) {
   div.title {
-    font-size: 6vw;
+    font-size: 5vw;
     margin: 0 0 2vh 0;
   }
 }

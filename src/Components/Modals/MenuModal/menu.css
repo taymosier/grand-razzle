@@ -227,7 +227,7 @@ div.menu nav.navbar {
 
   div.menu ul.menu-button-list li.menu-item a.menu-button {
     text-align: center;
-    font-size: 4.5vw;
+    font-size: 3vw;
   }
 
   div.menu ul.menu-button-list li.menu-item a.menu-button:hover {
@@ -241,6 +241,7 @@ div.menu nav.navbar {
     max-width: 60vw;
     left: 20vw;
     background: transparent;
+		margin: 10vh 0 0 0;
   }
 
   div.menu.modal-dialog div.modal-content {
