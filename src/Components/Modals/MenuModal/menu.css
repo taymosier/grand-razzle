@@ -177,6 +177,7 @@ div.menu nav.navbar {
     max-width: 60vw;
     left: 20vw;
     background: transparent;
+		margin: 10vh 0 0 0;
   }
 
   div.menu.modal-dialog div.modal-content {
