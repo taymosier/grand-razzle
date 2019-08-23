@@ -162,11 +162,12 @@
 
 	div.room.container div.billboard.with-image div.filter {
 		opacity: .4;
+		z-index: 103;
 	}
 
 	div.room.container div.billboard.with-image div.image-col {
 		position: absolute;
-    z-index: 102;
+    z-index: 104;
     max-height: 100%;
 	}
 
