@@ -165,7 +165,7 @@
 	}
 
 	div.room.container div.billboard.with-image div.image-col {
-		position: absolute;
+		position: relative;
     z-index: 102;
     max-height: 100%;
 	}
