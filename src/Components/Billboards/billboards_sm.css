@@ -167,7 +167,7 @@
 
 	div.room.container div.billboard.with-image div.image-col {
 		position: absolute;
-    z-index: 104;
+    z-index: 102;
     max-height: 100%;
 	}
 
@@ -179,6 +179,7 @@
 
 	div.room.container div.billboard.with-image div.contents div.text-container {
 		position: relative;
+		z-index: 104;
 	}
 
 	div.room.container div.billboard.with-image div.contents div.text-container div.flavor-text-container p.flavor-text{
