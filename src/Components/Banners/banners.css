@@ -142,9 +142,10 @@ div.banner .banner-text{
 @media (min-width: 768px) and (max-width: 991px) {
   div.banner {
 		min-height: 25vh;
-    margin: 75px 0 0 0;
-    max-height: 48vh;
-    background-repeat: no-repeat;
+		margin: 75px 0 0 0;
+		max-height: 48vh;
+		background-position: top;
+		background-repeat: no-repeat;
   }
 
   div.banner div.filter {

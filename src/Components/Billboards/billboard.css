@@ -426,7 +426,7 @@
   }
 
 
-  div.billboard.linked.with-image div.text-container, div.billboard.with-image div.text-container {
+  div.billboard.linked.with-image div.text-container, div.billboard.with-image div.contents div.text-container {
     position: absolute;
     z-index: 102;
   }
@@ -513,48 +513,6 @@
   }
 
   /* ****************** */
-
-	/* BillboardWithImage */
-
-	div.billboard.with-gallery div.image-col {
-		z-index: 102;
-	}
-
-	div.billboard.with-gallery div.contents div.text-container div.flavor-text-container {
-		display: flex;
-		min-height: 90%;
-		flex-direction: column;
-	}
-
-	div.billboard.with-gallery div.contents div.text-container div.flavor-text-container p.flavor-text {
-		color: white;
-    display: flex;
-    flex-direction: column;
-    font-size: 3.25vw;
-    font-weight: 400;
-    margin: 1.5vh 0;
-    min-width: 100%;
-    padding: 0 10vw;
-    text-align: center;
-	}
-
-	div.billboard.with-gallery div.contents div.filter {
-		visibility: visible;
-	}
-
-	div.billboard.with-gallery div.contents div.image-container {
-		display: flex;
-		flex-direction: column;
-		padding: 5vh 7.5vw;
-	}
-
-	div.billboard.with-gallery div.contents div.image-container img.image{
-		max-width: 75%;
-		min-width: 0%;
-		margin: 0 auto;
-	}
-
-	/* *************** */
 
 }
 

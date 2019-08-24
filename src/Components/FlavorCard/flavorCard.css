@@ -85,7 +85,7 @@ div.flavor-card p.flavor-text {
 @media (min-width: 768px) and (max-width: 991px) {
   div.flavor-card p.flavor-text {
     font-size: 2.75vw;
-    padding: 2.5vh 2.5vw;
+    padding: 2vh 2.5vw 0 2.5vw;
   }
 }
 

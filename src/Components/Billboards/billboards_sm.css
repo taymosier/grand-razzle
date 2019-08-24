@@ -161,7 +161,7 @@
 	}
 
 	div.room.container div.billboard.with-image div.filter {
-		opacity: .4;
+		opacity: .65;
 		z-index: 103;
 	}
 
