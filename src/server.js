@@ -1,6 +1,7 @@
 import App from './App';
 import React from 'react';
 import { StaticRouter } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
 import path from 'path';
@@ -9,6 +10,7 @@ var proxyaddr = require('proxy-addr');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var cors = require('cors');
+var metaTags = require('./Content/seo.json');
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
@@ -35,6 +37,9 @@ server
   .disable('x-powered-by')
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
   .get('/*', (req, res) => {
+		console.log(`${req.url}` + metaTags[req.url].title)
+		let title = metaTags[req.url].title;
+		let description = metaTags[req.url].description;
     const context = {};
     const markup = renderToString(
       <StaticRouter context={context} location={req.url}>
@@ -50,6 +55,8 @@ server
     <head>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta charset="utf-8" />
+				<meta name="title" content=${title} />
+				<meta name="description" content=${description} />
         <meta name="google-site-verification" content="uN3vkgARTYJmKL3YlurzMSF2twf5dJKYvSce8oEr-u4" />
         <link href="https://fonts.googleapis.com/css?family=Advent+Pro:100,300,400,500,600,700|Darker+Grotesque:300,400|Quicksand:300,400|Montserrat:500|Oxygen|Muli|Open+Sans|Lato:700" rel="stylesheet">
         <title>Grand Luxxe Rentals</title>
